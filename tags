@@ -1,0 +1,2400 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A0	qrencode/rscode.c	298;"	d	file:
+A0	qrencode/rscode.c	299;"	d	file:
+A0	qrencode/rscode.c	88;"	d	file:
+ACLOCAL	qrencode/Makefile	/^ACLOCAL = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	qrencode/tests/Makefile	/^ACLOCAL = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_AMFLAGS	qrencode/Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
+ACLOCAL_M4	qrencode/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	qrencode/tests/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALPHA_TO	qrencode/rscode.c	80;"	d	file:
+AMTAR	qrencode/Makefile	/^AMTAR = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run tar$/;"	m
+AMTAR	qrencode/tests/Makefile	/^AMTAR = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run tar$/;"	m
+AM_RECURSIVE_TARGETS	qrencode/Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AN	qrencode/tests/test_monkey.c	/^static const char *AN = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-.\/:";$/;"	v	file:
+ANSI256_TYPE	qrencode/qrenc.c	/^	ANSI256_TYPE,$/;"	e	enum:imageType	file:
+ANSI_TYPE	qrencode/qrenc.c	/^	ANSI_TYPE,$/;"	e	enum:imageType	file:
+AR	qrencode/Makefile	/^AR = ar$/;"	m
+AR	qrencode/tests/Makefile	/^AR = ar$/;"	m
+ARFLAGS	qrencode/tests/Makefile	/^ARFLAGS = cru$/;"	m
+ASCII_TYPE	qrencode/qrenc.c	/^	ASCII_TYPE,$/;"	e	enum:imageType	file:
+ASCIIi_TYPE	qrencode/qrenc.c	/^	ASCIIi_TYPE$/;"	e	enum:imageType	file:
+AUTOCONF	qrencode/Makefile	/^AUTOCONF = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run autoconf$/;"	m
+AUTOCONF	qrencode/tests/Makefile	/^AUTOCONF = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run autoconf$/;"	m
+AUTOHEADER	qrencode/Makefile	/^AUTOHEADER = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run autoheader$/;"	m
+AUTOHEADER	qrencode/tests/Makefile	/^AUTOHEADER = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run autoheader$/;"	m
+AUTOMAKE	qrencode/Makefile	/^AUTOMAKE = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run automake-1.11$/;"	m
+AUTOMAKE	qrencode/tests/Makefile	/^AUTOMAKE = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	qrencode/Makefile	/^AUTOMAKE_OPTIONS = foreign$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	qrencode/Makefile	/^AWK = gawk$/;"	m
+AWK	qrencode/tests/Makefile	/^AWK = gawk$/;"	m
+BitStream	qrencode/bitstream.h	/^} BitStream;$/;"	t	typeref:struct:__anon4
+BitStream_allocate	qrencode/bitstream.c	/^static int BitStream_allocate(BitStream *bstream, int length)$/;"	f	file:
+BitStream_append	qrencode/bitstream.c	/^int BitStream_append(BitStream *bstream, BitStream *arg)$/;"	f
+BitStream_appendBytes	qrencode/bitstream.c	/^int BitStream_appendBytes(BitStream *bstream, int size, unsigned char *data)$/;"	f
+BitStream_appendNum	qrencode/bitstream.c	/^int BitStream_appendNum(BitStream *bstream, int bits, unsigned int num)$/;"	f
+BitStream_free	qrencode/bitstream.c	/^void BitStream_free(BitStream *bstream)$/;"	f
+BitStream_new	qrencode/bitstream.c	/^BitStream *BitStream_new(void)$/;"	f
+BitStream_newFromBytes	qrencode/bitstream.c	/^static BitStream *BitStream_newFromBytes(int size, unsigned char *data)$/;"	f	file:
+BitStream_newFromNum	qrencode/bitstream.c	/^static BitStream *BitStream_newFromNum(int bits, unsigned int num)$/;"	f	file:
+BitStream_size	qrencode/bitstream.h	34;"	d
+BitStream_toByte	qrencode/bitstream.c	/^unsigned char *BitStream_toByte(BitStream *bstream)$/;"	f
+CC	Makefile	/^CC = cc$/;"	m
+CC	qrencode/Makefile	/^CC = gcc$/;"	m
+CC	qrencode/tests/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	qrencode/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	qrencode/tests/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	qrencode/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	qrencode/tests/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O0$/;"	m
+CFLAGS	qrencode/Makefile	/^CFLAGS = -Wall -g -O2$/;"	m
+CFLAGS	qrencode/tests/Makefile	/^CFLAGS = -Wall -g -O2$/;"	m
+CFLAGS_CLEAN	Makefile	/^CFLAGS_CLEAN = $(CFLAGS)$/;"	m
+CHUNKA	qrencode/tests/test_split.c	164;"	d	file:
+CHUNKB	qrencode/tests/test_split.c	165;"	d	file:
+CHUNKC	qrencode/tests/test_split.c	166;"	d	file:
+COMMON_FLAGS	Makefile	/^COMMON_FLAGS = $(DEFS) $(INCLUDES) $(EXTRA_INCLUDES) $(CPPFLAGS) $(PHP_FRAMEWORKPATH)$/;"	m
+COMPILE	qrencode/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	qrencode/tests/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE_DL_MOSAIC	config.h	5;"	d
+CONFIGURE_COMMAND	Makefile	/^CONFIGURE_COMMAND = '.\/configure'$/;"	m
+CONFIGURE_OPTIONS	Makefile	/^CONFIGURE_OPTIONS =$/;"	m
+CONFIG_CLEAN_FILES	qrencode/Makefile	/^CONFIG_CLEAN_FILES = libqrencode.pc qrencode.spec qrencode.1$/;"	m
+CONFIG_CLEAN_FILES	qrencode/tests/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	qrencode/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	qrencode/tests/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	qrencode/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	qrencode/tests/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = cc -E$/;"	m
+CPP	qrencode/Makefile	/^CPP = gcc -E$/;"	m
+CPP	qrencode/tests/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -DHAVE_CONFIG_H$/;"	m
+CPPFLAGS	qrencode/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	qrencode/tests/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	qrencode/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	qrencode/tests/Makefile	/^CTAGS = ctags$/;"	m
+CUR_DIR	run-tests.php	/^$CUR_DIR = getcwd();$/;"	v
+CXX	Makefile	/^CXX =$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O0$/;"	m
+CXXFLAGS_CLEAN	Makefile	/^CXXFLAGS_CLEAN = $(CXXFLAGS)$/;"	m
+CYGPATH_W	qrencode/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	qrencode/tests/Makefile	/^CYGPATH_W = echo$/;"	m
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	qrencode/libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	qrencode/use/ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DATA	qrencode/Makefile	/^DATA = $(pkgconfig_DATA)$/;"	m
+DECODER_LIBS	qrencode/tests/Makefile	/^DECODER_LIBS = libdecoder.a $(LIBICONV)$/;"	m
+DEFAULT_INCLUDES	qrencode/Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFAULT_INCLUDES	qrencode/tests/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DPHP_ATOM_INC -I$(top_builddir)\/include -I$(top_builddir)\/main -I$(top_srcdir)$/;"	m
+DEFS	qrencode/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	qrencode/tests/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	qrencode/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	qrencode/tests/Makefile	/^DEPDIR = .deps$/;"	m
+DETAILED	run-tests.php	/^					$DETAILED = true;$/;"	v
+DETAILED	run-tests.php	/^	$DETAILED = 0;$/;"	v
+DETAILED	run-tests.php	/^	$DETAILED = getenv('TEST_PHP_DETAILED');$/;"	v
+DISTFILES	qrencode/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	qrencode/tests/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	qrencode/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	qrencode/Makefile	/^DIST_COMMON = README $(am__configure_deps) $(include_HEADERS) \\$/;"	m
+DIST_COMMON	qrencode/tests/Makefile	/^DIST_COMMON = $(noinst_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	qrencode/Makefile	/^DIST_SOURCES = $(libqrencode_la_SOURCES) $(am__qrencode_SOURCES_DIST)$/;"	m
+DIST_SOURCES	qrencode/tests/Makefile	/^DIST_SOURCES = $(libdecoder_a_SOURCES) $(create_frame_pattern_SOURCES) \\$/;"	m
+DIST_SUBDIRS	qrencode/Makefile	/^DIST_SUBDIRS = . tests$/;"	m
+DLLTOOL	qrencode/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	qrencode/tests/Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	qrencode/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	qrencode/tests/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	qrencode/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	qrencode/tests/Makefile	/^DUMPBIN = $/;"	m
+DataChunk	qrencode/tests/decoder.h	/^} DataChunk;$/;"	t	typeref:struct:_DataChunk
+DataChunk_free	qrencode/tests/decoder.c	/^void DataChunk_free(DataChunk *chunk)$/;"	f
+DataChunk_new	qrencode/tests/decoder.c	/^DataChunk *DataChunk_new(QRencodeMode mode)$/;"	f
+ECHO_C	qrencode/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	qrencode/tests/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	qrencode/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	qrencode/tests/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	qrencode/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	qrencode/tests/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	qrencode/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	qrencode/tests/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EPS_TYPE	qrencode/qrenc.c	/^	EPS_TYPE,$/;"	e	enum:imageType	file:
+ETAGS	qrencode/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	qrencode/tests/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	qrencode/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	qrencode/tests/Makefile	/^EXEEXT = $/;"	m
+EXTENSION_DIR	Makefile	/^EXTENSION_DIR = \/usr\/lib\/php5.4\/lib\/extensions\/debug-non-zts-20100525$/;"	m
+EXTRA_DIST	qrencode/Makefile	/^EXTRA_DIST = libqrencode.pc.in autogen.sh configure.ac acinclude.m4 \\$/;"	m
+EXTRA_DIST	qrencode/tests/Makefile	/^EXTRA_DIST = frame$/;"	m
+EXTRA_LDFLAGS	Makefile	/^EXTRA_LDFLAGS =$/;"	m
+EXTRA_LIBS	Makefile	/^EXTRA_LIBS =$/;"	m
+FCR	qrencode/rscode.c	84;"	d	file:
+FGREP	qrencode/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	qrencode/tests/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FILE_BINARY	run-tests.php	/^		define('FILE_BINARY', 0);$/;"	d
+FormatInfo	qrencode/tests/decoder.h	/^struct FormatInfo {$/;"	s
+FrameFiller	qrencode/qrencode.c	/^} FrameFiller;$/;"	t	typeref:struct:__anon8	file:
+FrameFiller	qrencode/tests/decoder.c	/^} FrameFiller;$/;"	t	typeref:struct:__anon11	file:
+FrameFiller_new	qrencode/qrencode.c	/^static FrameFiller *FrameFiller_new(int width, unsigned char *frame, int mqr)$/;"	f	file:
+FrameFiller_new	qrencode/tests/decoder.c	/^static FrameFiller *FrameFiller_new(int width, unsigned char *frame, int mqr)$/;"	f	file:
+FrameFiller_next	qrencode/qrencode.c	/^static unsigned char *FrameFiller_next(FrameFiller *filler)$/;"	f	file:
+FrameFiller_next	qrencode/tests/decoder.c	/^static unsigned char *FrameFiller_next(FrameFiller *filler)$/;"	f	file:
+FrameFiller_test	qrencode/qrencode.c	/^extern unsigned char *FrameFiller_test(int version)$/;"	f
+FrameFiller_testMQR	qrencode/qrencode.c	/^extern unsigned char *FrameFiller_testMQR(int version)$/;"	f
+GENPOLY	qrencode/rscode.c	82;"	d	file:
+GREP	qrencode/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	qrencode/tests/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	qrencode/Makefile	/^GZIP_ENV = --best$/;"	m
+HAVE_DLFCN_H	config.h	8;"	d
+HAVE_DLFCN_H	qrencode/config.h	5;"	d
+HAVE_INTTYPES_H	config.h	11;"	d
+HAVE_INTTYPES_H	qrencode/config.h	11;"	d
+HAVE_MEMORY_H	config.h	14;"	d
+HAVE_MEMORY_H	qrencode/config.h	14;"	d
+HAVE_STDINT_H	config.h	17;"	d
+HAVE_STDINT_H	qrencode/config.h	17;"	d
+HAVE_STDLIB_H	config.h	20;"	d
+HAVE_STDLIB_H	qrencode/config.h	20;"	d
+HAVE_STRDUP	qrencode/config.h	23;"	d
+HAVE_STRINGS_H	config.h	23;"	d
+HAVE_STRINGS_H	qrencode/config.h	26;"	d
+HAVE_STRING_H	config.h	26;"	d
+HAVE_STRING_H	qrencode/config.h	29;"	d
+HAVE_SYS_STAT_H	config.h	29;"	d
+HAVE_SYS_STAT_H	qrencode/config.h	32;"	d
+HAVE_SYS_TYPES_H	config.h	32;"	d
+HAVE_SYS_TYPES_H	qrencode/config.h	35;"	d
+HAVE_UNISTD_H	config.h	35;"	d
+HAVE_UNISTD_H	qrencode/config.h	38;"	d
+HEADERS	qrencode/Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+HEADERS	qrencode/tests/Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+INCHES_PER_METER	qrencode/qrenc.c	32;"	d	file:
+INCLUDES	Makefile	/^INCLUDES = -I\/usr\/lib\/php5.4\/include\/php -I\/usr\/lib\/php5.4\/include\/php\/main -I\/usr\/lib\/php5.4\/include\/php\/TSRM -I\/usr\/lib\/php5.4\/include\/php\/Zend -I\/usr\/lib\/php5.4\/include\/php\/ext -I\/usr\/lib\/php5.4\/include\/php\/ext\/date\/lib$/;"	m
+INDEX_OF	qrencode/rscode.c	81;"	d	file:
+INSTALL	Makefile	/^INSTALL = $(top_srcdir)\/build\/shtool install -c$/;"	m
+INSTALL	qrencode/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	qrencode/tests/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = $(INSTALL) -m 644$/;"	m
+INSTALL_DATA	qrencode/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	qrencode/tests/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	qrencode/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	qrencode/tests/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADERS	Makefile	/^INSTALL_HEADERS =$/;"	m
+INSTALL_PROGRAM	qrencode/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	qrencode/tests/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	qrencode/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	qrencode/tests/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	qrencode/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	qrencode/tests/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+IN_REDIRECT	run-tests.php	/^			$IN_REDIRECT = false;$/;"	v
+IN_REDIRECT	run-tests.php	/^		$IN_REDIRECT = eval($section_text['REDIRECTTEST']);$/;"	v
+IPRIM	qrencode/rscode.c	86;"	d	file:
+JUNIT	run-tests.php	/^		$JUNIT = FALSE;$/;"	v
+JUNIT	run-tests.php	/^		$JUNIT = array($/;"	v
+JUNIT	run-tests.php	/^	$JUNIT = getenv('TEST_PHP_JUNIT');$/;"	v
+LD	qrencode/Makefile	/^LD = \/usr\/i686-pc-linux-gnu\/bin\/ld$/;"	m
+LD	qrencode/tests/Makefile	/^LD = \/usr\/i686-pc-linux-gnu\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+LDFLAGS	qrencode/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	qrencode/tests/Makefile	/^LDFLAGS = $/;"	m
+LFLAGS	Makefile	/^LFLAGS =$/;"	m
+LIBICONV	qrencode/Makefile	/^LIBICONV = $/;"	m
+LIBICONV	qrencode/tests/Makefile	/^LIBICONV = $/;"	m
+LIBOBJS	qrencode/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	qrencode/tests/Makefile	/^LIBOBJS = $/;"	m
+LIBPTHREAD	qrencode/Makefile	/^LIBPTHREAD = -lpthread$/;"	m
+LIBPTHREAD	qrencode/tests/Makefile	/^LIBPTHREAD = -lpthread$/;"	m
+LIBRARIES	qrencode/tests/Makefile	/^LIBRARIES = $(noinst_LIBRARIES)$/;"	m
+LIBS	qrencode/Makefile	/^LIBS = $/;"	m
+LIBS	qrencode/tests/Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	qrencode/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	qrencode/tests/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	qrencode/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LINK	qrencode/tests/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	qrencode/Makefile	/^LIPO = $/;"	m
+LIPO	qrencode/tests/Makefile	/^LIPO = $/;"	m
+LN_S	qrencode/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	qrencode/tests/Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	qrencode/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	qrencode/tests/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBICONV	qrencode/Makefile	/^LTLIBICONV = $/;"	m
+LTLIBICONV	qrencode/tests/Makefile	/^LTLIBICONV = $/;"	m
+LTLIBOBJS	qrencode/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	qrencode/tests/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	qrencode/Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+LT_OBJDIR	config.h	39;"	d
+LT_OBJDIR	qrencode/config.h	42;"	d
+MAJOR_VERSION	qrencode/Makefile	/^MAJOR_VERSION = 3$/;"	m
+MAJOR_VERSION	qrencode/config.h	45;"	d
+MAJOR_VERSION	qrencode/tests/Makefile	/^MAJOR_VERSION = 3$/;"	m
+MAKEINFO	qrencode/Makefile	/^MAKEINFO = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run makeinfo$/;"	m
+MAKEINFO	qrencode/tests/Makefile	/^MAKEINFO = ${SHELL} \/root\/mosaic\/qrencode\/use\/missing --run makeinfo$/;"	m
+MANIFEST_TOOL	qrencode/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	qrencode/tests/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANS	qrencode/Makefile	/^MANS = $(man1_MANS)$/;"	m
+MASKMAKER	qrencode/mask.c	86;"	d	file:
+MASKMAKER	qrencode/mmask.c	54;"	d	file:
+MAX_DATA_SIZE	qrencode/qrenc.c	153;"	d	file:
+MAX_DATA_SIZE	qrencode/tests/view_qrcode.c	106;"	d	file:
+MAX_LENGTH	qrencode/tests/test_monkey.c	10;"	d	file:
+MAX_STRUCTURED_SYMBOLS	qrencode/qrinput.h	112;"	d
+MICRO_VERSION	qrencode/Makefile	/^MICRO_VERSION = 1$/;"	m
+MICRO_VERSION	qrencode/config.h	48;"	d
+MICRO_VERSION	qrencode/tests/Makefile	/^MICRO_VERSION = 1$/;"	m
+MINOR_VERSION	qrencode/Makefile	/^MINOR_VERSION = 3$/;"	m
+MINOR_VERSION	qrencode/config.h	51;"	d
+MINOR_VERSION	qrencode/tests/Makefile	/^MINOR_VERSION = 3$/;"	m
+MKDIR_P	qrencode/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	qrencode/tests/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MM	qrencode/rscode.c	78;"	d	file:
+MMask_evaluateSymbol	qrencode/mmask.c	/^__STATIC int MMask_evaluateSymbol(int width, unsigned char *frame)$/;"	f
+MMask_makeMask	qrencode/mmask.c	/^unsigned char *MMask_makeMask(int version, unsigned char *frame, int mask, QRecLevel level)$/;"	f
+MMask_makeMaskedFrame	qrencode/mmask.c	/^unsigned char *MMask_makeMaskedFrame(int width, unsigned char *frame, int mask)$/;"	f
+MMask_mask	qrencode/mmask.c	/^unsigned char *MMask_mask(int version, unsigned char *frame, QRecLevel level)$/;"	f
+MMask_writeFormatInformation	qrencode/mmask.c	/^__STATIC void MMask_writeFormatInformation(int version, int width, unsigned char *frame, int mask, QRecLevel level)$/;"	f
+MODE_INDICATOR_SIZE	qrencode/qrinput.h	102;"	d
+MODNN	qrencode/rscode.c	76;"	d	file:
+MOSAIC_G	php_mosaic.h	68;"	d
+MOSAIC_G	php_mosaic.h	70;"	d
+MQRRawCode	qrencode/qrencode.c	/^} MQRRawCode;$/;"	t	typeref:struct:__anon7	file:
+MQRRawCode	qrencode/qrencode_inner.h	/^} MQRRawCode;$/;"	t	typeref:struct:__anon3
+MQRSPEC_MODEID_8	qrencode/mqrspec.h	154;"	d
+MQRSPEC_MODEID_AN	qrencode/mqrspec.h	153;"	d
+MQRSPEC_MODEID_KANJI	qrencode/mqrspec.h	155;"	d
+MQRSPEC_MODEID_NUM	qrencode/mqrspec.h	152;"	d
+MQRSPEC_VERSION_MAX	qrencode/qrencode.h	139;"	d
+MQRSPEC_WIDTH_MAX	qrencode/mqrspec.h	34;"	d
+MQRcode_extractBits	qrencode/tests/decoder.c	/^unsigned char *MQRcode_extractBits(QRcode *code, int *length)$/;"	f
+MQRformat	qrencode/tests/decoder.c	/^struct FormatInfo MQRformat[] = {$/;"	v	typeref:struct:FormatInfo
+MQRraw_free	qrencode/qrencode.c	/^__STATIC void MQRraw_free(MQRRawCode *raw)$/;"	f
+MQRraw_getCode	qrencode/qrencode.c	/^__STATIC unsigned char MQRraw_getCode(MQRRawCode *raw)$/;"	f
+MQRraw_new	qrencode/qrencode.c	/^__STATIC MQRRawCode *MQRraw_new(QRinput *input)$/;"	f
+MQRspec_Capacity	qrencode/mqrspec.c	/^} MQRspec_Capacity;$/;"	t	typeref:struct:__anon12	file:
+MQRspec_clearCache	qrencode/mqrspec.c	/^void MQRspec_clearCache(void)$/;"	f
+MQRspec_createFrame	qrencode/mqrspec.c	/^static unsigned char *MQRspec_createFrame(int version)$/;"	f	file:
+MQRspec_getDataLength	qrencode/mqrspec.c	/^int MQRspec_getDataLength(int version, QRecLevel level)$/;"	f
+MQRspec_getDataLengthBit	qrencode/mqrspec.c	/^int MQRspec_getDataLengthBit(int version, QRecLevel level)$/;"	f
+MQRspec_getECCLength	qrencode/mqrspec.c	/^int MQRspec_getECCLength(int version, QRecLevel level)$/;"	f
+MQRspec_getFormatInfo	qrencode/mqrspec.c	/^unsigned int MQRspec_getFormatInfo(int mask, int version, QRecLevel level)$/;"	f
+MQRspec_getWidth	qrencode/mqrspec.c	/^int MQRspec_getWidth(int version)$/;"	f
+MQRspec_lengthIndicator	qrencode/mqrspec.c	/^int MQRspec_lengthIndicator(QRencodeMode mode, int version)$/;"	f
+MQRspec_maximumWords	qrencode/mqrspec.c	/^int MQRspec_maximumWords(QRencodeMode mode, int version)$/;"	f
+MQRspec_newFrame	qrencode/mqrspec.c	/^unsigned char *MQRspec_newFrame(int version)$/;"	f
+MaskMaker	qrencode/mask.c	/^typedef int MaskMaker(int, const unsigned char *, unsigned char *);$/;"	t	file:
+MaskMaker	qrencode/mmask.c	/^typedef void MaskMaker(int, const unsigned char *, unsigned char *);$/;"	t	file:
+Mask_calcN1N3	qrencode/mask.c	/^__STATIC int Mask_calcN1N3(int length, int *runLength)$/;"	f
+Mask_calcN2	qrencode/mask.c	/^__STATIC int Mask_calcN2(int width, unsigned char *frame)$/;"	f
+Mask_calcRunLength	qrencode/mask.c	/^__STATIC int Mask_calcRunLength(int width, unsigned char *frame, int dir, int *runLength)$/;"	f
+Mask_evaluateSymbol	qrencode/mask.c	/^__STATIC int Mask_evaluateSymbol(int width, unsigned char *frame)$/;"	f
+Mask_makeMask	qrencode/mask.c	/^unsigned char *Mask_makeMask(int width, unsigned char *frame, int mask, QRecLevel level)$/;"	f
+Mask_makeMaskedFrame	qrencode/mask.c	/^unsigned char *Mask_makeMaskedFrame(int width, unsigned char *frame, int mask)$/;"	f
+Mask_mask	qrencode/mask.c	/^unsigned char *Mask_mask(int width, unsigned char *frame, QRecLevel level)$/;"	f
+Mask_mask0	qrencode/mask.c	/^static int Mask_mask0(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask0	qrencode/mmask.c	/^static void Mask_mask0(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask1	qrencode/mask.c	/^static int Mask_mask1(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask1	qrencode/mmask.c	/^static void Mask_mask1(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask2	qrencode/mask.c	/^static int Mask_mask2(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask2	qrencode/mmask.c	/^static void Mask_mask2(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask3	qrencode/mask.c	/^static int Mask_mask3(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask3	qrencode/mmask.c	/^static void Mask_mask3(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask4	qrencode/mask.c	/^static int Mask_mask4(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask5	qrencode/mask.c	/^static int Mask_mask5(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask6	qrencode/mask.c	/^static int Mask_mask6(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_mask7	qrencode/mask.c	/^static int Mask_mask7(int width, const unsigned char *s, unsigned char *d)$/;"	f	file:
+Mask_writeFormatInformation	qrencode/mask.c	/^__STATIC int Mask_writeFormatInformation(int width, unsigned char *frame, int mask, QRecLevel level)$/;"	f
+N1	qrencode/mask.c	81;"	d	file:
+N1	qrencode/tests/test_mask.c	135;"	d	file:
+N2	qrencode/mask.c	82;"	d	file:
+N2	qrencode/tests/test_mask.c	136;"	d	file:
+N3	qrencode/mask.c	83;"	d	file:
+N3	qrencode/tests/test_mask.c	137;"	d	file:
+N4	qrencode/mask.c	84;"	d	file:
+N4	qrencode/tests/test_mask.c	138;"	d	file:
+NM	qrencode/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	qrencode/tests/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	qrencode/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	qrencode/tests/Makefile	/^NMEDIT = $/;"	m
+NN	qrencode/rscode.c	79;"	d	file:
+NORMAL_INSTALL	qrencode/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	qrencode/tests/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	qrencode/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	qrencode/tests/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	qrencode/Makefile	/^NROFF = nroff$/;"	m
+NROOTS	qrencode/rscode.c	83;"	d	file:
+OBJDUMP	qrencode/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	qrencode/tests/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	qrencode/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	qrencode/tests/Makefile	/^OBJEXT = o$/;"	m
+OTOOL	qrencode/Makefile	/^OTOOL = $/;"	m
+OTOOL	qrencode/tests/Makefile	/^OTOOL = $/;"	m
+OTOOL64	qrencode/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	qrencode/tests/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	qrencode/Makefile	/^PACKAGE = qrencode$/;"	m
+PACKAGE	qrencode/config.h	57;"	d
+PACKAGE	qrencode/tests/Makefile	/^PACKAGE = qrencode$/;"	m
+PACKAGE_BUGREPORT	config.h	45;"	d
+PACKAGE_BUGREPORT	qrencode/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	qrencode/config.h	60;"	d
+PACKAGE_BUGREPORT	qrencode/tests/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	config.h	48;"	d
+PACKAGE_NAME	qrencode/Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_NAME	qrencode/config.h	63;"	d
+PACKAGE_NAME	qrencode/tests/Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	config.h	51;"	d
+PACKAGE_STRING	qrencode/Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_STRING	qrencode/config.h	66;"	d
+PACKAGE_STRING	qrencode/tests/Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	config.h	54;"	d
+PACKAGE_TARNAME	qrencode/Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_TARNAME	qrencode/config.h	69;"	d
+PACKAGE_TARNAME	qrencode/tests/Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_URL	config.h	57;"	d
+PACKAGE_URL	qrencode/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	qrencode/config.h	72;"	d
+PACKAGE_URL	qrencode/tests/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	config.h	60;"	d
+PACKAGE_VERSION	qrencode/Makefile	/^PACKAGE_VERSION = $/;"	m
+PACKAGE_VERSION	qrencode/config.h	75;"	d
+PACKAGE_VERSION	qrencode/tests/Makefile	/^PACKAGE_VERSION = $/;"	m
+PAD	qrencode/rscode.c	87;"	d	file:
+PATH_SEPARATOR	qrencode/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	qrencode/tests/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PHP_DEPRECATED_DIRECTIVES_REGEX	Makefile	/^PHP_DEPRECATED_DIRECTIVES_REGEX = '^(magic_quotes_(gpc|runtime|sybase)?|(zend_)?extension(_debug)?(_ts)?)[\\t\\ ]*='$/;"	m
+PHP_EXECUTABLE	Makefile	/^PHP_EXECUTABLE = \/usr\/lib\/php5.4\/bin\/php$/;"	m
+PHP_FAILED_TESTS	run-tests.php	/^$PHP_FAILED_TESTS = array('BORKED' => array(), 'FAILED' => array(), 'WARNED' => array(), 'LEAKED' => array(), 'XFAILED' => array());$/;"	v
+PHP_FUNCTION	mosaic.c	/^PHP_FUNCTION(qr_encode)$/;"	f
+PHP_MAJOR_VERSION	run-tests.php	/^	define("PHP_MAJOR_VERSION", $major);$/;"	d
+PHP_MINFO_FUNCTION	mosaic.c	/^PHP_MINFO_FUNCTION(mosaic)$/;"	f
+PHP_MODULES	Makefile	/^PHP_MODULES = $(phplibdir)\/mosaic.la$/;"	m
+PHP_MOSAIC_API	php_mosaic.h	28;"	d
+PHP_MOSAIC_API	php_mosaic.h	30;"	d
+PHP_MOSAIC_API	php_mosaic.h	32;"	d
+PHP_MOSAIC_H	php_mosaic.h	22;"	d
+PHP_MSHUTDOWN_FUNCTION	mosaic.c	/^PHP_MSHUTDOWN_FUNCTION(mosaic)$/;"	f
+PHP_PECL_EXTENSION	Makefile	/^PHP_PECL_EXTENSION = mosaic$/;"	m
+PHP_QA_EMAIL	run-tests.php	/^define('PHP_QA_EMAIL', 'qa-reports@lists.php.net');$/;"	d
+PHP_RINIT_FUNCTION	mosaic.c	/^PHP_RINIT_FUNCTION(mosaic)$/;"	f
+PHP_RSHUTDOWN_FUNCTION	mosaic.c	/^PHP_RSHUTDOWN_FUNCTION(mosaic)$/;"	f
+PHP_TEST_SETTINGS	Makefile	/^PHP_TEST_SETTINGS = -d 'open_basedir=' -d 'output_buffering=0' -d 'memory_limit=-1'$/;"	m
+PHP_TEST_SHARED_EXTENSIONS	Makefile	/^PHP_TEST_SHARED_EXTENSIONS =  ` \\$/;"	m
+PHP_VERSION_ID	run-tests.php	/^	define("PHP_VERSION_ID", "{$major}0{$minor}$bug");$/;"	d
+PHP_ZEND_EX	Makefile	/^PHP_ZEND_EX =$/;"	m
+PKG_CONFIG	qrencode/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	qrencode/tests/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG_LIBDIR	qrencode/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_LIBDIR	qrencode/tests/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_PATH	qrencode/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PKG_CONFIG_PATH	qrencode/tests/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PNG_TYPE	qrencode/qrenc.c	/^	PNG_TYPE,$/;"	e	enum:imageType	file:
+POST_INSTALL	qrencode/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	qrencode/tests/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	qrencode/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	qrencode/tests/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	qrencode/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	qrencode/tests/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	qrencode/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	qrencode/tests/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRIM	qrencode/rscode.c	85;"	d	file:
+PROGRAMS	qrencode/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAMS	qrencode/tests/Makefile	/^PROGRAMS = $(noinst_PROGRAMS)$/;"	m
+QA_REPORTS_PAGE	run-tests.php	/^define('QA_REPORTS_PAGE', 'http:\/\/qa.php.net\/reports');$/;"	d
+QA_SUBMISSION_PAGE	run-tests.php	/^define('QA_SUBMISSION_PAGE', 'http:\/\/qa.php.net\/buildtest-process.php');$/;"	d
+QRRawCode	qrencode/qrencode.c	/^} QRRawCode;$/;"	t	typeref:struct:__anon6	file:
+QRRawCode	qrencode/qrencode_inner.h	/^} QRRawCode;$/;"	t	typeref:struct:__anon2
+QRSPEC_MODEID_8	qrencode/qrspec.h	174;"	d
+QRSPEC_MODEID_AN	qrencode/qrspec.h	173;"	d
+QRSPEC_MODEID_ECI	qrencode/qrspec.h	171;"	d
+QRSPEC_MODEID_FNC1FIRST	qrencode/qrspec.h	176;"	d
+QRSPEC_MODEID_FNC1SECOND	qrencode/qrspec.h	177;"	d
+QRSPEC_MODEID_KANJI	qrencode/qrspec.h	175;"	d
+QRSPEC_MODEID_NUM	qrencode/qrspec.h	172;"	d
+QRSPEC_MODEID_STRUCTURE	qrencode/qrspec.h	178;"	d
+QRSPEC_MODEID_TERMINATOR	qrencode/qrspec.h	179;"	d
+QRSPEC_VERSION_MAX	qrencode/qrencode.h	134;"	d
+QRSPEC_WIDTH_MAX	qrencode/qrspec.h	34;"	d
+QR_ECLEVEL_H	qrencode/qrencode.h	/^	QR_ECLEVEL_H      \/\/\/< highest$/;"	e	enum:__anon14
+QR_ECLEVEL_L	qrencode/qrencode.h	/^	QR_ECLEVEL_L = 0, \/\/\/< lowest$/;"	e	enum:__anon14
+QR_ECLEVEL_M	qrencode/qrencode.h	/^	QR_ECLEVEL_M,$/;"	e	enum:__anon14
+QR_ECLEVEL_Q	qrencode/qrencode.h	/^	QR_ECLEVEL_Q,$/;"	e	enum:__anon14
+QR_MODE_8	qrencode/qrencode.h	/^	QR_MODE_8,         \/\/\/< 8-bit data mode$/;"	e	enum:__anon13
+QR_MODE_AN	qrencode/qrencode.h	/^	QR_MODE_AN,        \/\/\/< Alphabet-numeric mode$/;"	e	enum:__anon13
+QR_MODE_ECI	qrencode/qrencode.h	/^	QR_MODE_ECI,       \/\/\/< ECI mode$/;"	e	enum:__anon13
+QR_MODE_FNC1FIRST	qrencode/qrencode.h	/^	QR_MODE_FNC1FIRST,  \/\/\/< FNC1, first position$/;"	e	enum:__anon13
+QR_MODE_FNC1SECOND	qrencode/qrencode.h	/^	QR_MODE_FNC1SECOND, \/\/\/< FNC1, second position$/;"	e	enum:__anon13
+QR_MODE_KANJI	qrencode/qrencode.h	/^	QR_MODE_KANJI,     \/\/\/< Kanji (shift-jis) mode$/;"	e	enum:__anon13
+QR_MODE_NUL	qrencode/qrencode.h	/^	QR_MODE_NUL = -1,  \/\/\/< Terminator (NUL character). Internal use only$/;"	e	enum:__anon13
+QR_MODE_NUM	qrencode/qrencode.h	/^	QR_MODE_NUM = 0,   \/\/\/< Numeric mode$/;"	e	enum:__anon13
+QR_MODE_STRUCTURE	qrencode/qrencode.h	/^	QR_MODE_STRUCTURE, \/\/\/< Internal use only$/;"	e	enum:__anon13
+QRcode	qrencode/qrencode.h	/^} QRcode;$/;"	t	typeref:struct:__anon15
+QRcode_APIVersion	qrencode/qrencode.c	/^void QRcode_APIVersion(int *major_version, int *minor_version, int *micro_version)$/;"	f
+QRcode_APIVersionString	qrencode/qrencode.c	/^char *QRcode_APIVersionString(void)$/;"	f
+QRcode_List	qrencode/qrencode.h	/^typedef struct _QRcode_List QRcode_List;$/;"	t	typeref:struct:_QRcode_List
+QRcode_List_free	qrencode/qrencode.c	/^void QRcode_List_free(QRcode_List *qrlist)$/;"	f
+QRcode_List_freeEntry	qrencode/qrencode.c	/^static void QRcode_List_freeEntry(QRcode_List *entry)$/;"	f	file:
+QRcode_List_newEntry	qrencode/qrencode.c	/^static QRcode_List *QRcode_List_newEntry(void)$/;"	f	file:
+QRcode_List_size	qrencode/qrencode.c	/^int QRcode_List_size(QRcode_List *qrlist)$/;"	f
+QRcode_clearCache	qrencode/qrencode.c	/^void QRcode_clearCache(void)$/;"	f
+QRcode_decode	qrencode/tests/decoder.c	/^QRdata *QRcode_decode(QRcode *code)$/;"	f
+QRcode_decodeBits	qrencode/tests/decoder.c	/^QRdata *QRcode_decodeBits(QRcode *code)$/;"	f
+QRcode_decodeBitsMQR	qrencode/tests/decoder.c	/^QRdata *QRcode_decodeBitsMQR(QRcode *code)$/;"	f
+QRcode_decodeFormat	qrencode/tests/decoder.c	/^int QRcode_decodeFormat(QRcode *code, QRecLevel *level, int *mask)$/;"	f
+QRcode_decodeFormatMQR	qrencode/tests/decoder.c	/^int QRcode_decodeFormatMQR(QRcode *code, int *version, QRecLevel *level, int *mask)$/;"	f
+QRcode_decodeMQR	qrencode/tests/decoder.c	/^QRdata *QRcode_decodeMQR(QRcode *code)$/;"	f
+QRcode_decodeVersion	qrencode/tests/decoder.c	/^unsigned int QRcode_decodeVersion(QRcode *code)$/;"	f
+QRcode_encodeData	qrencode/qrencode.c	/^QRcode *QRcode_encodeData(int size, const unsigned char *data, int version, QRecLevel level)$/;"	f
+QRcode_encodeDataMQR	qrencode/qrencode.c	/^QRcode *QRcode_encodeDataMQR(int size, const unsigned char *data, int version, QRecLevel level)$/;"	f
+QRcode_encodeDataReal	qrencode/qrencode.c	/^static QRcode *QRcode_encodeDataReal(const unsigned char *data, int length, int version, QRecLevel level, int mqr)$/;"	f	file:
+QRcode_encodeDataStructured	qrencode/qrencode.c	/^QRcode_List *QRcode_encodeDataStructured(int size, const unsigned char *data, int version, QRecLevel level) {$/;"	f
+QRcode_encodeDataStructuredReal	qrencode/qrencode.c	/^static QRcode_List *QRcode_encodeDataStructuredReal($/;"	f	file:
+QRcode_encodeInput	qrencode/qrencode.c	/^QRcode *QRcode_encodeInput(QRinput *input)$/;"	f
+QRcode_encodeInputStructured	qrencode/qrencode.c	/^QRcode_List *QRcode_encodeInputStructured(QRinput_Struct *s)$/;"	f
+QRcode_encodeInputToStructured	qrencode/qrencode.c	/^static QRcode_List *QRcode_encodeInputToStructured(QRinput *input)$/;"	f	file:
+QRcode_encodeMask	qrencode/qrencode.c	/^__STATIC QRcode *QRcode_encodeMask(QRinput *input, int mask)$/;"	f
+QRcode_encodeMaskMQR	qrencode/qrencode.c	/^__STATIC QRcode *QRcode_encodeMaskMQR(QRinput *input, int mask)$/;"	f
+QRcode_encodeString	qrencode/qrencode.c	/^QRcode *QRcode_encodeString(const char *string, int version, QRecLevel level, QRencodeMode hint, int casesensitive)$/;"	f
+QRcode_encodeString8bit	qrencode/qrencode.c	/^QRcode *QRcode_encodeString8bit(const char *string, int version, QRecLevel level)$/;"	f
+QRcode_encodeString8bitMQR	qrencode/qrencode.c	/^QRcode *QRcode_encodeString8bitMQR(const char *string, int version, QRecLevel level)$/;"	f
+QRcode_encodeString8bitStructured	qrencode/qrencode.c	/^QRcode_List *QRcode_encodeString8bitStructured(const char *string, int version, QRecLevel level) {$/;"	f
+QRcode_encodeStringMQR	qrencode/qrencode.c	/^QRcode *QRcode_encodeStringMQR(const char *string, int version, QRecLevel level, QRencodeMode hint, int casesensitive)$/;"	f
+QRcode_encodeStringReal	qrencode/qrencode.c	/^static QRcode *QRcode_encodeStringReal(const char *string, int version, QRecLevel level, int mqr, QRencodeMode hint, int casesensitive)$/;"	f	file:
+QRcode_encodeStringStructured	qrencode/qrencode.c	/^QRcode_List *QRcode_encodeStringStructured(const char *string, int version, QRecLevel level, QRencodeMode hint, int casesensitive)$/;"	f
+QRcode_extractBits	qrencode/tests/decoder.c	/^unsigned char *QRcode_extractBits(QRcode *code, int *length)$/;"	f
+QRcode_free	qrencode/qrencode.c	/^void QRcode_free(QRcode *qrcode)$/;"	f
+QRcode_new	qrencode/qrencode.c	/^__STATIC QRcode *QRcode_new(int version, int width, unsigned char *data)$/;"	f
+QRcode_unmask	qrencode/tests/decoder.c	/^unsigned char *QRcode_unmask(QRcode *code)$/;"	f
+QRcode_unmaskMQR	qrencode/tests/decoder.c	/^unsigned char *QRcode_unmaskMQR(QRcode *code)$/;"	f
+QRdata	qrencode/tests/decoder.h	/^} QRdata;$/;"	t	typeref:struct:__anon10
+QRdata_concatChunks	qrencode/tests/decoder.c	/^void QRdata_concatChunks(QRdata *qrdata)$/;"	f
+QRdata_decodeBitStream	qrencode/tests/decoder.c	/^int QRdata_decodeBitStream(QRdata *qrdata, BitStream *bstream)$/;"	f
+QRdata_decodeBits	qrencode/tests/decoder.c	/^static int QRdata_decodeBits(QRdata *qrdata, int length, unsigned char *bits)$/;"	f	file:
+QRdata_dump	qrencode/tests/decoder.c	/^void QRdata_dump(QRdata *data)$/;"	f
+QRdata_free	qrencode/tests/decoder.c	/^void QRdata_free(QRdata *qrdata)$/;"	f
+QRdata_new	qrencode/tests/decoder.c	/^QRdata *QRdata_new(void)$/;"	f
+QRdata_newMQR	qrencode/tests/decoder.c	/^QRdata *QRdata_newMQR(void)$/;"	f
+QRecLevel	qrencode/qrencode.h	/^} QRecLevel;$/;"	t	typeref:enum:__anon14
+QRencodeMode	qrencode/qrencode.h	/^} QRencodeMode;$/;"	t	typeref:enum:__anon13
+QRinput	qrencode/qrencode.h	/^typedef struct _QRinput QRinput;$/;"	t	typeref:struct:_QRinput
+QRinput_InputList	qrencode/qrinput.h	/^typedef struct _QRinput_InputList QRinput_InputList;$/;"	t	typeref:struct:_QRinput_InputList
+QRinput_InputList_freeEntry	qrencode/qrinput.c	/^static void QRinput_InputList_freeEntry(QRinput_InputList *entry)$/;"	f	file:
+QRinput_InputList_newEntry	qrencode/qrinput.c	/^static QRinput_InputList *QRinput_InputList_newEntry(QRinput *input)$/;"	f	file:
+QRinput_List	qrencode/qrinput.h	/^typedef struct _QRinput_List QRinput_List;$/;"	t	typeref:struct:_QRinput_List
+QRinput_List_dup	qrencode/qrinput.c	/^static QRinput_List *QRinput_List_dup(QRinput_List *entry)$/;"	f	file:
+QRinput_List_freeEntry	qrencode/qrinput.c	/^static void QRinput_List_freeEntry(QRinput_List *entry)$/;"	f	file:
+QRinput_List_newEntry	qrencode/qrinput.c	/^static QRinput_List *QRinput_List_newEntry(QRencodeMode mode, int size, const unsigned char *data)$/;"	f	file:
+QRinput_List_shrinkEntry	qrencode/qrinput.c	/^static int QRinput_List_shrinkEntry(QRinput_List *entry, int bytes)$/;"	f	file:
+QRinput_Struct	qrencode/qrencode.h	/^typedef struct _QRinput_Struct QRinput_Struct;$/;"	t	typeref:struct:_QRinput_Struct
+QRinput_Struct_appendInput	qrencode/qrinput.c	/^int QRinput_Struct_appendInput(QRinput_Struct *s, QRinput *input)$/;"	f
+QRinput_Struct_calcParity	qrencode/qrinput.c	/^static unsigned char QRinput_Struct_calcParity(QRinput_Struct *s)$/;"	f	file:
+QRinput_Struct_free	qrencode/qrinput.c	/^void QRinput_Struct_free(QRinput_Struct *s)$/;"	f
+QRinput_Struct_insertStructuredAppendHeaders	qrencode/qrinput.c	/^int QRinput_Struct_insertStructuredAppendHeaders(QRinput_Struct *s)$/;"	f
+QRinput_Struct_new	qrencode/qrinput.c	/^QRinput_Struct *QRinput_Struct_new(void)$/;"	f
+QRinput_Struct_setParity	qrencode/qrinput.c	/^void QRinput_Struct_setParity(QRinput_Struct *s, unsigned char parity)$/;"	f
+QRinput_anTable	qrencode/qrinput.c	/^const signed char QRinput_anTable[128] = {$/;"	v
+QRinput_append	qrencode/qrinput.c	/^int QRinput_append(QRinput *input, QRencodeMode mode, int size, const unsigned char *data)$/;"	f
+QRinput_appendECIheader	qrencode/qrinput.c	/^int QRinput_appendECIheader(QRinput *input, unsigned int ecinum)$/;"	f
+QRinput_appendEntry	qrencode/qrinput.c	/^static void QRinput_appendEntry(QRinput *input, QRinput_List *entry)$/;"	f	file:
+QRinput_appendPaddingBit	qrencode/qrinput.c	/^static int QRinput_appendPaddingBit(BitStream *bstream, QRinput *input)$/;"	f	file:
+QRinput_appendPaddingBitMQR	qrencode/qrinput.c	/^static int QRinput_appendPaddingBitMQR(BitStream *bstream, QRinput *input)$/;"	f	file:
+QRinput_calcParity	qrencode/qrinput.c	/^static unsigned char QRinput_calcParity(QRinput *input)$/;"	f	file:
+QRinput_check	qrencode/qrinput.c	/^int QRinput_check(QRencodeMode mode, int size, const unsigned char *data)$/;"	f
+QRinput_checkModeAn	qrencode/qrinput.c	/^static int QRinput_checkModeAn(int size, const char *data)$/;"	f	file:
+QRinput_checkModeFNC1Second	qrencode/qrinput.c	/^static int QRinput_checkModeFNC1Second(int size, const unsigned char *data)$/;"	f	file:
+QRinput_checkModeKanji	qrencode/qrinput.c	/^static int QRinput_checkModeKanji(int size, const unsigned char *data)$/;"	f	file:
+QRinput_checkModeNum	qrencode/qrinput.c	/^static int QRinput_checkModeNum(int size, const char *data)$/;"	f	file:
+QRinput_convertData	qrencode/qrinput.c	/^static int QRinput_convertData(QRinput *input)$/;"	f	file:
+QRinput_createBitStream	qrencode/qrinput.c	/^static int QRinput_createBitStream(QRinput *input)$/;"	f	file:
+QRinput_decodeECIfromByteArray	qrencode/qrinput.c	/^static unsigned int QRinput_decodeECIfromByteArray(unsigned char *data)$/;"	f	file:
+QRinput_dup	qrencode/qrinput.c	/^QRinput *QRinput_dup(QRinput *input)$/;"	f
+QRinput_encodeBitStream	qrencode/qrinput.c	/^static int QRinput_encodeBitStream(QRinput_List *entry, int version, int mqr)$/;"	f	file:
+QRinput_encodeMode8	qrencode/qrinput.c	/^static int QRinput_encodeMode8(QRinput_List *entry, int version, int mqr)$/;"	f	file:
+QRinput_encodeModeAn	qrencode/qrinput.c	/^static int QRinput_encodeModeAn(QRinput_List *entry, int version, int mqr)$/;"	f	file:
+QRinput_encodeModeECI	qrencode/qrinput.c	/^static int QRinput_encodeModeECI(QRinput_List *entry, int version)$/;"	f	file:
+QRinput_encodeModeFNC1Second	qrencode/qrinput.c	/^static int QRinput_encodeModeFNC1Second(QRinput_List *entry, int version)$/;"	f	file:
+QRinput_encodeModeKanji	qrencode/qrinput.c	/^static int QRinput_encodeModeKanji(QRinput_List *entry, int version, int mqr)$/;"	f	file:
+QRinput_encodeModeNum	qrencode/qrinput.c	/^static int QRinput_encodeModeNum(QRinput_List *entry, int version, int mqr)$/;"	f	file:
+QRinput_encodeModeStructure	qrencode/qrinput.c	/^static int QRinput_encodeModeStructure(QRinput_List *entry, int mqr)$/;"	f	file:
+QRinput_estimateBitStreamSize	qrencode/qrinput.c	/^__STATIC int QRinput_estimateBitStreamSize(QRinput *input, int version)$/;"	f
+QRinput_estimateBitStreamSizeOfEntry	qrencode/qrinput.c	/^static int QRinput_estimateBitStreamSizeOfEntry(QRinput_List *entry, int version, int mqr)$/;"	f	file:
+QRinput_estimateBitsMode8	qrencode/qrinput.c	/^int QRinput_estimateBitsMode8(int size)$/;"	f
+QRinput_estimateBitsModeAn	qrencode/qrinput.c	/^int QRinput_estimateBitsModeAn(int size)$/;"	f
+QRinput_estimateBitsModeECI	qrencode/qrinput.c	/^int QRinput_estimateBitsModeECI(unsigned char *data)$/;"	f
+QRinput_estimateBitsModeKanji	qrencode/qrinput.c	/^int QRinput_estimateBitsModeKanji(int size)$/;"	f
+QRinput_estimateBitsModeNum	qrencode/qrinput.c	/^int QRinput_estimateBitsModeNum(int size)$/;"	f
+QRinput_estimateVersion	qrencode/qrinput.c	/^static int QRinput_estimateVersion(QRinput *input)$/;"	f	file:
+QRinput_free	qrencode/qrinput.c	/^void QRinput_free(QRinput *input)$/;"	f
+QRinput_getBitStream	qrencode/qrinput.c	/^__STATIC BitStream *QRinput_getBitStream(QRinput *input)$/;"	f
+QRinput_getByteStream	qrencode/qrinput.c	/^unsigned char *QRinput_getByteStream(QRinput *input)$/;"	f
+QRinput_getErrorCorrectionLevel	qrencode/qrinput.c	/^QRecLevel QRinput_getErrorCorrectionLevel(QRinput *input)$/;"	f
+QRinput_getVersion	qrencode/qrinput.c	/^int QRinput_getVersion(QRinput *input)$/;"	f
+QRinput_insertFNC1Header	qrencode/qrinput.c	/^static int QRinput_insertFNC1Header(QRinput *input)$/;"	f	file:
+QRinput_insertStructuredAppendHeader	qrencode/qrinput.c	/^__STATIC int QRinput_insertStructuredAppendHeader(QRinput *input, int size, int index, unsigned char parity)$/;"	f
+QRinput_isSplittableMode	qrencode/qrinput.c	/^int QRinput_isSplittableMode(QRencodeMode mode)$/;"	f
+QRinput_lengthOfCode	qrencode/qrinput.c	/^__STATIC int QRinput_lengthOfCode(QRencodeMode mode, int version, int bits)$/;"	f
+QRinput_lookAnTable	qrencode/qrinput.h	95;"	d
+QRinput_mergeBitStream	qrencode/qrinput.c	/^__STATIC BitStream *QRinput_mergeBitStream(QRinput *input)$/;"	f
+QRinput_new	qrencode/qrinput.c	/^QRinput *QRinput_new(void)$/;"	f
+QRinput_new2	qrencode/qrinput.c	/^QRinput *QRinput_new2(int version, QRecLevel level)$/;"	f
+QRinput_newMQR	qrencode/qrinput.c	/^QRinput *QRinput_newMQR(int version, QRecLevel level)$/;"	f
+QRinput_setErrorCorrectionLevel	qrencode/qrinput.c	/^int QRinput_setErrorCorrectionLevel(QRinput *input, QRecLevel level)$/;"	f
+QRinput_setFNC1First	qrencode/qrinput.c	/^int QRinput_setFNC1First(QRinput *input)$/;"	f
+QRinput_setFNC1Second	qrencode/qrinput.c	/^int QRinput_setFNC1Second(QRinput *input, unsigned char appid)$/;"	f
+QRinput_setVersion	qrencode/qrinput.c	/^int QRinput_setVersion(QRinput *input, int version)$/;"	f
+QRinput_setVersionAndErrorCorrectionLevel	qrencode/qrinput.c	/^int QRinput_setVersionAndErrorCorrectionLevel(QRinput *input, int version, QRecLevel level)$/;"	f
+QRinput_splitEntry	qrencode/qrinput.c	/^__STATIC int QRinput_splitEntry(QRinput_List *entry, int bytes)$/;"	f
+QRinput_splitQRinputToStruct	qrencode/qrinput.c	/^QRinput_Struct *QRinput_splitQRinputToStruct(QRinput *input)$/;"	f
+QRraw_free	qrencode/qrencode.c	/^__STATIC void QRraw_free(QRRawCode *raw)$/;"	f
+QRraw_getCode	qrencode/qrencode.c	/^__STATIC unsigned char QRraw_getCode(QRRawCode *raw)$/;"	f
+QRraw_new	qrencode/qrencode.c	/^__STATIC QRRawCode *QRraw_new(QRinput *input)$/;"	f
+QRspec_Capacity	qrencode/qrspec.c	/^} QRspec_Capacity;$/;"	t	typeref:struct:__anon9	file:
+QRspec_clearCache	qrencode/qrspec.c	/^void QRspec_clearCache(void)$/;"	f
+QRspec_createFrame	qrencode/qrspec.c	/^static unsigned char *QRspec_createFrame(int version)$/;"	f	file:
+QRspec_getDataLength	qrencode/qrspec.c	/^int QRspec_getDataLength(int version, QRecLevel level)$/;"	f
+QRspec_getECCLength	qrencode/qrspec.c	/^int QRspec_getECCLength(int version, QRecLevel level)$/;"	f
+QRspec_getEccSpec	qrencode/qrspec.c	/^void QRspec_getEccSpec(int version, QRecLevel level, int spec[5])$/;"	f
+QRspec_getFormatInfo	qrencode/qrspec.c	/^unsigned int QRspec_getFormatInfo(int mask, QRecLevel level)$/;"	f
+QRspec_getMinimumVersion	qrencode/qrspec.c	/^int QRspec_getMinimumVersion(int size, QRecLevel level)$/;"	f
+QRspec_getRemainder	qrencode/qrspec.c	/^int QRspec_getRemainder(int version)$/;"	f
+QRspec_getVersionPattern	qrencode/qrspec.c	/^unsigned int QRspec_getVersionPattern(int version)$/;"	f
+QRspec_getWidth	qrencode/qrspec.c	/^int QRspec_getWidth(int version)$/;"	f
+QRspec_lengthIndicator	qrencode/qrspec.c	/^int QRspec_lengthIndicator(QRencodeMode mode, int version)$/;"	f
+QRspec_maximumWords	qrencode/qrspec.c	/^int QRspec_maximumWords(QRencodeMode mode, int version)$/;"	f
+QRspec_newFrame	qrencode/qrspec.c	/^unsigned char *QRspec_newFrame(int version)$/;"	f
+QRspec_putAlignmentMarker	qrencode/qrspec.c	/^static void QRspec_putAlignmentMarker(unsigned char *frame, int width, int ox, int oy)$/;"	f	file:
+QRspec_putAlignmentPattern	qrencode/qrspec.c	/^static void QRspec_putAlignmentPattern(int version, unsigned char *frame, int width)$/;"	f	file:
+QRspec_rsBlockNum	qrencode/qrspec.h	108;"	d
+QRspec_rsBlockNum1	qrencode/qrspec.h	109;"	d
+QRspec_rsBlockNum2	qrencode/qrspec.h	112;"	d
+QRspec_rsDataCodes1	qrencode/qrspec.h	110;"	d
+QRspec_rsDataCodes2	qrencode/qrspec.h	113;"	d
+QRspec_rsDataLength	qrencode/qrspec.h	116;"	d
+QRspec_rsEccCodes1	qrencode/qrspec.h	111;"	d
+QRspec_rsEccCodes2	qrencode/qrspec.h	114;"	d
+QRspec_rsEccLength	qrencode/qrspec.h	119;"	d
+RANLIB	qrencode/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	qrencode/tests/Makefile	/^RANLIB = ranlib$/;"	m
+RE2C	Makefile	/^RE2C = exit 0;$/;"	m
+RECURSIVE_CLEAN_TARGETS	qrencode/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	qrencode/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RS	qrencode/rscode.h	/^typedef struct _RS RS;$/;"	t	typeref:struct:_RS
+RSblock	qrencode/qrencode.c	/^} RSblock;$/;"	t	typeref:struct:__anon5	file:
+RSblock	qrencode/qrencode_inner.h	/^} RSblock;$/;"	t	typeref:struct:__anon1
+RSblock_init	qrencode/qrencode.c	/^static int RSblock_init(RSblock *blocks, int spec[5], unsigned char *data, unsigned char *ecc)$/;"	f	file:
+RSblock_initBlock	qrencode/qrencode.c	/^static void RSblock_initBlock(RSblock *block, int dl, unsigned char *data, int el, unsigned char *ecc, RS *rs)$/;"	f	file:
+SDL_CFLAGS	qrencode/Makefile	/^SDL_CFLAGS = $/;"	m
+SDL_CFLAGS	qrencode/tests/Makefile	/^SDL_CFLAGS = $/;"	m
+SDL_CONFIG	qrencode/Makefile	/^SDL_CONFIG = $/;"	m
+SDL_CONFIG	qrencode/tests/Makefile	/^SDL_CONFIG = $/;"	m
+SDL_LIBS	qrencode/Makefile	/^SDL_LIBS = $/;"	m
+SDL_LIBS	qrencode/tests/Makefile	/^SDL_LIBS = $/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	qrencode/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	qrencode/tests/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	qrencode/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	qrencode/tests/Makefile	/^SET_MAKE = $/;"	m
+SHARED_LIBTOOL	Makefile	/^SHARED_LIBTOOL =$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	qrencode/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	qrencode/tests/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHLIB_DL_SUFFIX_NAME	Makefile	/^SHLIB_DL_SUFFIX_NAME = so$/;"	m
+SHLIB_SUFFIX_NAME	Makefile	/^SHLIB_SUFFIX_NAME = so$/;"	m
+SHOW_ONLY_GROUPS	run-tests.php	/^					$SHOW_ONLY_GROUPS = explode(",", $argv[++$i]);;$/;"	v
+SHOW_ONLY_GROUPS	run-tests.php	/^	$SHOW_ONLY_GROUPS = array();$/;"	v
+SHOW_ONLY_GROUPS	run-tests.php	/^	$SHOW_ONLY_GROUPS = explode(",", getenv('SHOW_ONLY_GROUPS'));$/;"	v
+SOURCES	qrencode/Makefile	/^SOURCES = $(libqrencode_la_SOURCES) $(qrencode_SOURCES)$/;"	m
+SOURCES	qrencode/tests/Makefile	/^SOURCES = $(libdecoder_a_SOURCES) $(create_frame_pattern_SOURCES) \\$/;"	m
+STDC_HEADERS	config.h	63;"	d
+STDC_HEADERS	qrencode/config.h	78;"	d
+STRIP	qrencode/Makefile	/^STRIP = strip$/;"	m
+STRIP	qrencode/tests/Makefile	/^STRIP = strip$/;"	m
+STRUCTURE_HEADER_SIZE	qrencode/qrinput.h	107;"	d
+SUBDIRS	qrencode/Makefile	/^SUBDIRS = . $(am__append_1)$/;"	m
+Split_eat8	qrencode/split.c	/^static int Split_eat8(const char *string, QRinput *input, QRencodeMode hint)$/;"	f	file:
+Split_eatAn	qrencode/split.c	/^static int Split_eatAn(const char *string, QRinput *input, QRencodeMode hint)$/;"	f	file:
+Split_eatKanji	qrencode/split.c	/^static int Split_eatKanji(const char *string, QRinput *input, QRencodeMode hint)$/;"	f	file:
+Split_eatNum	qrencode/split.c	/^static int Split_eatNum(const char *string, QRinput *input,QRencodeMode hint)$/;"	f	file:
+Split_identifyMode	qrencode/split.c	/^static QRencodeMode Split_identifyMode(const char *string, QRencodeMode hint)$/;"	f	file:
+Split_splitString	qrencode/split.c	/^static int Split_splitString(const char *string, QRinput *input,$/;"	f	file:
+Split_splitStringToQRinput	qrencode/split.c	/^int Split_splitStringToQRinput(const char *string, QRinput *input,$/;"	f
+TESTED_PHP_VERSION	run-tests.php	/^	define('TESTED_PHP_VERSION', `$php -n -r "echo PHP_VERSION;"`);$/;"	d
+THREADS	qrencode/tests/pthread_qrencode.c	9;"	d	file:
+VERSION	qrencode/Makefile	/^VERSION = 3.3.1$/;"	m
+VERSION	qrencode/config.h	81;"	d
+VERSION	qrencode/tests/Makefile	/^VERSION = 3.3.1$/;"	m
+ZEND_EXT_TYPE	Makefile	/^ZEND_EXT_TYPE = zend_extension$/;"	m
+ZEND_GET_MODULE	mosaic.c	/^ZEND_GET_MODULE(mosaic)$/;"	f
+_DataChunk	qrencode/tests/decoder.h	/^typedef struct _DataChunk {$/;"	s
+_QRcode_List	qrencode/qrencode.h	/^struct _QRcode_List {$/;"	s
+_QRinput	qrencode/qrinput.h	/^struct _QRinput {$/;"	s
+_QRinput_InputList	qrencode/qrinput.h	/^struct _QRinput_InputList {$/;"	s
+_QRinput_List	qrencode/qrinput.h	/^struct _QRinput_List {$/;"	s
+_QRinput_Struct	qrencode/qrinput.h	/^struct _QRinput_Struct {$/;"	s
+_RS	qrencode/rscode.c	/^struct _RS {$/;"	s	file:
+__BITSTREAM_H__	qrencode/bitstream.h	23;"	d
+__COMMON_H__	qrencode/tests/common.h	6;"	d
+__DECODER_H__	qrencode/tests/decoder.h	2;"	d
+__DIR__	run-tests.php	/^	define('__DIR__', realpath(dirname(__FILE__)));$/;"	d
+__MASK_H__	qrencode/mask.h	23;"	d
+__MMASK_H__	qrencode/mmask.h	23;"	d
+__MQRSPEC_H__	qrencode/mqrspec.h	23;"	d
+__QRENCODE_H__	qrencode/qrencode.h	100;"	d
+__QRENCODE_INNER_H__	qrencode/qrencode_inner.h	23;"	d
+__QRINPUT_H__	qrencode/qrinput.h	23;"	d
+__QRSPEC_H__	qrencode/qrspec.h	23;"	d
+__RSCODE_H__	qrencode/rscode.h	28;"	d
+__SPLIT_H__	qrencode/split.h	29;"	d
+__STATIC	qrencode/config.h	93;"	d
+a	run-tests.php	/^	$a = test_name($a);$/;"	v
+abs_builddir	qrencode/Makefile	/^abs_builddir = \/root\/mosaic\/qrencode$/;"	m
+abs_builddir	qrencode/tests/Makefile	/^abs_builddir = \/root\/mosaic\/qrencode\/tests$/;"	m
+abs_srcdir	qrencode/Makefile	/^abs_srcdir = \/root\/mosaic\/qrencode$/;"	m
+abs_srcdir	qrencode/tests/Makefile	/^abs_srcdir = \/root\/mosaic\/qrencode\/tests$/;"	m
+abs_top_builddir	qrencode/Makefile	/^abs_top_builddir = \/root\/mosaic\/qrencode$/;"	m
+abs_top_builddir	qrencode/tests/Makefile	/^abs_top_builddir = \/root\/mosaic\/qrencode$/;"	m
+abs_top_srcdir	qrencode/Makefile	/^abs_top_srcdir = \/root\/mosaic\/qrencode$/;"	m
+abs_top_srcdir	qrencode/tests/Makefile	/^abs_top_srcdir = \/root\/mosaic\/qrencode$/;"	m
+ac_ct_AR	qrencode/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	qrencode/tests/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	qrencode/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	qrencode/tests/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	qrencode/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	qrencode/tests/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_func	qrencode/configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_compile	qrencode/configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_compile	qrencode/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_cpp	qrencode/configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_link	qrencode/configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_c_try_run	qrencode/configure	/^ac_fn_c_try_run ()$/;"	f
+alignmentPattern	qrencode/qrspec.c	/^static const int alignmentPattern[QRSPEC_VERSION_MAX+1][2] = {$/;"	v	file:
+all_targets	Makefile	/^all_targets = $(PHP_MODULES) $(PHP_ZEND_EX)$/;"	m
+alpha_to	qrencode/rscode.c	/^	data_t *alpha_to;     \/* log lookup table *\/$/;"	m	struct:_RS	file:
+am__CONFIG_DISTCLEAN_FILES	qrencode/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DEPENDENCIES_1	qrencode/Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__DEPENDENCIES_1	qrencode/tests/Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__DEPENDENCIES_2	qrencode/tests/Makefile	/^am__DEPENDENCIES_2 = libdecoder.a $(am__DEPENDENCIES_1)$/;"	m
+am__EXEEXT_2	qrencode/tests/Makefile	/^am__EXEEXT_2 = pthread_qrencode$(EXEEXT)$/;"	m
+am__aclocal_m4_deps	qrencode/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__aclocal_m4_deps	qrencode/tests/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__append_1	qrencode/tests/Makefile	/^am__append_1 = pthread_qrencode$/;"	m
+am__base_list	qrencode/Makefile	/^am__base_list = \\$/;"	m
+am__cd	qrencode/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	qrencode/tests/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	qrencode/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	qrencode/tests/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	qrencode/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	qrencode/tests/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	qrencode/Makefile	/^am__include = include$/;"	m
+am__include	qrencode/tests/Makefile	/^am__include = include$/;"	m
+am__install_max	qrencode/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	qrencode/Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(bindir)" \\$/;"	m
+am__leading_dot	qrencode/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	qrencode/tests/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	qrencode/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	qrencode/tests/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	qrencode/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	qrencode/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	qrencode/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__qrencode_SOURCES_DIST	qrencode/Makefile	/^am__qrencode_SOURCES_DIST = qrenc.c$/;"	m
+am__quote	qrencode/Makefile	/^am__quote = $/;"	m
+am__quote	qrencode/tests/Makefile	/^am__quote = $/;"	m
+am__relativize	qrencode/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	qrencode/Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	qrencode/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	qrencode/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	qrencode/tests/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	qrencode/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	qrencode/tests/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__view_qrcode_SOURCES_DIST	qrencode/tests/Makefile	/^am__view_qrcode_SOURCES_DIST = view_qrcode.c$/;"	m
+am__vpath_adj	qrencode/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	qrencode/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_create_frame_pattern_OBJECTS	qrencode/tests/Makefile	/^am_create_frame_pattern_OBJECTS =  \\$/;"	m
+am_create_mqr_frame_pattern_OBJECTS	qrencode/tests/Makefile	/^am_create_mqr_frame_pattern_OBJECTS =  \\$/;"	m
+am_libdecoder_a_OBJECTS	qrencode/tests/Makefile	/^am_libdecoder_a_OBJECTS = decoder.$(OBJEXT)$/;"	m
+am_libqrencode_la_OBJECTS	qrencode/Makefile	/^am_libqrencode_la_OBJECTS = qrencode.lo qrinput.lo bitstream.lo \\$/;"	m
+am_prof_qrencode_OBJECTS	qrencode/tests/Makefile	/^am_prof_qrencode_OBJECTS = prof_qrencode.$(OBJEXT)$/;"	m
+am_pthread_qrencode_OBJECTS	qrencode/tests/Makefile	/^am_pthread_qrencode_OBJECTS = pthread_qrencode.$(OBJEXT)$/;"	m
+am_qrencode_OBJECTS	qrencode/Makefile	/^am_qrencode_OBJECTS = qrencode-qrenc.$(OBJEXT)$/;"	m
+am_test_bitstream_OBJECTS	qrencode/tests/Makefile	/^am_test_bitstream_OBJECTS = test_bitstream.$(OBJEXT)$/;"	m
+am_test_estimatebit_OBJECTS	qrencode/tests/Makefile	/^am_test_estimatebit_OBJECTS = test_estimatebit.$(OBJEXT)$/;"	m
+am_test_mask_OBJECTS	qrencode/tests/Makefile	/^am_test_mask_OBJECTS = test_mask.$(OBJEXT)$/;"	m
+am_test_mmask_OBJECTS	qrencode/tests/Makefile	/^am_test_mmask_OBJECTS = test_mmask.$(OBJEXT)$/;"	m
+am_test_monkey_OBJECTS	qrencode/tests/Makefile	/^am_test_monkey_OBJECTS = test_monkey.$(OBJEXT)$/;"	m
+am_test_mqrspec_OBJECTS	qrencode/tests/Makefile	/^am_test_mqrspec_OBJECTS = test_mqrspec.$(OBJEXT)$/;"	m
+am_test_qrencode_OBJECTS	qrencode/tests/Makefile	/^am_test_qrencode_OBJECTS = test_qrencode.$(OBJEXT)$/;"	m
+am_test_qrinput_OBJECTS	qrencode/tests/Makefile	/^am_test_qrinput_OBJECTS = test_qrinput.$(OBJEXT)$/;"	m
+am_test_qrspec_OBJECTS	qrencode/tests/Makefile	/^am_test_qrspec_OBJECTS = test_qrspec.$(OBJEXT)$/;"	m
+am_test_rs_OBJECTS	qrencode/tests/Makefile	/^am_test_rs_OBJECTS = test_rs.$(OBJEXT)$/;"	m
+am_test_split_OBJECTS	qrencode/tests/Makefile	/^am_test_split_OBJECTS = test_split.$(OBJEXT)$/;"	m
+appendChunk	qrencode/tests/decoder.c	/^int appendChunk(QRdata *qrdata, int *bits_length, unsigned char **bits)$/;"	f
+append_pattern	qrencode/tests/create_frame_pattern.c	/^void append_pattern(int version, FILE *fp)$/;"	f
+append_pattern	qrencode/tests/create_mqr_frame_pattern.c	/^void append_pattern(int version, FILE *fp)$/;"	f
+appid	qrencode/qrinput.h	/^	unsigned char appid;$/;"	m	struct:_QRinput
+argc	run-tests.php	/^	$argc = count($argv);$/;"	v
+args	run-tests.php	/^	$args = isset($section_text['ARGS']) ? ' -- ' . $section_text['ARGS'] : '';$/;"	v
+argv	run-tests.php	/^		$argv = array(__FILE__);$/;"	v
+argv	run-tests.php	/^	$argv = array_merge($argv, explode(' ', getenv('TEST_PHP_ARGS')));$/;"	v
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_append	qrencode/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	qrencode/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_arith	qrencode/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	qrencode/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_error	qrencode/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	qrencode/configure	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_exit	qrencode/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	qrencode/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_failure	qrencode/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	qrencode/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	qrencode/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_failure	qrencode/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_ret_success	qrencode/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	qrencode/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	qrencode/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_success	qrencode/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+as_fn_unset	qrencode/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	qrencode/configure	/^as_fn_unset ()$/;"	f
+assert_equal	qrencode/tests/common.h	118;"	d
+assert_exp	qrencode/tests/common.h	111;"	d
+assert_nonnull	qrencode/tests/common.h	117;"	d
+assert_nonzero	qrencode/tests/common.h	115;"	d
+assert_notequal	qrencode/tests/common.h	119;"	d
+assert_nothing	qrencode/tests/common.h	120;"	d
+assert_null	qrencode/tests/common.h	116;"	d
+assert_zero	qrencode/tests/common.h	114;"	d
+assertionFailed	qrencode/tests/common.h	/^static int assertionFailed = 0;$/;"	v
+assertionNum	qrencode/tests/common.h	/^static int assertionNum = 0;$/;"	v
+autoconf	run-tests.php	/^					$autoconf = shell_exec('autoconf --version');$/;"	v
+autoconf	run-tests.php	/^					$autoconf = shell_exec(getenv('PHP_AUTOCONF') . ' --version');$/;"	v
+b	run-tests.php	/^	$b = test_name($b);$/;"	v
+b1	qrencode/qrencode.c	/^	int b1;$/;"	m	struct:__anon6	file:
+b1	qrencode/qrencode_inner.h	/^	int b1;$/;"	m	struct:__anon2
+bin_PROGRAMS	qrencode/Makefile	/^bin_PROGRAMS = qrencode$(EXEEXT)$/;"	m
+bin_env	run-tests.php	/^	$bin_env = array();$/;"	v
+bindir	qrencode/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	qrencode/tests/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bit	qrencode/qrencode.c	/^	int bit;$/;"	m	struct:__anon8	file:
+bit	qrencode/tests/decoder.c	/^	int bit;$/;"	m	struct:__anon11	file:
+bitToInt	qrencode/tests/decoder.c	/^static unsigned int bitToInt(unsigned char *bits, int length)$/;"	f	file:
+bits	qrencode/tests/decoder.h	/^	int bits;$/;"	m	struct:_DataChunk
+blocks	qrencode/qrencode.c	/^	int blocks;$/;"	m	struct:__anon6	file:
+blocks	qrencode/qrencode_inner.h	/^	int blocks;$/;"	m	struct:__anon2
+bork_info	run-tests.php	/^					$bork_info = "could not load --FILE_EXTERNAL-- " . dirname($file) . '\/' . trim($section_text['FILE_EXTERNAL']);$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "Can't redirect a test from within a redirected test";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "duplicated $section section";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "missing section --EXPECT--, --EXPECTF-- or --EXPECTREGEX--";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "missing section --FILE--";$/;"	v
+bork_info	run-tests.php	/^			$bork_info = "Redirect info must contain exactly one TEST string to be used as redirect directory.";$/;"	v
+bork_info	run-tests.php	/^			$bork_info = "cannot read test";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "Redirected test did not contain redirection info";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "empty test [$file]";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "tests must start with --TEST-- [$file]";$/;"	v
+bork_info	run-tests.php	/^	$bork_info = '';$/;"	v
+borked	run-tests.php	/^					$borked = true;$/;"	v
+borked	run-tests.php	/^				$borked    = true;$/;"	v
+borked	run-tests.php	/^				$borked = false;$/;"	v
+borked	run-tests.php	/^				$borked = true;$/;"	v
+borked	run-tests.php	/^			$borked = true;$/;"	v
+borked	run-tests.php	/^		$borked = true;$/;"	v
+borked	run-tests.php	/^	$borked = false;$/;"	v
+br	mosaic.php	/^$br = (php_sapi_name() == "cli")? "":"<br>";$/;"	v
+bstream	qrencode/qrinput.h	/^	BitStream *bstream;$/;"	m	struct:_QRinput_List
+bug	run-tests.php	/^		$bug = "0$bug";$/;"	v
+bug	run-tests.php	/^	$bug = (int)$bug; \/\/ Many distros make up their own versions$/;"	v
+build	qrencode/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	qrencode/tests/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	qrencode/Makefile	/^build_alias = $/;"	m
+build_alias	qrencode/tests/Makefile	/^build_alias = $/;"	m
+build_cpu	qrencode/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	qrencode/tests/Makefile	/^build_cpu = i686$/;"	m
+build_os	qrencode/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	qrencode/tests/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	qrencode/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	qrencode/tests/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	qrencode/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	qrencode/tests/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = \/root\/mosaic$/;"	m
+builddir	qrencode/Makefile	/^builddir = .$/;"	m
+builddir	qrencode/tests/Makefile	/^builddir = .$/;"	m
+c1	run-tests.php	/^			$c1 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1+1, $idx2, $cnt1, $cnt2, 10);$/;"	v
+c2	run-tests.php	/^			$c2 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2+1, $cnt1,  $cnt2, 10);$/;"	v
+calcFormatInfo	qrencode/tests/test_mqrspec.c	/^static unsigned int calcFormatInfo(int type, int mask)$/;"	f	file:
+calcFormatInfo	qrencode/tests/test_qrspec.c	/^static unsigned int calcFormatInfo(int mask, QRecLevel level)$/;"	f	file:
+casesensitive	qrencode/qrenc.c	/^static int casesensitive = 1;$/;"	v	file:
+casesensitive	qrencode/tests/view_qrcode.c	/^static int casesensitive = 1;$/;"	v	file:
+cc_status	run-tests.php	/^				$cc_status = 0;$/;"	v
+cfg	run-tests.php	/^$cfg = array();$/;"	v
+cfgfiles	run-tests.php	/^$cfgfiles = array('skip', 'php', 'clean', 'out', 'diff', 'exp');$/;"	v
+cfgtypes	run-tests.php	/^$cfgtypes = array('show', 'keep');$/;"	v
+check	qrencode/tests/test_monkey.c	/^static unsigned char check[MAX_LENGTH];$/;"	v	file:
+checkRemainderWords	qrencode/tests/decoder.c	/^static int checkRemainderWords(int length, unsigned char *bits, int remainder)$/;"	f	file:
+checkRemainderWordsMQR	qrencode/tests/decoder.c	/^static int checkRemainderWordsMQR(int length, unsigned char *bits, int remainder, int version)$/;"	f	file:
+check_lengthOfCode	qrencode/tests/test_qrinput.c	/^static int check_lengthOfCode(QRencodeMode mode, char *data, int size, int version)$/;"	f	file:
+chunks	qrencode/tests/decoder.h	/^	DataChunk *chunks, *last;$/;"	m	struct:__anon10
+clean_params	run-tests.php	/^				$clean_params = array();$/;"	v
+cmd	run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file-exactly=$memcheck_filename $cmd";$/;"	v
+cmd	run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file=$memcheck_filename $cmd";$/;"	v
+cmd	run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" $args 2>&1";$/;"	v
+cmd	run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < \\"$tmp_post\\"";$/;"	v
+cmd	run-tests.php	/^        $cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < \\"$tmp_post\\"";$/;"	v
+cmpBin	qrencode/tests/common.h	/^int cmpBin(char *correct, BitStream *bstream)$/;"	f
+code	qrencode/qrencode.h	/^	QRcode *code;$/;"	m	struct:_QRcode_List
+code	run-tests.php	/^	$code = proc_close($proc);$/;"	v
+comp_line	run-tests.php	/^function comp_line($l1, $l2, $is_reg)$/;"	f
+compiler	run-tests.php	/^						$compiler = shell_exec(getenv('CC') . " $flag 2>&1");$/;"	v
+compression	run-tests.php	/^$compression = 0;$/;"	v
+compute_summary	run-tests.php	/^function compute_summary()$/;"	f
+conf_passed	run-tests.php	/^					$conf_passed = $argv[++$i];$/;"	v
+conf_passed	run-tests.php	/^$conf_passed = null;$/;"	v
+content_length	run-tests.php	/^		$content_length = strlen($post);$/;"	v
+content_length	run-tests.php	/^        $content_length = strlen($post);$/;"	v
+copy_file	run-tests.php	/^		$copy_file     = $temp_dir . DIRECTORY_SEPARATOR . basename(is_array($file) ? $file[1] : $file) . '.phps';$/;"	v
+count	qrencode/qrencode.c	/^	int count;$/;"	m	struct:__anon6	file:
+count	qrencode/qrencode.c	/^	int count;$/;"	m	struct:__anon7	file:
+count	qrencode/qrencode_inner.h	/^	int count;$/;"	m	struct:__anon2
+count	qrencode/qrencode_inner.h	/^	int count;$/;"	m	struct:__anon3
+count_array_diff	run-tests.php	/^function count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2, $cnt1, $cnt2, $steps)$/;"	f
+create_frame_pattern_CFLAGS	qrencode/tests/Makefile	/^create_frame_pattern_CFLAGS = $(png_CFLAGS)$/;"	m
+create_frame_pattern_DEPENDENCIES	qrencode/tests/Makefile	/^create_frame_pattern_DEPENDENCIES = ..\/libqrencode.la \\$/;"	m
+create_frame_pattern_LDADD	qrencode/tests/Makefile	/^create_frame_pattern_LDADD = ..\/libqrencode.la $(png_LIBS)$/;"	m
+create_frame_pattern_LINK	qrencode/tests/Makefile	/^create_frame_pattern_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+create_frame_pattern_OBJECTS	qrencode/tests/Makefile	/^create_frame_pattern_OBJECTS = $(am_create_frame_pattern_OBJECTS)$/;"	m
+create_frame_pattern_SOURCES	qrencode/tests/Makefile	/^create_frame_pattern_SOURCES = create_frame_pattern.c$/;"	m
+create_mqr_frame_pattern_CFLAGS	qrencode/tests/Makefile	/^create_mqr_frame_pattern_CFLAGS = $(png_CFLAGS)$/;"	m
+create_mqr_frame_pattern_DEPENDENCIES	qrencode/tests/Makefile	/^create_mqr_frame_pattern_DEPENDENCIES = ..\/libqrencode.la \\$/;"	m
+create_mqr_frame_pattern_LDADD	qrencode/tests/Makefile	/^create_mqr_frame_pattern_LDADD = ..\/libqrencode.la $(png_LIBS)$/;"	m
+create_mqr_frame_pattern_LINK	qrencode/tests/Makefile	/^create_mqr_frame_pattern_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+create_mqr_frame_pattern_OBJECTS	qrencode/tests/Makefile	/^create_mqr_frame_pattern_OBJECTS =  \\$/;"	m
+create_mqr_frame_pattern_SOURCES	qrencode/tests/Makefile	/^create_mqr_frame_pattern_SOURCES = create_mqr_frame_pattern.c$/;"	m
+cwd	run-tests.php	/^$cwd = getcwd();$/;"	v
+data	qrencode/bitstream.h	/^	unsigned char *data;$/;"	m	struct:__anon4
+data	qrencode/qrencode.c	/^	unsigned char *data;$/;"	m	struct:__anon5	file:
+data	qrencode/qrencode.h	/^	unsigned char *data; \/\/\/< symbol data$/;"	m	struct:__anon15
+data	qrencode/qrencode_inner.h	/^	unsigned char *data;$/;"	m	struct:__anon1
+data	qrencode/qrinput.h	/^	unsigned char *data;	\/\/\/< Data chunk.$/;"	m	struct:_QRinput_List
+data	qrencode/tests/decoder.h	/^	unsigned char *data;$/;"	m	struct:_DataChunk
+data	qrencode/tests/decoder.h	/^	unsigned char *data;$/;"	m	struct:__anon10
+data	qrencode/tests/test_monkey.c	/^static unsigned char data[MAX_LENGTH];$/;"	v	file:
+data	run-tests.php	/^	$data = "php_test_data=" . urlencode(base64_encode(str_replace("\\00", '[0x0]', $data)));$/;"	v
+data	run-tests.php	/^	$data = '';$/;"	v
+dataLength	qrencode/qrencode.c	/^	int dataLength;$/;"	m	struct:__anon5	file:
+dataLength	qrencode/qrencode.c	/^	int dataLength;$/;"	m	struct:__anon6	file:
+dataLength	qrencode/qrencode.c	/^	int dataLength;$/;"	m	struct:__anon7	file:
+dataLength	qrencode/qrencode_inner.h	/^	int dataLength;$/;"	m	struct:__anon1
+dataLength	qrencode/qrencode_inner.h	/^	int dataLength;$/;"	m	struct:__anon2
+dataLength	qrencode/qrencode_inner.h	/^	int dataLength;$/;"	m	struct:__anon3
+data_length	run-tests.php	/^	$data_length = strlen($data);$/;"	v
+data_t	qrencode/rscode.c	/^typedef unsigned char data_t;$/;"	t	file:
+datacode	qrencode/qrencode.c	/^	unsigned char *datacode;$/;"	m	struct:__anon6	file:
+datacode	qrencode/qrencode.c	/^	unsigned char *datacode;$/;"	m	struct:__anon7	file:
+datacode	qrencode/qrencode_inner.h	/^	unsigned char *datacode;$/;"	m	struct:__anon2
+datacode	qrencode/qrencode_inner.h	/^	unsigned char *datacode;$/;"	m	struct:__anon3
+datadir	qrencode/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	qrencode/tests/Makefile	/^datadir = ${datarootdir}$/;"	m
+datalen	qrencode/tests/test_mqrspec.c	/^int datalen[4][3] = {$/;"	v
+datarootdir	qrencode/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	qrencode/tests/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+decode8	qrencode/tests/decoder.c	/^static DataChunk *decode8(int *bits_length, unsigned char **bits, int version, int mqr)$/;"	f	file:
+decodeAn	qrencode/tests/decoder.c	/^static DataChunk *decodeAn(int *bits_length, unsigned char **bits, int version, int mqr)$/;"	f	file:
+decodeAnTable	qrencode/tests/decoder.c	/^static const char decodeAnTable[45] = {$/;"	v	file:
+decodeAnTable	qrencode/tests/test_qrencode.c	/^static const char decodeAnTable[45] = {$/;"	v	file:
+decodeChunk	qrencode/tests/decoder.c	/^static DataChunk *decodeChunk(int *bits_length, unsigned char **bits, int version)$/;"	f	file:
+decodeChunkMQR	qrencode/tests/decoder.c	/^static DataChunk *decodeChunkMQR(int *bits_length, unsigned char **bits, int version)$/;"	f	file:
+decodeKanji	qrencode/tests/decoder.c	/^static DataChunk *decodeKanji(int *bits_length, unsigned char **bits, int version, int mqr)$/;"	f	file:
+decodeLength	qrencode/tests/decoder.c	/^static int decodeLength(int *bits_length, unsigned char **bits, QRencodeMode mode, int version, int mqr)$/;"	f	file:
+decodeNum	qrencode/tests/decoder.c	/^static DataChunk *decodeNum(int *bits_length, unsigned char **bits, int version, int mqr)$/;"	f	file:
+depcomp	qrencode/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/use\/depcomp$/;"	m
+depcomp	qrencode/tests/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/use\/depcomp$/;"	m
+diff	run-tests.php	/^			$diff = "# original source file: $shortname\\n" . $diff;$/;"	v
+diff	run-tests.php	/^			$diff = "&nbsp;";$/;"	v
+diff	run-tests.php	/^			$diff = "<a href='$url'>diff<\/a>";$/;"	v
+diff	run-tests.php	/^		$diff = generate_diff($wanted, $wanted_re, $output);$/;"	v
+diff	run-tests.php	/^	$diff = array();$/;"	v
+diff	run-tests.php	/^	$diff = empty($diff) ? '' : "<![CDATA[\\n " . preg_replace('\/\\e\/', '<esc>', $diff) . "\\n]]>";$/;"	v
+diff	run-tests.php	/^	$diff = generate_array_diff($r, $o, !is_null($wanted_re), $w);$/;"	v
+diff_filename	run-tests.php	/^	$diff_filename     = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'diff';$/;"	v
+dir	qrencode/qrencode.c	/^	int dir;$/;"	m	struct:__anon8	file:
+dir	qrencode/tests/decoder.c	/^	int dir;$/;"	m	struct:__anon11	file:
+distcleancheck_listfiles	qrencode/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	qrencode/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	qrencode/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	qrencode/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE}$/;"	m
+docdir	qrencode/tests/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE}$/;"	m
+dot	qrencode/tests/test_mask.c	/^char dot[2] = {'_', '#'};$/;"	v
+dot	qrencode/tests/test_mmask.c	/^char dot[2] = {'_', '#'};$/;"	v
+dpi	qrencode/qrenc.c	/^static int dpi = 72;$/;"	v	file:
+drand	qrencode/tests/test_monkey.c	16;"	d	file:
+drand	qrencode/tests/test_qrencode.c	22;"	d	file:
+draw_QRcode	qrencode/tests/view_qrcode.c	/^static void draw_QRcode(QRcode *qrcode, int ox, int oy)$/;"	f	file:
+draw_singleQRcode	qrencode/tests/view_qrcode.c	/^void draw_singleQRcode(QRinput *stream, int mask)$/;"	f
+draw_structuredQRcode	qrencode/tests/view_qrcode.c	/^void draw_structuredQRcode(QRinput_Struct *s)$/;"	f
+draw_structuredQRcodeFromQRinput	qrencode/tests/view_qrcode.c	/^void draw_structuredQRcodeFromQRinput(QRinput *stream)$/;"	f
+draw_structuredQRcodeFromText	qrencode/tests/view_qrcode.c	/^void draw_structuredQRcodeFromText(int argc, char **argv)$/;"	f
+dump8	qrencode/tests/decoder.c	/^void dump8(DataChunk *chunk)$/;"	f
+dumpAn	qrencode/tests/decoder.c	/^void dumpAn(DataChunk *chunk)$/;"	f
+dumpChunk	qrencode/tests/decoder.c	/^static void dumpChunk(DataChunk *chunk)$/;"	f	file:
+dumpChunks	qrencode/tests/decoder.c	/^void dumpChunks(QRdata *qrdata)$/;"	f
+dumpKanji	qrencode/tests/decoder.c	/^void dumpKanji(DataChunk *chunk)$/;"	f
+dumpNum	qrencode/tests/decoder.c	/^void dumpNum(DataChunk *chunk)$/;"	f
+dupAndToUpper	qrencode/split.c	/^static char *dupAndToUpper(const char *str, QRencodeMode hint)$/;"	f	file:
+dvidir	qrencode/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	qrencode/tests/Makefile	/^dvidir = ${docdir}$/;"	m
+e	run-tests.php	/^			$e = explode('=', trim($e), 2);$/;"	v
+e	run-tests.php	/^		$e = null;$/;"	v
+ec	qrencode/mqrspec.c	/^	int ec[4];  \/\/< Number of ECC code (bytes)$/;"	m	struct:__anon12	file:
+ec	qrencode/qrspec.c	/^	int ec[4];  \/\/< Number of ECC code (bytes)$/;"	m	struct:__anon9	file:
+ecc	qrencode/qrencode.c	/^	unsigned char *ecc;$/;"	m	struct:__anon5	file:
+ecc	qrencode/qrencode_inner.h	/^	unsigned char *ecc;$/;"	m	struct:__anon1
+eccLength	qrencode/qrencode.c	/^	int eccLength;$/;"	m	struct:__anon5	file:
+eccLength	qrencode/qrencode.c	/^	int eccLength;$/;"	m	struct:__anon6	file:
+eccLength	qrencode/qrencode.c	/^	int eccLength;$/;"	m	struct:__anon7	file:
+eccLength	qrencode/qrencode_inner.h	/^	int eccLength;$/;"	m	struct:__anon1
+eccLength	qrencode/qrencode_inner.h	/^	int eccLength;$/;"	m	struct:__anon2
+eccLength	qrencode/qrencode_inner.h	/^	int eccLength;$/;"	m	struct:__anon3
+eccTable	qrencode/qrspec.c	/^static const int eccTable[QRSPEC_VERSION_MAX+1][4][2] = {$/;"	v	file:
+ecccode	qrencode/qrencode.c	/^	unsigned char *ecccode;$/;"	m	struct:__anon6	file:
+ecccode	qrencode/qrencode.c	/^	unsigned char *ecccode;$/;"	m	struct:__anon7	file:
+ecccode	qrencode/qrencode_inner.h	/^	unsigned char *ecccode;$/;"	m	struct:__anon2
+ecccode	qrencode/qrencode_inner.h	/^	unsigned char *ecccode;$/;"	m	struct:__anon3
+eightbit	qrencode/qrenc.c	/^static int eightbit = 0;$/;"	v	file:
+eightbit	qrencode/tests/view_qrcode.c	/^static int eightbit = 0;$/;"	v	file:
+encode	qrencode/qrenc.c	/^static QRcode *encode(const unsigned char *intext, int length)$/;"	f	file:
+encodeAndCheckBStream	qrencode/tests/test_qrinput.c	/^int encodeAndCheckBStream(int mqr, int version, QRecLevel level, QRencodeMode mode, char *data, char *correct)$/;"	f
+encodeStructured	qrencode/qrenc.c	/^static QRcode_List *encodeStructured(const unsigned char *intext, int length)$/;"	f	file:
+encode_rs_char	qrencode/rscode.c	/^void encode_rs_char(RS *rs, const data_t *data, data_t *parity)$/;"	f
+encode_ver1to10	qrencode/tests/pthread_qrencode.c	/^void *encode_ver1to10(void *arg)$/;"	f
+encode_ver31to40	qrencode/tests/pthread_qrencode.c	/^void *encode_ver31to40(void *arg)$/;"	f
+end	run-tests.php	/^						$end = $start = $length;$/;"	v
+end	run-tests.php	/^					$end = strpos($wanted_re, $r, $start+2);$/;"	v
+end_time	run-tests.php	/^		$end_time = time();$/;"	v
+end_time	run-tests.php	/^$end_time = time();$/;"	v
+env	run-tests.php	/^function system_with_timeout($commandline, $env = null, $stdin = null)$/;"	v
+environment	run-tests.php	/^$environment = isset($_ENV) ? $_ENV : array();$/;"	v
+eq	run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $ofs2, $cnt1, $cnt2, $st);$/;"	v
+eq	run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $ofs1, $idx2, $cnt1, $cnt2, $st);$/;"	v
+eq1	run-tests.php	/^				$eq1 = $eq;$/;"	v
+eq1	run-tests.php	/^		$eq1 = 0;$/;"	v
+eq2	run-tests.php	/^				$eq2 = $eq;$/;"	v
+eq2	run-tests.php	/^		$eq2 = 0;$/;"	v
+equal	run-tests.php	/^	$equal = 0;$/;"	v
+error	run-tests.php	/^function error($message)$/;"	f
+error_report	run-tests.php	/^function error_report($testname, $logname, $tested)$/;"	f
+escaped_details	run-tests.php	/^	$escaped_details = htmlspecialchars($details, ENT_QUOTES, 'UTF-8');$/;"	v
+escaped_test_name	run-tests.php	/^    $escaped_test_name = basename($file_name) . ' - ' . htmlspecialchars($test_name, ENT_QUOTES);$/;"	v
+exec_prefix	Makefile	/^exec_prefix = $(prefix)$/;"	m
+exec_prefix	qrencode/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	qrencode/tests/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exp_filename	run-tests.php	/^	$exp_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'exp';$/;"	v
+ext	run-tests.php	/^	foreach($info_params_ex as $ext => $ini_overwrites_ex) {$/;"	v
+ext_dir	run-tests.php	/^		$ext_dir=`$php -r 'echo ini_get("extension_dir");'`;$/;"	v
+extensions	run-tests.php	/^		$extensions = preg_split("\/[\\n\\r]+\/", trim($section_text['EXTENSIONS']));$/;"	v
+extra	run-tests.php	/^				$extra = "skipif";$/;"	v
+extra	run-tests.php	/^				$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+extra	run-tests.php	/^			$extra = "&nbsp;";$/;"	v
+extra	run-tests.php	/^			$extra = "<a href='$url'>$extra<\/a>";$/;"	v
+extra	run-tests.php	/^			$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+extra	run-tests.php	/^function show_result($result, $tested, $tested_file, $extra = '', $temp_filenames = null)$/;"	v
+extractBits	qrencode/tests/decoder.c	/^static unsigned char *extractBits(int width, unsigned char *frame, int spec[5])$/;"	f	file:
+extractBitsMQR	qrencode/tests/decoder.c	/^static unsigned char *extractBitsMQR(int width, unsigned char *frame, int version, QRecLevel level)$/;"	f	file:
+exts_skipped	run-tests.php	/^$exts_skipped = 0;$/;"	v
+exts_tested	run-tests.php	/^$exts_tested = count($exts_to_test);$/;"	v
+exts_to_test	run-tests.php	/^	$exts_to_test = explode(',',`$php $pass_options $info_params "$info_file"`);$/;"	v
+exts_to_test	run-tests.php	/^$exts_to_test = array();$/;"	v
+failed	qrencode/tests/common.h	/^static int failed = 0;$/;"	v
+failed_headers	run-tests.php	/^				$failed_headers = true;$/;"	v
+failed_headers	run-tests.php	/^	$failed_headers = false;$/;"	v
+failed_test_summary	run-tests.php	/^	$failed_test_summary = '';$/;"	v
+failed_tests_data	run-tests.php	/^			$failed_tests_data = '';$/;"	v
+failed_tests_file	run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'a+t');$/;"	v
+failed_tests_file	run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'w+t');$/;"	v
+failed_tests_file	run-tests.php	/^$failed_tests_file= false;$/;"	v
+fcr	qrencode/rscode.c	/^	int fcr;        \/* First consecutive root, index form *\/$/;"	m	struct:_RS	file:
+file	run-tests.php	/^			$file = $org_file[0];$/;"	v
+file	run-tests.php	/^		$file = $file[0];$/;"	v
+filename_copy	run-tests.php	/^function save_text($filename, $text, $filename_copy = null)$/;"	v
+fill8bitData	qrencode/tests/test_monkey.c	/^int fill8bitData(void)$/;"	f
+fill8bitString	qrencode/tests/test_monkey.c	/^int fill8bitString(void)$/;"	f
+fillANData	qrencode/tests/test_monkey.c	/^int fillANData(void)$/;"	f
+find_files	run-tests.php	/^function find_files($dir, $is_ext_dir = false, $ignore = false)$/;"	f
+flags	run-tests.php	/^				$flags = array('-v', '-V', '--version');$/;"	v
+fnc1	qrencode/qrinput.h	/^	int fnc1;$/;"	m	struct:_QRinput
+formatInfo	qrencode/mqrspec.c	/^static const unsigned int formatInfo[4][8] = {$/;"	v	file:
+formatInfo	qrencode/qrspec.c	/^static const unsigned int formatInfo[4][8] = {$/;"	v	file:
+fp	run-tests.php	/^		$fp = fopen("php:\/\/stdin", "r+");$/;"	v
+fp	run-tests.php	/^	$fp = fopen($file, "rb") or error("Cannot open test file: $file");$/;"	v
+frame	qrencode/qrencode.c	/^	unsigned char *frame;$/;"	m	struct:__anon8	file:
+frame	qrencode/tests/decoder.c	/^	unsigned char *frame;$/;"	m	struct:__anon11	file:
+frames	qrencode/mqrspec.c	/^static unsigned char *frames[MQRSPEC_VERSION_MAX + 1];$/;"	v	file:
+frames	qrencode/qrspec.c	/^static unsigned char *frames[QRSPEC_VERSION_MAX + 1];$/;"	v	file:
+frames_mutex	qrencode/mqrspec.c	/^static pthread_mutex_t frames_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+frames_mutex	qrencode/qrspec.c	/^static pthread_mutex_t frames_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+free_rs_cache	qrencode/rscode.c	/^void free_rs_cache(void)$/;"	f
+free_rs_char	qrencode/rscode.c	/^void free_rs_char(RS *rs)$/;"	f
+fs	run-tests.php	/^	$fs = fsockopen($host, $port, $errno, $errstr, 10);$/;"	v
+func_append	config.status	/^func_append ()\\$/;"	f
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_append	ltmain.sh	/^func_append ()$/;"	f
+func_append	qrencode/config.status	/^func_append ()\\$/;"	f
+func_append	qrencode/configure	/^func_append ()\\$/;"	f
+func_append	qrencode/libtool	/^func_append ()$/;"	f
+func_append	qrencode/use/ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	config.status	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	libtool	/^func_append_quoted ()$/;"	f
+func_append_quoted	ltmain.sh	/^func_append_quoted ()$/;"	f
+func_append_quoted	qrencode/config.status	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	qrencode/configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	qrencode/libtool	/^func_append_quoted ()$/;"	f
+func_append_quoted	qrencode/use/ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	config.status	/^func_arith ()\\$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_arith	ltmain.sh	/^func_arith ()$/;"	f
+func_arith	qrencode/config.status	/^func_arith ()\\$/;"	f
+func_arith	qrencode/configure	/^func_arith ()\\$/;"	f
+func_arith	qrencode/libtool	/^func_arith ()$/;"	f
+func_arith	qrencode/use/ltmain.sh	/^func_arith ()$/;"	f
+func_basename	config.status	/^func_basename ()\\$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_basename	ltmain.sh	/^func_basename ()$/;"	f
+func_basename	qrencode/config.status	/^func_basename ()\\$/;"	f
+func_basename	qrencode/configure	/^func_basename ()\\$/;"	f
+func_basename	qrencode/libtool	/^func_basename ()$/;"	f
+func_basename	qrencode/use/ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_check_version_match	qrencode/libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	qrencode/use/ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_config	qrencode/libtool	/^func_config ()$/;"	f
+func_config	qrencode/use/ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	qrencode/libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	qrencode/use/ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	qrencode/libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	qrencode/use/ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	qrencode/libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	qrencode/use/ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	qrencode/libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	qrencode/use/ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	qrencode/libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	qrencode/use/ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	qrencode/libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	qrencode/use/ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	qrencode/libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	qrencode/use/ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	qrencode/libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	qrencode/use/ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	qrencode/libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	qrencode/use/ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	qrencode/libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	qrencode/use/ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	qrencode/libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	qrencode/use/ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	qrencode/libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	qrencode/use/ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	qrencode/libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	qrencode/use/ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	qrencode/libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	qrencode/use/ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	qrencode/libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	qrencode/use/ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	qrencode/libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	qrencode/use/ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	qrencode/libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	qrencode/use/ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	libtool	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	qrencode/libtool	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	qrencode/use/ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	qrencode/libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	qrencode/use/ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	qrencode/libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	qrencode/use/ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	qrencode/libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	qrencode/use/ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	qrencode/libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	qrencode/use/ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	qrencode/libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	qrencode/use/ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	libtool	/^func_cygpath ()$/;"	f
+func_cygpath	ltmain.sh	/^func_cygpath ()$/;"	f
+func_cygpath	qrencode/libtool	/^func_cygpath ()$/;"	f
+func_cygpath	qrencode/use/ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	config.status	/^func_dirname ()\\$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname	ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname	qrencode/config.status	/^func_dirname ()\\$/;"	f
+func_dirname	qrencode/configure	/^func_dirname ()\\$/;"	f
+func_dirname	qrencode/libtool	/^func_dirname ()$/;"	f
+func_dirname	qrencode/use/ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	qrencode/config.status	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	qrencode/configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	qrencode/libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	qrencode/use/ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo	qrencode/libtool	/^func_echo ()$/;"	f
+func_echo	qrencode/use/ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_echo_all	qrencode/configure	/^func_echo_all ()$/;"	f
+func_echo_all	qrencode/libtool	/^func_echo_all ()$/;"	f
+func_echo_all	qrencode/use/ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	qrencode/libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	qrencode/use/ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	qrencode/libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	qrencode/use/ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_enable_tag	qrencode/libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	qrencode/use/ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_error	qrencode/libtool	/^func_error ()$/;"	f
+func_error	qrencode/use/ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program	qrencode/libtool	/^func_exec_program ()$/;"	f
+func_exec_program	qrencode/use/ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	qrencode/libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	qrencode/use/ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	qrencode/libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	qrencode/use/ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	qrencode/libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	qrencode/use/ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_extract_archives	qrencode/libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	qrencode/use/ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	qrencode/config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	qrencode/configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	qrencode/configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	qrencode/libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	qrencode/use/ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	qrencode/libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	qrencode/use/ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_error	qrencode/libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	qrencode/use/ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_fatal_help	qrencode/libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	qrencode/use/ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_features	qrencode/libtool	/^func_features ()$/;"	f
+func_features	qrencode/use/ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	qrencode/libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	qrencode/use/ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_grep	qrencode/libtool	/^func_grep ()$/;"	f
+func_grep	qrencode/use/ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_help	qrencode/libtool	/^func_help ()$/;"	f
+func_help	qrencode/use/ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_infer_tag	qrencode/libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	qrencode/use/ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	qrencode/libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	qrencode/use/ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_p	qrencode/libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	qrencode/use/ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	qrencode/libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	qrencode/use/ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	config.status	/^func_len ()\\$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_len	ltmain.sh	/^func_len ()$/;"	f
+func_len	qrencode/config.status	/^func_len ()\\$/;"	f
+func_len	qrencode/configure	/^func_len ()\\$/;"	f
+func_len	qrencode/libtool	/^func_len ()$/;"	f
+func_len	qrencode/use/ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()\\$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_lo2o	ltmain.sh	/^func_lo2o ()$/;"	f
+func_lo2o	qrencode/config.status	/^func_lo2o ()\\$/;"	f
+func_lo2o	qrencode/configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	qrencode/libtool	/^func_lo2o ()$/;"	f
+func_lo2o	qrencode/use/ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	qrencode/libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	qrencode/use/ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	qrencode/libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	qrencode/use/ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	qrencode/libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	qrencode/use/ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	qrencode/libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	qrencode/use/ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	qrencode/libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	qrencode/use/ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_missing_arg	qrencode/libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	qrencode/use/ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	qrencode/libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	qrencode/use/ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mktempdir	qrencode/libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	qrencode/use/ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_compile	qrencode/libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	qrencode/use/ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_execute	qrencode/libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	qrencode/use/ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_finish	qrencode/libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	qrencode/use/ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_help	qrencode/libtool	/^func_mode_help ()$/;"	f
+func_mode_help	qrencode/use/ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_install	qrencode/libtool	/^func_mode_install ()$/;"	f
+func_mode_install	qrencode/use/ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_link	qrencode/libtool	/^func_mode_link ()$/;"	f
+func_mode_link	qrencode/use/ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	qrencode/libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	qrencode/use/ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	qrencode/libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	qrencode/use/ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	qrencode/libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	qrencode/use/ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	qrencode/libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	qrencode/use/ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	qrencode/libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	qrencode/use/ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_relative_path	qrencode/libtool	/^func_relative_path ()$/;"	f
+func_relative_path	qrencode/use/ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	libtool	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	qrencode/libtool	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	qrencode/use/ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	libtool	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	qrencode/libtool	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	qrencode/use/ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval	qrencode/libtool	/^func_show_eval ()$/;"	f
+func_show_eval	qrencode/use/ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	qrencode/libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	qrencode/use/ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_source	qrencode/libtool	/^func_source ()$/;"	f
+func_source	qrencode/use/ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	config.status	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	libtool	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	qrencode/config.status	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	qrencode/configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	qrencode/libtool	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	qrencode/use/ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	config.status	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	libtool	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	qrencode/config.status	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	qrencode/configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	qrencode/libtool	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	qrencode/use/ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	config.status	/^func_stripname ()\\$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_stripname	ltmain.sh	/^func_stripname ()$/;"	f
+func_stripname	qrencode/config.status	/^func_stripname ()\\$/;"	f
+func_stripname	qrencode/configure	/^func_stripname ()\\$/;"	f
+func_stripname	qrencode/libtool	/^func_stripname ()$/;"	f
+func_stripname	qrencode/use/ltmain.sh	/^func_stripname ()$/;"	f
+func_to_host_file	libtool	/^func_to_host_file ()$/;"	f
+func_to_host_file	ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_file	qrencode/libtool	/^func_to_host_file ()$/;"	f
+func_to_host_file	qrencode/use/ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_path	qrencode/libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	qrencode/use/ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	libtool	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	qrencode/libtool	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	qrencode/use/ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	libtool	/^func_tr_sh ()$/;"	f
+func_tr_sh	ltmain.sh	/^func_tr_sh ()$/;"	f
+func_tr_sh	qrencode/libtool	/^func_tr_sh ()$/;"	f
+func_tr_sh	qrencode/use/ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_usage	qrencode/libtool	/^func_usage ()$/;"	f
+func_usage	qrencode/use/ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_verbose	qrencode/libtool	/^func_verbose ()$/;"	f
+func_verbose	qrencode/use/ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_version	qrencode/libtool	/^func_version ()$/;"	f
+func_version	qrencode/use/ltmain.sh	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_warning	qrencode/libtool	/^func_warning ()$/;"	f
+func_warning	qrencode/use/ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	qrencode/libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	qrencode/use/ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_win32_libid	qrencode/libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	qrencode/use/ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	qrencode/libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	qrencode/use/ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	config.status	/^func_xform ()\\$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+func_xform	ltmain.sh	/^func_xform ()$/;"	f
+func_xform	qrencode/config.status	/^func_xform ()\\$/;"	f
+func_xform	qrencode/configure	/^func_xform ()\\$/;"	f
+func_xform	qrencode/libtool	/^func_xform ()$/;"	f
+func_xform	qrencode/use/ltmain.sh	/^func_xform ()$/;"	f
+function	mosaic.php	/^$function = 'confirm_' . $module . '_compiled';$/;"	v
+functions	mosaic.php	/^$functions = get_extension_funcs($module);$/;"	v
+generate_array_diff	run-tests.php	/^function generate_array_diff($ar1, $ar2, $is_reg, $w)$/;"	f
+generate_diff	run-tests.php	/^function generate_diff($wanted, $wanted_re, $output)$/;"	f
+genpoly	qrencode/rscode.c	/^	data_t *genpoly;      \/* Generator polynomial *\/$/;"	m	struct:_RS	file:
+get_summary	run-tests.php	/^function get_summary($show_ext_summary, $show_html)$/;"	f
+gfpoly	qrencode/rscode.c	/^	int gfpoly;$/;"	m	struct:_RS	file:
+gstream	qrencode/tests/test_estimatebit.c	/^QRinput *gstream;$/;"	v
+head	qrencode/qrinput.h	/^	QRinput_InputList *head;$/;"	m	struct:_QRinput_Struct
+head	qrencode/qrinput.h	/^	QRinput_List *head;$/;"	m	struct:_QRinput
+headers	run-tests.php	/^				$headers = $org_headers[$k];$/;"	v
+headers	run-tests.php	/^		$headers = array();$/;"	v
+headers	run-tests.php	/^	$headers = "";$/;"	v
+hint	qrencode/qrenc.c	/^static QRencodeMode hint = QR_MODE_8;$/;"	v	file:
+hint	qrencode/tests/view_qrcode.c	/^static QRencodeMode hint = QR_MODE_8;$/;"	v	file:
+host	qrencode/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	qrencode/tests/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	run-tests.php	/^		$host = $proxy['host'];$/;"	v
+host	run-tests.php	/^		$host = $url_bits['host'];$/;"	v
+host_alias	qrencode/Makefile	/^host_alias = $/;"	m
+host_alias	qrencode/tests/Makefile	/^host_alias = $/;"	m
+host_cpu	qrencode/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	qrencode/tests/Makefile	/^host_cpu = i686$/;"	m
+host_os	qrencode/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	qrencode/tests/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	qrencode/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	qrencode/tests/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	qrencode/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	qrencode/tests/Makefile	/^host_vendor = pc$/;"	m
+html_file	run-tests.php	/^					$html_file = fopen($argv[++$i], 'wt');$/;"	v
+html_file	run-tests.php	/^$html_file = null;$/;"	v
+html_output	run-tests.php	/^					$html_output = is_resource($html_file);$/;"	v
+html_output	run-tests.php	/^$html_output = false;$/;"	v
+htmldir	qrencode/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	qrencode/tests/Makefile	/^htmldir = ${docdir}$/;"	m
+idx1	run-tests.php	/^	$idx1 = 0; $ofs1 = 0; $cnt1 = @count($ar1);$/;"	v
+idx2	run-tests.php	/^	$idx2 = 0; $ofs2 = 0; $cnt2 = @count($ar2);$/;"	v
+ignored_by_ext	run-tests.php	/^$ignored_by_ext = 0;$/;"	v
+imageType	qrencode/qrenc.c	/^enum imageType {$/;"	g	file:
+image_type	qrencode/qrenc.c	/^static enum imageType image_type = PNG_TYPE;$/;"	v	typeref:enum:imageType	file:
+include_HEADERS	qrencode/Makefile	/^include_HEADERS = qrencode.h$/;"	m
+includedir	qrencode/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	qrencode/tests/Makefile	/^includedir = ${prefix}\/include$/;"	m
+index	run-tests.php	/^			$index = "# $name[1]: $name[0]";$/;"	v
+index	run-tests.php	/^			$index = "# $redir_tested: $name";$/;"	v
+index	run-tests.php	/^			$index = $name;$/;"	v
+index_of	qrencode/rscode.c	/^	data_t *index_of;     \/* Antilog lookup table *\/$/;"	m	struct:_RS	file:
+info	run-tests.php	/^					$info = " (info: $m[1])";$/;"	v
+info	run-tests.php	/^					$info = " (warn: $m[1])";$/;"	v
+info	run-tests.php	/^					$info = " (warn: XFAIL section but test passes)";$/;"	v
+info	run-tests.php	/^			$info = '  XFAIL REASON: ' . rtrim($section_text['XFAIL']);$/;"	v
+info	run-tests.php	/^	$info = '';$/;"	v
+info_file	run-tests.php	/^	$info_file = __DIR__ . '\/run-test-info.php';$/;"	v
+info_params	run-tests.php	/^	$info_params = array();$/;"	v
+info_params_ex	run-tests.php	/^	$info_params_ex = array($/;"	v
+infodir	qrencode/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	qrencode/tests/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+ini_overwrites	run-tests.php	/^			$ini_overwrites = array_merge($ini_overwrites, $ini_overwrites_ex);$/;"	v
+ini_overwrites	run-tests.php	/^$ini_overwrites = array($/;"	v
+ini_settings	run-tests.php	/^	$ini_settings = $settings;$/;"	v
+ini_settings	run-tests.php	/^	$ini_settings = array();$/;"	v
+init_rs	qrencode/rscode.c	/^RS *init_rs(int symsize, int gfpoly, int fcr, int prim, int nroots, int pad)$/;"	f
+init_rs_char	qrencode/rscode.c	/^static RS *init_rs_char(int symsize, int gfpoly, int fcr, int prim, int nroots, int pad)$/;"	f	file:
+input	qrencode/qrinput.h	/^	QRinput *input;$/;"	m	struct:_QRinput_InputList
+inputSize	qrencode/tests/test_qrencode.c	/^int inputSize(QRinput *input)$/;"	f
+inputSize	qrencode/tests/test_split.c	/^int inputSize(QRinput *input)$/;"	f
+inputTest	qrencode/tests/test_split.c	/^static int inputTest(QRinput_List *list, const char *fmt, ...)$/;"	f	file:
+install_sh	qrencode/Makefile	/^install_sh = ${SHELL} \/root\/mosaic\/qrencode\/use\/install-sh$/;"	m
+install_sh	qrencode/tests/Makefile	/^install_sh = ${SHELL} \/root\/mosaic\/qrencode\/use\/install-sh$/;"	m
+install_sh_DATA	qrencode/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	qrencode/tests/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	qrencode/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	qrencode/tests/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	qrencode/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	qrencode/tests/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_targets	Makefile	/^install_targets = install-modules install-headers$/;"	m
+iprim	qrencode/rscode.c	/^	int iprim;      \/* prim-th root of 1, index form *\/$/;"	m	struct:_RS	file:
+is_ext_dir	run-tests.php	/^function find_files($dir, $is_ext_dir = false, $ignore = false)$/;"	v
+is_switch	run-tests.php	/^								$is_switch = false;$/;"	v
+is_switch	run-tests.php	/^				$is_switch = true;$/;"	v
+is_switch	run-tests.php	/^			$is_switch = true;$/;"	v
+is_switch	run-tests.php	/^		$is_switch = false;$/;"	v
+isalnum	qrencode/split.c	40;"	d	file:
+isdigit	qrencode/split.c	39;"	d	file:
+junit_enabled	run-tests.php	/^function junit_enabled() {$/;"	f
+junit_finish_timer	run-tests.php	/^function junit_finish_timer($file_name) {$/;"	f
+junit_get_suite_xml	run-tests.php	/^function junit_get_suite_xml($suite_name = '') {$/;"	f
+junit_get_suitename_for	run-tests.php	/^function junit_get_suitename_for($file_name) {$/;"	f
+junit_get_timer	run-tests.php	/^function junit_get_timer($file_name) {$/;"	f
+junit_init	run-tests.php	/^function junit_init() {$/;"	f
+junit_init_suite	run-tests.php	/^function junit_init_suite($suite_name) {$/;"	f
+junit_mark_test_as	run-tests.php	/^function junit_mark_test_as($type, $file_name, $test_name, $time = null, $message = '', $details = '') {$/;"	f
+junit_path_to_classname	run-tests.php	/^function junit_path_to_classname($file_name) {$/;"	f
+junit_save_xml	run-tests.php	/^function junit_save_xml() {$/;"	f
+junit_start_timer	run-tests.php	/^function junit_start_timer($file_name) {$/;"	f
+junit_suite_record	run-tests.php	/^function junit_suite_record($suite, $param, $value = 1) {$/;"	f
+just_save_results	run-tests.php	/^					$just_save_results = true;$/;"	v
+just_save_results	run-tests.php	/^		$just_save_results = (strtolower($user_input[0]) == 's');$/;"	v
+just_save_results	run-tests.php	/^$just_save_results = false;$/;"	v
+k	run-tests.php	/^		foreach($want as $k => $v) {$/;"	v
+k1	run-tests.php	/^			$k1 = next($old1) ? key($old1) : null;$/;"	v
+k1	run-tests.php	/^		} else if ($k2 == $l2 + 1 || $k1 === null) {$/;"	v
+k1	run-tests.php	/^	reset($old1); $k1 = key($old1); $l1 = -2;$/;"	v
+k2	run-tests.php	/^			$k2 = next($old2) ? key($old2) : null;$/;"	v
+k2	run-tests.php	/^		if ($k1 == $l1 + 1 || $k2 === null) {$/;"	v
+k2	run-tests.php	/^	reset($old2); $k2 = key($old2); $l2 = -2;$/;"	v
+key	run-tests.php	/^	foreach((array)$env as $key => $value) {$/;"	v
+key	run-tests.php	/^foreach ($exts_to_test as $key => $val) {$/;"	v
+l1	run-tests.php	/^			$l1 = $k1;$/;"	v
+l2	run-tests.php	/^			$l2 = $k2;$/;"	v
+last	qrencode/tests/decoder.h	/^	DataChunk *chunks, *last;$/;"	m	struct:__anon10
+last	run-tests.php	/^				$last = 1;$/;"	v
+last	run-tests.php	/^				$last = 2;$/;"	v
+ldd	run-tests.php	/^				$ldd = shell_exec("ldd $php 2>\/dev\/null");$/;"	v
+ldd	run-tests.php	/^			$ldd = $autoconf = $sys_libtool = $libtool = $compiler = 'N\/A';$/;"	v
+le_mosaic	mosaic.c	/^static int le_mosaic;$/;"	v	file:
+leak_check	run-tests.php	/^					$leak_check = true;$/;"	v
+leak_check	run-tests.php	/^$leak_check = false;$/;"	v
+leaked	run-tests.php	/^		$leaked = filesize($memcheck_filename) > 0;$/;"	v
+leaked	run-tests.php	/^	$leaked = false;$/;"	v
+len	run-tests.php	/^				$len = strlen($value);$/;"	v
+length	qrencode/bitstream.h	/^	int length;$/;"	m	struct:__anon4
+length	run-tests.php	/^			$length = strlen($wanted_re);$/;"	v
+lengthTableBits	qrencode/mqrspec.c	/^static const int lengthTableBits[4][4] = {$/;"	v	file:
+lengthTableBits	qrencode/qrspec.c	/^static const int lengthTableBits[4][3] = {$/;"	v	file:
+level	qrencode/qrenc.c	/^static QRecLevel level = QR_ECLEVEL_L;$/;"	v	file:
+level	qrencode/qrinput.h	/^	QRecLevel level;$/;"	m	struct:_QRinput
+level	qrencode/tests/decoder.h	/^	QRecLevel level;$/;"	m	struct:FormatInfo
+level	qrencode/tests/decoder.h	/^	QRecLevel level;$/;"	m	struct:__anon10
+level	qrencode/tests/view_qrcode.c	/^static QRecLevel level = QR_ECLEVEL_L;$/;"	v	file:
+levelChar	qrencode/tests/common.h	/^char levelChar[4] = {'L', 'M', 'Q', 'H'};$/;"	v
+levelChar	qrencode/tests/view_qrcode.c	/^static char levelChar[4] = {'L', 'M', 'Q', 'H'};$/;"	v	file:
+levelIndicator	qrencode/tests/test_qrspec.c	/^static unsigned int levelIndicator[4] = {1, 0, 3, 2};$/;"	v	file:
+lib_LTLIBRARIES	qrencode/Makefile	/^lib_LTLIBRARIES = libqrencode.la$/;"	m
+libdecoder_a_AR	qrencode/tests/Makefile	/^libdecoder_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libdecoder_a_LIBADD	qrencode/tests/Makefile	/^libdecoder_a_LIBADD =$/;"	m
+libdecoder_a_OBJECTS	qrencode/tests/Makefile	/^libdecoder_a_OBJECTS = $(am_libdecoder_a_OBJECTS)$/;"	m
+libdecoder_a_SOURCES	qrencode/tests/Makefile	/^libdecoder_a_SOURCES = decoder.c decoder.h$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	qrencode/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	qrencode/tests/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	qrencode/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	qrencode/tests/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libqrencode_la_LDFLAGS	qrencode/Makefile	/^libqrencode_la_LDFLAGS = -version-number $(MAJOR_VERSION):$(MINOR_VERSION):$(MICRO_VERSION)$/;"	m
+libqrencode_la_LIBADD	qrencode/Makefile	/^libqrencode_la_LIBADD =$/;"	m
+libqrencode_la_LINK	qrencode/Makefile	/^libqrencode_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libqrencode_la_OBJECTS	qrencode/Makefile	/^libqrencode_la_OBJECTS = $(am_libqrencode_la_OBJECTS)$/;"	m
+libqrencode_la_SOURCES	qrencode/Makefile	/^libqrencode_la_SOURCES = qrencode.c qrencode_inner.h \\$/;"	m
+libtool	run-tests.php	/^				$libtool = shell_exec($CUR_DIR . '\/libtool --version');$/;"	v
+line	run-tests.php	/^				$line = explode(':', $line, 2);$/;"	v
+line	run-tests.php	/^			$line = fread($pipes[1], 8192);$/;"	v
+line	run-tests.php	/^		$line = fgets($fp);$/;"	v
+line_length	run-tests.php	/^	$line_length = strlen($str);$/;"	v
+lines	run-tests.php	/^		$lines = preg_split("\/[\\n\\r]+\/", $section_text['EXPECTHEADERS']);$/;"	v
+loaded	run-tests.php	/^		$loaded = explode(",", `$php -n -r 'echo join(",", get_loaded_extensions());'`);$/;"	v
+localedir	qrencode/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	qrencode/tests/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	qrencode/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	qrencode/tests/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+log_filename	run-tests.php	/^	$log_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'log';$/;"	v
+log_format	run-tests.php	/^	$log_format = 'LEODS';$/;"	v
+log_format	run-tests.php	/^	$log_format = strtoupper(getenv('TEST_PHP_LOG_FORMAT'));$/;"	v
+logname	run-tests.php	/^	$logname  = realpath($logname);$/;"	v
+m1pat	qrencode/tests/test_qrencode.c	/^unsigned int m1pat[8][21] = {$/;"	v
+mail_qa_team	run-tests.php	/^function mail_qa_team($data, $compression, $status = false)$/;"	f
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	qrencode/qrenc.c	/^int main(int argc, char **argv)$/;"	f
+main	qrencode/tests/create_frame_pattern.c	/^int main(int argc, char **argv)$/;"	f
+main	qrencode/tests/create_mqr_frame_pattern.c	/^int main(int argc, char **argv)$/;"	f
+main	qrencode/tests/prof_qrencode.c	/^int main(void)$/;"	f
+main	qrencode/tests/pthread_qrencode.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_bitstream.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_estimatebit.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_mask.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_mmask.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_monkey.c	/^int main(int argc, char **argv)$/;"	f
+main	qrencode/tests/test_mqrspec.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_qrencode.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_qrinput.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_qrspec.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_rs.c	/^int main(void)$/;"	f
+main	qrencode/tests/test_split.c	/^int main(void)$/;"	f
+main	qrencode/tests/view_qrcode.c	/^int main(int argc, char **argv)$/;"	f
+main	qrencode/use/config.guess	/^		main()$/;"	f
+main	qrencode/use/config.guess	/^	main ()$/;"	f
+main	qrencode/use/config.guess	/^main ()$/;"	f
+main_file_name	run-tests.php	/^	$main_file_name = basename($file,'phpt');$/;"	v
+man1_MANS	qrencode/Makefile	/^man1_MANS = qrencode.1$/;"	m
+man1dir	qrencode/Makefile	/^man1dir = $(mandir)\/man1$/;"	m
+mandir	qrencode/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	qrencode/tests/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+margin	qrencode/qrenc.c	/^static int margin = -1;$/;"	v	file:
+margin	qrencode/tests/view_qrcode.c	/^static int margin = 4;$/;"	v	file:
+maskMakers	qrencode/mask.c	/^static MaskMaker *maskMakers[maskNum] = {$/;"	v	file:
+maskMakers	qrencode/mmask.c	/^static MaskMaker *maskMakers[maskNum] = {$/;"	v	file:
+maskNum	qrencode/mask.c	143;"	d	file:
+maskNum	qrencode/mmask.c	88;"	d	file:
+maskPatterns	qrencode/tests/test_mask.c	/^static char *maskPatterns[8] = {$/;"	v	file:
+maskPatterns	qrencode/tests/test_mmask.c	/^static char *maskPatterns[4] = {$/;"	v	file:
+matches	run-tests.php	/^							$matches = array();$/;"	v
+mem	run-tests.php	/^			$mem = "&nbsp;";$/;"	v
+mem	run-tests.php	/^			$mem = "<a href='$url'>leaks<\/a>";$/;"	v
+memcheck_filename	run-tests.php	/^	$memcheck_filename = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'mem';$/;"	v
+mergeAndCheckBStream	qrencode/tests/test_qrinput.c	/^int mergeAndCheckBStream(int mqr, QRencodeMode mode, char *data, char *correct)$/;"	f
+message	run-tests.php	/^				$message = !empty($m[1]) ? $m[1] : '';$/;"	v
+micro	qrencode/qrenc.c	/^static int micro = 0;$/;"	v	file:
+micro	qrencode/tests/view_qrcode.c	/^static int micro = 0;$/;"	v	file:
+mkdir_p	qrencode/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	qrencode/tests/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(top_srcdir)\/build\/shtool mkdir -p$/;"	m
+mkinstalldirs	qrencode/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	qrencode/tests/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mm	qrencode/rscode.c	/^	int mm;              \/* Bits per symbol *\/$/;"	m	struct:_RS	file:
+mode	qrencode/qrinput.h	/^	QRencodeMode mode;$/;"	m	struct:_QRinput_List
+mode	qrencode/tests/decoder.h	/^	QRencodeMode mode;$/;"	m	struct:_DataChunk
+modeStr	qrencode/tests/common.h	/^const char *modeStr[5] = {"nm", "an", "8", "kj", "st"};$/;"	v
+modnn	qrencode/rscode.c	/^static inline int modnn(RS *rs, int x){$/;"	f	file:
+module	mosaic.php	/^$module = 'mosaic';$/;"	v
+monkey_encode_8	qrencode/tests/test_monkey.c	/^void monkey_encode_8(int loop)$/;"	f
+monkey_encode_an	qrencode/tests/test_monkey.c	/^void monkey_encode_an(int loop)$/;"	f
+monkey_encode_kanji	qrencode/tests/test_monkey.c	/^void monkey_encode_kanji(int loop)$/;"	f
+monkey_split_8	qrencode/tests/test_monkey.c	/^void monkey_split_8(int loop)$/;"	f
+monkey_split_an	qrencode/tests/test_monkey.c	/^void monkey_split_an(int loop)$/;"	f
+monkey_split_kanji	qrencode/tests/test_monkey.c	/^void monkey_split_kanji(int loop)$/;"	f
+monkey_split_structure	qrencode/tests/test_monkey.c	/^void monkey_split_structure(int loop)$/;"	f
+mosaic	php_mosaic.h	/^PHP_MINFO_FUNCTION(mosaic);$/;"	v
+mosaic	php_mosaic.h	/^PHP_MINIT_FUNCTION(mosaic);$/;"	v
+mosaic	php_mosaic.h	/^PHP_MSHUTDOWN_FUNCTION(mosaic);$/;"	v
+mosaic	php_mosaic.h	/^PHP_RINIT_FUNCTION(mosaic);$/;"	v
+mosaic	php_mosaic.h	/^PHP_RSHUTDOWN_FUNCTION(mosaic);$/;"	v
+mosaic_functions	mosaic.c	/^const zend_function_entry mosaic_functions[] = {$/;"	v
+mosaic_module_entry	mosaic.c	/^zend_module_entry mosaic_module_entry = {$/;"	v
+mqr	qrencode/qrencode.c	/^	int mqr;$/;"	m	struct:__anon8	file:
+mqr	qrencode/qrinput.h	/^	int mqr;$/;"	m	struct:_QRinput
+mqr	qrencode/tests/decoder.c	/^	int mqr;$/;"	m	struct:__anon11	file:
+mqr	qrencode/tests/decoder.h	/^	int mqr;$/;"	m	struct:__anon10
+mqrspecCapacity	qrencode/mqrspec.c	/^static const MQRspec_Capacity mqrspecCapacity[MQRSPEC_VERSION_MAX + 1] = {$/;"	v	file:
+n	run-tests.php	/^		$n = @stream_select($r, $w, $e, $timeout);$/;"	v
+n_total	run-tests.php	/^	$n_total = count($test_results);$/;"	v
+name	run-tests.php	/^				$name = $name[0];$/;"	v
+name	run-tests.php	/^			$name = trim($setting[0]);$/;"	v
+name	run-tests.php	/^	foreach($ini_settings as $name => $value) {$/;"	v
+ncmpBin	qrencode/tests/common.h	/^int ncmpBin(char *correct, BitStream *bstream, int len)$/;"	f
+next	qrencode/qrencode.h	/^	QRcode_List *next;$/;"	m	struct:_QRcode_List
+next	qrencode/qrinput.h	/^	QRinput_InputList *next;$/;"	m	struct:_QRinput_InputList
+next	qrencode/qrinput.h	/^	QRinput_List *next;$/;"	m	struct:_QRinput_List
+next	qrencode/rscode.c	/^	struct _RS *next;$/;"	m	struct:_RS	typeref:struct:_RS::_RS	file:
+next	qrencode/tests/decoder.h	/^	struct _DataChunk *next;$/;"	m	struct:_DataChunk	typeref:struct:_DataChunk::_DataChunk
+nn	qrencode/rscode.c	/^	int nn;              \/* Symbols per block (= (1<<mm)-1) *\/$/;"	m	struct:_RS	file:
+no_clean	run-tests.php	/^					$no_clean = true;$/;"	v
+no_clean	run-tests.php	/^$no_clean = false;$/;"	v
+noinst_HEADERS	qrencode/tests/Makefile	/^noinst_HEADERS = common.h$/;"	m
+noinst_LIBRARIES	qrencode/tests/Makefile	/^noinst_LIBRARIES = libdecoder.a$/;"	m
+noinst_PROGRAMS	qrencode/tests/Makefile	/^noinst_PROGRAMS = test_qrinput$(EXEEXT) test_bitstream$(EXEEXT) \\$/;"	m
+nroots	qrencode/rscode.c	/^	int nroots;     \/* Number of generator roots = number of parity symbols *\/$/;"	m	struct:_RS	file:
+o	run-tests.php	/^	$o = explode("\\n", $output);$/;"	v
+o	run-tests.php	/^	$o = opendir($dir) or error("cannot open directory: $dir");$/;"	v
+oddbits	qrencode/qrencode.c	/^	int oddbits;$/;"	m	struct:__anon7	file:
+oddbits	qrencode/qrencode_inner.h	/^	int oddbits;$/;"	m	struct:__anon3
+old1	run-tests.php	/^	$old1 = array();$/;"	v
+old2	run-tests.php	/^	$old2 = array();$/;"	v
+old_php	run-tests.php	/^				$old_php = $php;$/;"	v
+old_php	run-tests.php	/^			$old_php = $php;$/;"	v
+oldincludedir	qrencode/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	qrencode/tests/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+openFile	qrencode/qrenc.c	/^static FILE *openFile(const char *outfile)$/;"	f	file:
+optionals	run-tests.php	/^$optionals = array('tests', 'ext', 'Zend', 'ZendEngine2', 'sapi\/cli', 'sapi\/cgi');$/;"	v
+options	qrencode/qrenc.c	/^static const struct option options[] = {$/;"	v	typeref:struct:option	file:
+options	qrencode/tests/view_qrcode.c	/^static const struct option options[] = {$/;"	v	typeref:struct:option	file:
+optstring	qrencode/qrenc.c	/^static char *optstring = "ho:l:s:v:m:d:t:Skci8MV";$/;"	v	file:
+optstring	qrencode/tests/view_qrcode.c	/^static char *optstring = "hl:s:v:m:Skci8MV";$/;"	v	file:
+org_file	run-tests.php	/^	$org_file = $file;$/;"	v
+org_headers	run-tests.php	/^		$org_headers = $headers;$/;"	v
+out	run-tests.php	/^	$out = system_with_timeout($cmd, $env, isset($section_text['STDIN']) ? $section_text['STDIN'] : null);$/;"	v
+output	run-tests.php	/^			$output = system_with_timeout("$extra $php $pass_options -q $ini_settings -d display_errors=0 \\"$test_skipif\\"", $env);$/;"	v
+output	run-tests.php	/^		$output = $output_headers . "\\n--HEADERS--\\n" . $output;$/;"	v
+output	run-tests.php	/^		$output = trim($match[2]);$/;"	v
+output	run-tests.php	/^	$output = preg_replace("\/\\r\\n\/", "\\n", trim($out));$/;"	v
+output_file	run-tests.php	/^					$output_file = $argv[++$i];$/;"	v
+output_file	run-tests.php	/^	$output_file = 'compress.zlib:\/\/' . $output_file . '.gz';$/;"	v
+output_file	run-tests.php	/^$output_file = $CUR_DIR . '\/php_test_results_' . date('Ymd_Hi') . '.txt';$/;"	v
+output_filename	run-tests.php	/^	$output_filename   = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'out';$/;"	v
+output_headers	run-tests.php	/^		$output_headers = array();$/;"	v
+output_headers	run-tests.php	/^		$output_headers = join("\\n", $output_headers);$/;"	v
+output_type	run-tests.php	/^		$output_type = $type . 'ED';$/;"	v
+output_type	run-tests.php	/^		$output_type = $type[0] . 'ED';$/;"	v
+pad	qrencode/rscode.c	/^	int pad;        \/* Padding bytes in shortened block *\/$/;"	m	struct:_RS	file:
+parity	qrencode/qrinput.h	/^	int parity;$/;"	m	struct:_QRinput_Struct
+pass_option_n	run-tests.php	/^					$pass_option_n = true;$/;"	v
+pass_option_n	run-tests.php	/^$pass_option_n = false;$/;"	v
+pass_options	run-tests.php	/^$pass_options = '';$/;"	v
+passed	run-tests.php	/^			$passed = true;$/;"	v
+passed	run-tests.php	/^		$passed = false;$/;"	v
+passed	run-tests.php	/^	$passed = false;$/;"	v
+path	run-tests.php	/^		$path = $url_bits['host'].$url_bits['path'];$/;"	v
+path	run-tests.php	/^		$path = $url_bits['path'];$/;"	v
+pattern_match	run-tests.php	/^					$pattern_match = glob($argv[$i] . '.phpt');$/;"	v
+pattern_match	run-tests.php	/^					$pattern_match = glob($argv[$i]);$/;"	v
+pdfdir	qrencode/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	qrencode/tests/Makefile	/^pdfdir = ${docdir}$/;"	m
+percent_results	run-tests.php	/^	$percent_results = array();$/;"	v
+php	run-tests.php	/^					$php = $argv[++$i];$/;"	v
+php	run-tests.php	/^					$php = $old_php;$/;"	v
+php	run-tests.php	/^				$php = $old_php;$/;"	v
+php	run-tests.php	/^				$php = realpath(".\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^				$php = realpath(dirname($php) . "\/..\/..\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^				$php = realpath(dirname($php) . "\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^			$php = $php_cgi . ' -C ';$/;"	v
+php	run-tests.php	/^			$php = realpath(dirname($php) . "\/php-cgi.exe") . ' -C ';$/;"	v
+php	run-tests.php	/^		$php = $cwd . '\/sapi\/cli\/php';$/;"	v
+php	run-tests.php	/^		$php = $old_php;$/;"	v
+php	run-tests.php	/^	$php = getenv('TEST_PHP_EXECUTABLE');$/;"	v
+php	run-tests.php	/^$php = null;$/;"	v
+php_cgi	run-tests.php	/^				$php_cgi = null;$/;"	v
+php_cgi	run-tests.php	/^			$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	run-tests.php	/^		$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	run-tests.php	/^		$php_cgi = $env['TEST_PHP_CGI_EXECUTABLE'];$/;"	v
+php_cgi	run-tests.php	/^	$php_cgi = getenv('TEST_PHP_CGI_EXECUTABLE');$/;"	v
+php_cgi	run-tests.php	/^$php_cgi = null;$/;"	v
+php_cgi_info	run-tests.php	/^		$php_cgi_info = "$php_info_sep\\nPHP         : $php_cgi $php_info_cgi$php_info_sep";$/;"	v
+php_cgi_info	run-tests.php	/^		$php_cgi_info = '';$/;"	v
+php_info	run-tests.php	/^	$php_info = '<?php echo "$/;"	v
+php_info	run-tests.php	/^	$php_info = `$php $pass_options $info_params "$info_file"`;$/;"	v
+php_info_cgi	run-tests.php	/^		$php_info_cgi = `$php_cgi $pass_options $info_params -q "$info_file"`;$/;"	v
+php_info_sep	run-tests.php	/^		$php_info_sep = "\\n---------------------------------------------------------------------";$/;"	v
+php_version	run-tests.php	/^	$php_version = urlencode(TESTED_PHP_VERSION);$/;"	v
+phpext_mosaic_ptr	php_mosaic.h	25;"	d
+phpincludedir	Makefile	/^phpincludedir = \/usr\/lib\/php5.4\/include\/php$/;"	m
+phplibdir	Makefile	/^phplibdir = \/root\/mosaic\/modules$/;"	m
+pkgconfig_DATA	qrencode/Makefile	/^pkgconfig_DATA = libqrencode.pc$/;"	m
+pkgconfigdir	qrencode/Makefile	/^pkgconfigdir = $(libdir)\/pkgconfig$/;"	m
+pkgdatadir	qrencode/Makefile	/^pkgdatadir = $(datadir)\/qrencode$/;"	m
+pkgdatadir	qrencode/tests/Makefile	/^pkgdatadir = $(datadir)\/qrencode$/;"	m
+pkgincludedir	qrencode/Makefile	/^pkgincludedir = $(includedir)\/qrencode$/;"	m
+pkgincludedir	qrencode/tests/Makefile	/^pkgincludedir = $(includedir)\/qrencode$/;"	m
+pkglibdir	qrencode/Makefile	/^pkglibdir = $(libdir)\/qrencode$/;"	m
+pkglibdir	qrencode/tests/Makefile	/^pkglibdir = $(libdir)\/qrencode$/;"	m
+pkglibexecdir	qrencode/Makefile	/^pkglibexecdir = $(libexecdir)\/qrencode$/;"	m
+pkglibexecdir	qrencode/tests/Makefile	/^pkglibexecdir = $(libexecdir)\/qrencode$/;"	m
+png_CFLAGS	qrencode/Makefile	/^png_CFLAGS = -I\/usr\/include\/libpng15  $/;"	m
+png_CFLAGS	qrencode/tests/Makefile	/^png_CFLAGS = -I\/usr\/include\/libpng15  $/;"	m
+png_LIBS	qrencode/Makefile	/^png_LIBS = -lpng15  $/;"	m
+png_LIBS	qrencode/tests/Makefile	/^png_LIBS = -lpng15  $/;"	m
+port	run-tests.php	/^		$port = $proxy['port'];$/;"	v
+port	run-tests.php	/^		$port = empty($url_bits['port']) ? 80 : $port = $url_bits['port'];$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['POST']);$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['POST_RAW']);$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['PUT']);$/;"	v
+post	run-tests.php	/^        $post = gzcompress($post, 9);$/;"	v
+post	run-tests.php	/^        $post = gzencode($post, 9, FORCE_GZIP);$/;"	v
+post	run-tests.php	/^        $post = trim($section_text['DEFLATE_POST']);$/;"	v
+post	run-tests.php	/^        $post = trim($section_text['GZIP_POST']);$/;"	v
+prefix	Makefile	/^prefix = \/usr\/lib\/php5.4$/;"	m
+prefix	qrencode/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	qrencode/tests/Makefile	/^prefix = \/usr\/local$/;"	m
+prim	qrencode/rscode.c	/^	int prim;       \/* Primitive element, index form *\/$/;"	m	struct:_RS	file:
+printBits	qrencode/tests/decoder.c	/^static void printBits(int length, unsigned char *bits)$/;"	f	file:
+printBstream	qrencode/tests/common.h	/^void printBstream(BitStream *bstream)$/;"	f
+printFrame	qrencode/tests/common.h	/^void printFrame(int width, unsigned char *frame)$/;"	f
+printQRcode	qrencode/tests/common.h	/^void printQRcode(QRcode *code)$/;"	f
+printQRinput	qrencode/tests/common.h	/^void printQRinput(QRinput *input)$/;"	f
+printQRinputInfo	qrencode/tests/common.h	/^void printQRinputInfo(QRinput *input)$/;"	f
+print_01234567	qrencode/tests/test_qrencode.c	/^void print_01234567(void)$/;"	f
+print_eccTable	qrencode/tests/test_qrspec.c	/^void print_eccTable(void)$/;"	f
+print_filler	qrencode/tests/test_qrencode.c	/^void print_filler(void)$/;"	f
+print_fillerMQR	qrencode/tests/test_qrencode.c	/^void print_fillerMQR(void)$/;"	f
+print_format	qrencode/tests/test_mqrspec.c	/^void print_format(void)$/;"	f
+print_mask	qrencode/tests/test_mask.c	/^void print_mask(int mask)$/;"	f
+print_mask	qrencode/tests/test_mmask.c	/^void print_mask(int mask)$/;"	f
+print_masks	qrencode/tests/test_mask.c	/^void print_masks(void)$/;"	f
+print_masks	qrencode/tests/test_mmask.c	/^void print_masks(void)$/;"	f
+print_newFrame	qrencode/tests/test_qrspec.c	/^void print_newFrame(void)$/;"	f
+proc	run-tests.php	/^	$proc = proc_open($commandline, array($/;"	v
+prof_qrencode_DEPENDENCIES	qrencode/tests/Makefile	/^prof_qrencode_DEPENDENCIES = ..\/libqrencode.la$/;"	m
+prof_qrencode_LDADD	qrencode/tests/Makefile	/^prof_qrencode_LDADD = ..\/libqrencode.la$/;"	m
+prof_qrencode_OBJECTS	qrencode/tests/Makefile	/^prof_qrencode_OBJECTS = $(am_prof_qrencode_OBJECTS)$/;"	m
+prof_qrencode_SOURCES	qrencode/tests/Makefile	/^prof_qrencode_SOURCES = prof_qrencode.c$/;"	m
+prof_ver1to10	qrencode/tests/prof_qrencode.c	/^void prof_ver1to10(void)$/;"	f
+prof_ver1to10	qrencode/tests/pthread_qrencode.c	/^void prof_ver1to10(void)$/;"	f
+prof_ver31to40	qrencode/tests/prof_qrencode.c	/^void prof_ver31to40(void)$/;"	f
+prof_ver31to40	qrencode/tests/pthread_qrencode.c	/^void prof_ver31to40(void)$/;"	f
+program_transform_name	qrencode/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	qrencode/tests/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+prototypes	qrencode/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+proxy	run-tests.php	/^		$proxy = parse_url($proxy);$/;"	v
+psdir	qrencode/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	qrencode/tests/Makefile	/^psdir = ${docdir}$/;"	m
+pthread_qrencode_DEPENDENCIES	qrencode/tests/Makefile	/^pthread_qrencode_DEPENDENCIES = ..\/libqrencode.la \\$/;"	m
+pthread_qrencode_LDADD	qrencode/tests/Makefile	/^pthread_qrencode_LDADD = ..\/libqrencode.la $(LIBPTHREAD)$/;"	m
+pthread_qrencode_OBJECTS	qrencode/tests/Makefile	/^pthread_qrencode_OBJECTS = $(am_pthread_qrencode_OBJECTS)$/;"	m
+pthread_qrencode_SOURCES	qrencode/tests/Makefile	/^pthread_qrencode_SOURCES = pthread_qrencode.c$/;"	m
+putFinderPattern	qrencode/mqrspec.c	/^static void putFinderPattern(unsigned char *frame, int width, int ox, int oy)$/;"	f	file:
+putFinderPattern	qrencode/qrspec.c	/^static void putFinderPattern(unsigned char *frame, int width, int ox, int oy)$/;"	f	file:
+qr_encode	php_mosaic.h	/^PHP_FUNCTION(qr_encode);$/;"	v
+qrencode	qrencode/qrenc.c	/^static void qrencode(const unsigned char *intext, int length, const char *outfile)$/;"	f	file:
+qrencodeStructured	qrencode/qrenc.c	/^static void qrencodeStructured(const unsigned char *intext, int length, const char *outfile)$/;"	f	file:
+qrencode_CFLAGS	qrencode/Makefile	/^qrencode_CFLAGS = $(png_CFLAGS)$/;"	m
+qrencode_DEPENDENCIES	qrencode/Makefile	/^qrencode_DEPENDENCIES = libqrencode.la \\$/;"	m
+qrencode_LDADD	qrencode/Makefile	/^qrencode_LDADD = libqrencode.la $(png_LIBS)$/;"	m
+qrencode_LINK	qrencode/Makefile	/^qrencode_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+qrencode_OBJECTS	qrencode/Makefile	/^qrencode_OBJECTS = $(am_qrencode_OBJECTS)$/;"	m
+qrencode_SOURCES	qrencode/Makefile	/^qrencode_SOURCES = qrenc.c$/;"	m
+qrspecCapacity	qrencode/qrspec.c	/^static const QRspec_Capacity qrspecCapacity[QRSPEC_VERSION_MAX + 1] = {$/;"	v	file:
+query_string	run-tests.php	/^		$query_string = '';$/;"	v
+query_string	run-tests.php	/^		$query_string = trim($section_text['GET']);$/;"	v
+r	run-tests.php	/^			$r = "%r";$/;"	v
+r	run-tests.php	/^		$r = $pipes;$/;"	v
+r	run-tests.php	/^	$r = is_null($wanted_re) ? $w : explode("\\n", $wanted_re);$/;"	v
+raw_lines	run-tests.php	/^		$raw_lines = explode("\\n", $post);$/;"	v
+readStdin	qrencode/qrenc.c	/^static unsigned char *readStdin(int *length)$/;"	f	file:
+readStdin	qrencode/tests/view_qrcode.c	/^static unsigned char *readStdin(int *length)$/;"	f	file:
+redir_tested	run-tests.php	/^function run_all_tests($test_files, $env, $redir_tested = null)$/;"	v
+redir_tests	run-tests.php	/^$redir_tests = array();$/;"	v
+redirenv	run-tests.php	/^			$redirenv = array_merge($environment, $IN_REDIRECT['ENV']);$/;"	v
+remainder	qrencode/qrspec.c	/^	int remainder; \/\/< Remainder bit (bits)$/;"	m	struct:__anon9	file:
+repeat	run-tests.php	/^						$repeat = true;$/;"	v
+repeat	run-tests.php	/^			$repeat = false;$/;"	v
+repeat	run-tests.php	/^		$repeat = substr($argv[$i],0,1) == '-';$/;"	v
+replace_count	run-tests.php	/^					$replace_count = 0;$/;"	v
+report	qrencode/tests/common.h	/^void report()$/;"	f
+request	run-tests.php	/^		$request = '';$/;"	v
+result	run-tests.php	/^			if ($failed_tests_file && ($result == 'XFAILED' || $result == 'FAILED' || $result == 'WARNED' || $result == 'LEAKED')) {$/;"	v
+result	run-tests.php	/^		$result = run_test($php, $name, $env);$/;"	v
+result	run-tests.php	/^    $result = sprintf($/;"	v
+rh	run-tests.php	/^		$rh = preg_split("\/[\\n\\r]+\/", $match[1]);$/;"	v
+rsblock	qrencode/qrencode.c	/^	RSblock *rsblock;$/;"	m	struct:__anon6	file:
+rsblock	qrencode/qrencode.c	/^	RSblock *rsblock;$/;"	m	struct:__anon7	file:
+rsblock	qrencode/qrencode_inner.h	/^	RSblock *rsblock;$/;"	m	struct:__anon2
+rsblock	qrencode/qrencode_inner.h	/^	RSblock *rsblock;$/;"	m	struct:__anon3
+rslist	qrencode/rscode.c	/^static RS *rslist = NULL;$/;"	v	file:
+rslist_mutex	qrencode/rscode.c	/^static pthread_mutex_t rslist_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+run_all_tests	run-tests.php	/^function run_all_tests($test_files, $env, $redir_tested = null)$/;"	f
+run_test	run-tests.php	/^function run_test($php, $file, $env)$/;"	f
+save_or_mail_results	run-tests.php	/^function save_or_mail_results()$/;"	f
+save_text	run-tests.php	/^function save_text($filename, $text, $filename_copy = null)$/;"	f
+sbindir	qrencode/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	qrencode/tests/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+screen	qrencode/tests/view_qrcode.c	/^static SDL_Surface *screen = NULL;$/;"	v	file:
+secdone	run-tests.php	/^			$secdone = false;$/;"	v
+secdone	run-tests.php	/^			$secdone = true;$/;"	v
+secdone	run-tests.php	/^	$secdone = false;$/;"	v
+secfile	run-tests.php	/^			$secfile = $section == 'FILE' || $section == 'FILEEOF' || $section == 'FILE_EXTERNAL';$/;"	v
+secfile	run-tests.php	/^	$secfile = false;$/;"	v
+section	run-tests.php	/^			$section = $r[1];$/;"	v
+section	run-tests.php	/^			$section = strtoupper($file);$/;"	v
+section	run-tests.php	/^	$section = 'TEST';$/;"	v
+section	run-tests.php	/^function show_file_block($file, $block, $section = null)$/;"	v
+section_text	run-tests.php	/^	$section_text = array('TEST' => '');$/;"	v
+sep	run-tests.php	/^			$sep = "\\n" . str_repeat('=', 80) . "\\n";$/;"	v
+setting	run-tests.php	/^			$setting = explode("=", $setting, 2);$/;"	v
+settings	run-tests.php	/^	$settings = '';$/;"	v
+settings2array	run-tests.php	/^function settings2array($settings, &$ini_settings)$/;"	f
+settings2params	run-tests.php	/^function settings2params(&$ini_settings)$/;"	f
+sh_filename	run-tests.php	/^	$sh_filename       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'sh';$/;"	v
+shared_objects_mosaic	Makefile	/^shared_objects_mosaic = mosaic.lo qrencode\/qrencode.lo$/;"	m
+sharedstatedir	qrencode/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	qrencode/tests/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+shortname	run-tests.php	/^	$shortname = str_replace($cwd . '\/', '', $file);$/;"	v
+show_end	run-tests.php	/^function show_end($end_time)$/;"	f
+show_file_block	run-tests.php	/^function show_file_block($file, $block, $section = null)$/;"	f
+show_redirect_ends	run-tests.php	/^function show_redirect_ends($tests, $tested, $tested_file)$/;"	f
+show_redirect_start	run-tests.php	/^function show_redirect_start($tests, $tested, $tested_file)$/;"	f
+show_result	run-tests.php	/^function show_result($result, $tested, $tested_file, $extra = '', $temp_filenames = null)$/;"	f
+show_start	run-tests.php	/^function show_start($start_time)$/;"	f
+show_summary	run-tests.php	/^function show_summary()$/;"	f
+show_test	run-tests.php	/^function show_test($test_idx, $shortname)$/;"	f
+shtool_exit	build/shtool	/^shtool_exit () {$/;"	f
+size	qrencode/qrenc.c	/^static int size = 3;$/;"	v	file:
+size	qrencode/qrinput.h	/^	int size;					\/\/\/< number of structured symbols$/;"	m	struct:_QRinput_Struct
+size	qrencode/qrinput.h	/^	int size;				\/\/\/< Size of data chunk (byte).$/;"	m	struct:_QRinput_List
+size	qrencode/tests/decoder.h	/^	int size;$/;"	m	struct:_DataChunk
+size	qrencode/tests/decoder.h	/^	int size;$/;"	m	struct:__anon10
+size	qrencode/tests/view_qrcode.c	/^static int size = 4;$/;"	v	file:
+skip_ext	run-tests.php	/^			$skip_ext = ($is_ext_dir && !in_array(strtolower($name), $exts_to_test));$/;"	v
+srcdir	Makefile	/^srcdir = \/root\/mosaic$/;"	m
+srcdir	qrencode/Makefile	/^srcdir = .$/;"	m
+srcdir	qrencode/tests/Makefile	/^srcdir = .$/;"	m
+st	run-tests.php	/^		$st = $steps \/ 2;$/;"	v
+st	run-tests.php	/^		$st = $steps;$/;"	v
+start	run-tests.php	/^					$start = $end = $length;$/;"	v
+start	run-tests.php	/^				$start = strpos($wanted_re, $r, $startOffset);$/;"	v
+start	run-tests.php	/^	$start = $JUNIT['files'][$file_name]['start'];$/;"	v
+startOffset	run-tests.php	/^				$startOffset = $end + 2;$/;"	v
+startOffset	run-tests.php	/^			$startOffset = 0;$/;"	v
+start_time	run-tests.php	/^		$start_time = time();$/;"	v
+start_time	run-tests.php	/^$start_time = time();$/;"	v
+started	run-tests.php	/^			$started = true;$/;"	v
+started	run-tests.php	/^		$started = false;$/;"	v
+stat	run-tests.php	/^	$stat = proc_get_status($proc);$/;"	v
+status	run-tests.php	/^				$status = "failed";$/;"	v
+status	run-tests.php	/^				$status = "success";$/;"	v
+status	run-tests.php	/^function mail_qa_team($data, $compression, $status = false)$/;"	v
+str	mosaic.php	/^	$str = "Module $module is not compiled into PHP";$/;"	v
+str	mosaic.php	/^	$str = $function($module);$/;"	v
+str	run-tests.php	/^	$str = "TEST $test_idx\/$test_cnt [$shortname]\\r";$/;"	v
+strdup	qrencode/split.c	/^char *strdup(const char *s)$/;"	f
+strdup	qrencode/split.c	43;"	d	file:
+structured	qrencode/qrenc.c	/^static int structured = 0;$/;"	v	file:
+structured	qrencode/tests/view_qrcode.c	/^static int structured = 0;$/;"	v	file:
+subdir	qrencode/Makefile	/^subdir = .$/;"	m
+subdir	qrencode/tests/Makefile	/^subdir = tests$/;"	m
+suite	run-tests.php	/^		$suite = junit_get_suitename_for($file_name);$/;"	v
+suite	run-tests.php	/^	$suite = $suite_name ? $JUNIT['suites'][$suite_name] : $JUNIT;$/;"	v
+suite	run-tests.php	/^	$suite = junit_get_suitename_for($file_name);$/;"	v
+sum_results	run-tests.php	/^	$sum_results = array($/;"	v
+summary	run-tests.php	/^	$summary = '';$/;"	v
+switch	run-tests.php	/^					$switch = $argv[$i];$/;"	v
+switch	run-tests.php	/^				$switch = substr($argv[$i],1,1);$/;"	v
+switch	run-tests.php	/^		$switch = substr($argv[$i],1,1);$/;"	v
+sys_libtool	run-tests.php	/^					$sys_libtool = shell_exec(str_replace("\\n", "", $sys_libtool_path) . ' --version');$/;"	v
+sys_libtool_path	run-tests.php	/^				$sys_libtool_path = shell_exec(__DIR__ . '\/build\/shtool path glibtool libtool');$/;"	v
+sysconfdir	qrencode/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	qrencode/tests/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+system_with_timeout	run-tests.php	/^function system_with_timeout($commandline, $env = null, $stdin = null)$/;"	f
+ta	run-tests.php	/^	$ta = strpos($a, "{$cwd}\/tests") === 0 ? 1 + (strpos($a, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+tail	qrencode/qrinput.h	/^	QRinput_InputList *tail;$/;"	m	struct:_QRinput_Struct
+tail	qrencode/qrinput.h	/^	QRinput_List *tail;$/;"	m	struct:_QRinput
+tardir	qrencode/Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	qrencode/Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	qrencode/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	qrencode/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+tardir	qrencode/Makefile	/^	tardir=$(distdir) && $(am__tar) | xz -c >$(distdir).tar.xz$/;"	m
+target	qrencode/Makefile	/^target = i686-pc-linux-gnu$/;"	m
+target	qrencode/tests/Makefile	/^target = i686-pc-linux-gnu$/;"	m
+target_alias	qrencode/Makefile	/^target_alias = $/;"	m
+target_alias	qrencode/tests/Makefile	/^target_alias = $/;"	m
+target_cpu	qrencode/Makefile	/^target_cpu = i686$/;"	m
+target_cpu	qrencode/tests/Makefile	/^target_cpu = i686$/;"	m
+target_os	qrencode/Makefile	/^target_os = linux-gnu$/;"	m
+target_os	qrencode/tests/Makefile	/^target_os = linux-gnu$/;"	m
+target_triplet	qrencode/Makefile	/^target_triplet = i686-pc-linux-gnu$/;"	m
+target_triplet	qrencode/tests/Makefile	/^target_triplet = i686-pc-linux-gnu$/;"	m
+target_vendor	qrencode/Makefile	/^target_vendor = pc$/;"	m
+target_vendor	qrencode/tests/Makefile	/^target_vendor = pc$/;"	m
+tb	run-tests.php	/^	$tb = strpos($b, "{$cwd}\/tests") === 0 ? 1 + (strpos($b, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+temp	run-tests.php	/^					$temp = $temp . '(' . substr($wanted_re, $start+2, ($end - $start-2)). ')';$/;"	v
+temp	run-tests.php	/^				$temp = $temp . preg_quote(substr($wanted_re, $startOffset, ($start - $startOffset)),  '\/');$/;"	v
+temp	run-tests.php	/^			$temp = "";$/;"	v
+temp	run-tests.php	/^		$temp = array_intersect(array('XFAIL', 'FAIL'), $type);$/;"	v
+temp_clean	run-tests.php	/^	$temp_clean        = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = $test_dir = $IN_REDIRECT['dir'];$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = $test_dir = realpath(dirname($file));$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = str_replace($temp_source, $temp_target, $temp_dir);$/;"	v
+temp_file	run-tests.php	/^	$temp_file         = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+temp_filenames	run-tests.php	/^		$temp_filenames = array($/;"	v
+temp_filenames	run-tests.php	/^	$temp_filenames = null;$/;"	v
+temp_skipif	run-tests.php	/^	$temp_skipif       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+temp_source	run-tests.php	/^					$temp_source = $argv[++$i];$/;"	v
+temp_source	run-tests.php	/^$temp_source = null;$/;"	v
+temp_target	run-tests.php	/^					$temp_target = $argv[++$i];$/;"	v
+temp_target	run-tests.php	/^$temp_target = null;$/;"	v
+temp_urlbase	run-tests.php	/^						$temp_urlbase = $temp_target;$/;"	v
+temp_urlbase	run-tests.php	/^					$temp_urlbase = $argv[++$i];$/;"	v
+temp_urlbase	run-tests.php	/^$temp_urlbase = null;$/;"	v
+testEnd	qrencode/tests/common.h	/^void testEnd(int result)$/;"	f
+testEndExp	qrencode/tests/common.h	16;"	d
+testFinish	qrencode/tests/common.h	/^void testFinish(void)$/;"	f
+testFunc	qrencode/tests/common.h	/^static const char *testFunc = NULL;$/;"	v
+testName	qrencode/tests/common.h	/^static const char *testName = NULL;$/;"	v
+testStart	qrencode/tests/common.h	15;"	d
+testStartReal	qrencode/tests/common.h	/^void testStartReal(const char *func, const char *name)$/;"	f
+test_01234567	qrencode/tests/test_qrencode.c	/^void test_01234567(void)$/;"	f
+test_8	qrencode/tests/test_estimatebit.c	/^void test_8(void)$/;"	f
+test_ECIinvalid	qrencode/tests/test_qrinput.c	/^void test_ECIinvalid(void)$/;"	f
+test_an	qrencode/tests/test_estimatebit.c	/^void test_an(void)$/;"	f
+test_apiversion	qrencode/tests/test_qrencode.c	/^void test_apiversion(void)$/;"	f
+test_appendBytes	qrencode/tests/test_bitstream.c	/^void test_appendBytes(void)$/;"	f
+test_appendNum	qrencode/tests/test_bitstream.c	/^void test_appendNum(void)$/;"	f
+test_bitstream_DEPENDENCIES	qrencode/tests/Makefile	/^test_bitstream_DEPENDENCIES = ..\/libqrencode.la$/;"	m
+test_bitstream_LDADD	qrencode/tests/Makefile	/^test_bitstream_LDADD = ..\/libqrencode.la$/;"	m
+test_bitstream_OBJECTS	qrencode/tests/Makefile	/^test_bitstream_OBJECTS = $(am_test_bitstream_OBJECTS)$/;"	m
+test_bitstream_SOURCES	qrencode/tests/Makefile	/^test_bitstream_SOURCES = test_bitstream.c$/;"	m
+test_bytes	qrencode/tests/test_bitstream.c	/^void test_bytes(void)$/;"	f
+test_calcN1N3	qrencode/tests/test_mask.c	/^void test_calcN1N3(void)$/;"	f
+test_calcN2	qrencode/tests/test_mask.c	/^void test_calcN2(void)$/;"	f
+test_calcRunLength	qrencode/tests/test_mask.c	/^void test_calcRunLength(void)$/;"	f
+test_clean	run-tests.php	/^	$test_clean        = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+test_cnt	run-tests.php	/^	$test_cnt = count($test_files);$/;"	v
+test_cnt	run-tests.php	/^$test_cnt = count($test_files);$/;"	v
+test_dataLength	qrencode/tests/test_mqrspec.c	/^void test_dataLength(void)$/;"	f
+test_decodeLong	qrencode/tests/test_qrencode.c	/^void test_decodeLong(void)$/;"	f
+test_decodeShortMQR	qrencode/tests/test_qrencode.c	/^void test_decodeShortMQR(void)$/;"	f
+test_decodeSimple	qrencode/tests/test_qrencode.c	/^void test_decodeSimple(void)$/;"	f
+test_decodeVeryLong	qrencode/tests/test_qrencode.c	/^void test_decodeVeryLong(void)$/;"	f
+test_dirs	run-tests.php	/^$test_dirs = array();$/;"	v
+test_eccTable	qrencode/tests/test_qrspec.c	/^void test_eccTable(void)$/;"	f
+test_eccTable2	qrencode/tests/test_qrspec.c	/^void test_eccTable2(void)$/;"	f
+test_encode	qrencode/tests/test_qrencode.c	/^void test_encode(void)$/;"	f
+test_encode2	qrencode/tests/test_qrencode.c	/^void test_encode2(void)$/;"	f
+test_encode3	qrencode/tests/test_qrencode.c	/^void test_encode3(void)$/;"	f
+test_encode8	qrencode/tests/test_qrinput.c	/^void test_encode8(void)$/;"	f
+test_encode8_versionup	qrencode/tests/test_qrinput.c	/^void test_encode8_versionup(void)$/;"	f
+test_encodeAn	qrencode/tests/test_qrinput.c	/^void test_encodeAn(void)$/;"	f
+test_encodeAn2	qrencode/tests/test_qrinput.c	/^void test_encodeAn2(void)$/;"	f
+test_encodeAnNum	qrencode/tests/test_qrinput.c	/^void test_encodeAnNum(void)$/;"	f
+test_encodeData	qrencode/tests/test_qrencode.c	/^void test_encodeData(void)$/;"	f
+test_encodeECI	qrencode/tests/test_qrinput.c	/^void test_encodeECI(void)$/;"	f
+test_encodeEmpty	qrencode/tests/test_qrencode.c	/^void test_encodeEmpty(void)$/;"	f
+test_encodeEmpty8	qrencode/tests/test_qrencode.c	/^void test_encodeEmpty8(void)$/;"	f
+test_encodeKanji	qrencode/tests/test_qrinput.c	/^void test_encodeKanji(void)$/;"	f
+test_encodeNull	qrencode/tests/test_qrencode.c	/^void test_encodeNull(void)$/;"	f
+test_encodeNull8	qrencode/tests/test_qrencode.c	/^void test_encodeNull8(void)$/;"	f
+test_encodeNumeric	qrencode/tests/test_qrinput.c	/^void test_encodeNumeric(void)$/;"	f
+test_encodeNumeric2	qrencode/tests/test_qrinput.c	/^void test_encodeNumeric2(void)$/;"	f
+test_encodeNumeric3	qrencode/tests/test_qrinput.c	/^void test_encodeNumeric3(void)$/;"	f
+test_encodeNumericPadded	qrencode/tests/test_qrinput.c	/^void test_encodeNumericPadded(void)$/;"	f
+test_encodeNumericPadded2	qrencode/tests/test_qrinput.c	/^void test_encodeNumericPadded2(void)$/;"	f
+test_encodeNumeric_versionup	qrencode/tests/test_qrinput.c	/^void test_encodeNumeric_versionup(void)$/;"	f
+test_encodeTooLong	qrencode/tests/test_qrencode.c	/^void test_encodeTooLong(void)$/;"	f
+test_encodeTooLong	qrencode/tests/test_qrinput.c	/^void test_encodeTooLong(void)$/;"	f
+test_encodeTooLongMQR	qrencode/tests/test_qrencode.c	/^void test_encodeTooLongMQR(void)$/;"	f
+test_encode_8	qrencode/tests/test_monkey.c	/^void test_encode_8(int num)$/;"	f
+test_encode_an	qrencode/tests/test_monkey.c	/^void test_encode_an(int num)$/;"	f
+test_encode_kanji	qrencode/tests/test_monkey.c	/^void test_encode_kanji(int num)$/;"	f
+test_estimatebit_DEPENDENCIES	qrencode/tests/Makefile	/^test_estimatebit_DEPENDENCIES = ..\/libqrencode.la$/;"	m
+test_estimatebit_LDADD	qrencode/tests/Makefile	/^test_estimatebit_LDADD = ..\/libqrencode.la$/;"	m
+test_estimatebit_OBJECTS	qrencode/tests/Makefile	/^test_estimatebit_OBJECTS = $(am_test_estimatebit_OBJECTS)$/;"	m
+test_estimatebit_SOURCES	qrencode/tests/Makefile	/^test_estimatebit_SOURCES = test_estimatebit.c$/;"	m
+test_eval	qrencode/tests/test_mask.c	/^void test_eval(void)$/;"	f
+test_eval2	qrencode/tests/test_mask.c	/^void test_eval2(void)$/;"	f
+test_eval3	qrencode/tests/test_mask.c	/^void test_eval3(void)$/;"	f
+test_file	run-tests.php	/^	$test_file         = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+test_files	run-tests.php	/^					$test_files = array_merge($test_files, $pattern_match);$/;"	v
+test_files	run-tests.php	/^		$test_files = array();$/;"	v
+test_files	run-tests.php	/^	$test_files = array_merge($test_files, $redir_tests);$/;"	v
+test_files	run-tests.php	/^	$test_files = array_unique($test_files);$/;"	v
+test_files	run-tests.php	/^$test_files = array();$/;"	v
+test_files	run-tests.php	/^$test_files = array_unique($test_files);$/;"	v
+test_filler	qrencode/tests/test_qrencode.c	/^void test_filler(void)$/;"	f
+test_fillerMQR	qrencode/tests/test_qrencode.c	/^void test_fillerMQR(void)$/;"	f
+test_format	qrencode/tests/test_mask.c	/^void test_format(void)$/;"	f
+test_format	qrencode/tests/test_mqrspec.c	/^void test_format(void)$/;"	f
+test_format	qrencode/tests/test_qrencode.c	/^void test_format(void)$/;"	f
+test_format	qrencode/tests/test_qrspec.c	/^void test_format(void)$/;"	f
+test_formatInfo	qrencode/tests/test_qrencode.c	/^void test_formatInfo(void)$/;"	f
+test_formatInfoMQR	qrencode/tests/test_qrencode.c	/^void test_formatInfoMQR(void)$/;"	f
+test_idx	run-tests.php	/^		$test_idx = 0;$/;"	v
+test_idx	run-tests.php	/^$test_idx = 0;$/;"	v
+test_insertStructuredAppendHeader	qrencode/tests/test_qrinput.c	/^void test_insertStructuredAppendHeader(void)$/;"	f
+test_insertStructuredAppendHeader_error	qrencode/tests/test_qrinput.c	/^void test_insertStructuredAppendHeader_error(void)$/;"	f
+test_invalid_input	qrencode/tests/test_qrencode.c	/^void test_invalid_input(void)$/;"	f
+test_iterate	qrencode/tests/test_qrencode.c	/^void test_iterate()$/;"	f
+test_iterate2	qrencode/tests/test_qrencode.c	/^void test_iterate2()$/;"	f
+test_kanji	qrencode/tests/test_estimatebit.c	/^void test_kanji(void)$/;"	f
+test_lengthOfCode_kanji	qrencode/tests/test_qrinput.c	/^void test_lengthOfCode_kanji(void)$/;"	f
+test_lengthOfCode_num	qrencode/tests/test_qrinput.c	/^void test_lengthOfCode_num(void)$/;"	f
+test_list	run-tests.php	/^					$test_list = file($argv[++$i]);$/;"	v
+test_mask	qrencode/tests/test_mask.c	/^int test_mask(int mask)$/;"	f
+test_mask	qrencode/tests/test_mmask.c	/^int test_mask(int mask)$/;"	f
+test_maskEvaluation	qrencode/tests/test_mmask.c	/^void test_maskEvaluation(void)$/;"	f
+test_mask_DEPENDENCIES	qrencode/tests/Makefile	/^test_mask_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_mask_LDADD	qrencode/tests/Makefile	/^test_mask_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_mask_OBJECTS	qrencode/tests/Makefile	/^test_mask_OBJECTS = $(am_test_mask_OBJECTS)$/;"	m
+test_mask_SOURCES	qrencode/tests/Makefile	/^test_mask_SOURCES = test_mask.c$/;"	m
+test_masks	qrencode/tests/test_mask.c	/^void test_masks(void)$/;"	f
+test_masks	qrencode/tests/test_mmask.c	/^void test_masks(void)$/;"	f
+test_mix	qrencode/tests/test_estimatebit.c	/^void test_mix(void)$/;"	f
+test_mmask_DEPENDENCIES	qrencode/tests/Makefile	/^test_mmask_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_mmask_LDADD	qrencode/tests/Makefile	/^test_mmask_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_mmask_OBJECTS	qrencode/tests/Makefile	/^test_mmask_OBJECTS = $(am_test_mmask_OBJECTS)$/;"	m
+test_mmask_SOURCES	qrencode/tests/Makefile	/^test_mmask_SOURCES = test_mmask.c$/;"	m
+test_monkey_DEPENDENCIES	qrencode/tests/Makefile	/^test_monkey_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_monkey_LDADD	qrencode/tests/Makefile	/^test_monkey_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_monkey_OBJECTS	qrencode/tests/Makefile	/^test_monkey_OBJECTS = $(am_test_monkey_OBJECTS)$/;"	m
+test_monkey_SOURCES	qrencode/tests/Makefile	/^test_monkey_SOURCES = test_monkey.c$/;"	m
+test_mqr_new	qrencode/tests/test_qrinput.c	/^void test_mqr_new(void)$/;"	f
+test_mqr_setlevel	qrencode/tests/test_qrinput.c	/^void test_mqr_setlevel(void)$/;"	f
+test_mqr_setversion	qrencode/tests/test_qrinput.c	/^void test_mqr_setversion(void)$/;"	f
+test_mqrencode	qrencode/tests/test_qrencode.c	/^void test_mqrencode(void)$/;"	f
+test_mqrraw_new	qrencode/tests/test_qrencode.c	/^void test_mqrraw_new(void)$/;"	f
+test_mqrspec_DEPENDENCIES	qrencode/tests/Makefile	/^test_mqrspec_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_mqrspec_LDADD	qrencode/tests/Makefile	/^test_mqrspec_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_mqrspec_OBJECTS	qrencode/tests/Makefile	/^test_mqrspec_OBJECTS = $(am_test_mqrspec_OBJECTS)$/;"	m
+test_mqrspec_SOURCES	qrencode/tests/Makefile	/^test_mqrspec_SOURCES = test_mqrspec.c$/;"	m
+test_name	run-tests.php	/^function test_name($name)$/;"	f
+test_newFrame	qrencode/tests/test_mqrspec.c	/^void test_newFrame(void)$/;"	f
+test_newframe	qrencode/tests/test_qrspec.c	/^void test_newframe(void)$/;"	f
+test_newframe_invalid	qrencode/tests/test_mqrspec.c	/^void test_newframe_invalid(void)$/;"	f
+test_newframe_invalid	qrencode/tests/test_qrspec.c	/^void test_newframe_invalid(void)$/;"	f
+test_null	qrencode/tests/test_bitstream.c	/^void test_null(void)$/;"	f
+test_null_free	qrencode/tests/test_qrencode.c	/^void test_null_free(void)$/;"	f
+test_null_free	qrencode/tests/test_qrinput.c	/^void test_null_free(void)$/;"	f
+test_num	qrencode/tests/test_bitstream.c	/^void test_num(void)$/;"	f
+test_numbit	qrencode/tests/test_estimatebit.c	/^void test_numbit(void)$/;"	f
+test_numbit2	qrencode/tests/test_estimatebit.c	/^void test_numbit2(void)$/;"	f
+test_numbit3	qrencode/tests/test_estimatebit.c	/^void test_numbit3(void)$/;"	f
+test_padding	qrencode/tests/test_qrinput.c	/^void test_padding(void)$/;"	f
+test_padding2	qrencode/tests/test_qrinput.c	/^void test_padding2(void)$/;"	f
+test_padding2MQR	qrencode/tests/test_qrinput.c	/^void test_padding2MQR(void)$/;"	f
+test_paddingMQR	qrencode/tests/test_qrinput.c	/^void test_paddingMQR(void)$/;"	f
+test_parity	qrencode/tests/test_qrinput.c	/^void test_parity(void)$/;"	f
+test_parity2	qrencode/tests/test_qrinput.c	/^void test_parity2(void)$/;"	f
+test_qrencode_DEPENDENCIES	qrencode/tests/Makefile	/^test_qrencode_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_qrencode_LDADD	qrencode/tests/Makefile	/^test_qrencode_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_qrencode_OBJECTS	qrencode/tests/Makefile	/^test_qrencode_OBJECTS = $(am_test_qrencode_OBJECTS)$/;"	m
+test_qrencode_SOURCES	qrencode/tests/Makefile	/^test_qrencode_SOURCES = test_qrencode.c$/;"	m
+test_qrinput_DEPENDENCIES	qrencode/tests/Makefile	/^test_qrinput_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_qrinput_LDADD	qrencode/tests/Makefile	/^test_qrinput_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_qrinput_OBJECTS	qrencode/tests/Makefile	/^test_qrinput_OBJECTS = $(am_test_qrinput_OBJECTS)$/;"	m
+test_qrinput_SOURCES	qrencode/tests/Makefile	/^test_qrinput_SOURCES = test_qrinput.c$/;"	m
+test_qrraw_new	qrencode/tests/test_qrencode.c	/^void test_qrraw_new(void)$/;"	f
+test_qrspec_DEPENDENCIES	qrencode/tests/Makefile	/^test_qrspec_DEPENDENCIES = ..\/libqrencode.la $(am__DEPENDENCIES_2)$/;"	m
+test_qrspec_LDADD	qrencode/tests/Makefile	/^test_qrspec_LDADD = ..\/libqrencode.la $(DECODER_LIBS)$/;"	m
+test_qrspec_OBJECTS	qrencode/tests/Makefile	/^test_qrspec_OBJECTS = $(am_test_qrspec_OBJECTS)$/;"	m
+test_qrspec_SOURCES	qrencode/tests/Makefile	/^test_qrspec_SOURCES = test_qrspec.c$/;"	m
+test_results	run-tests.php	/^$test_results = array();$/;"	v
+test_rs_DEPENDENCIES	qrencode/tests/Makefile	/^test_rs_DEPENDENCIES = ..\/libqrencode.la$/;"	m
+test_rs_LDADD	qrencode/tests/Makefile	/^test_rs_LDADD = ..\/libqrencode.la$/;"	m
+test_rs_OBJECTS	qrencode/tests/Makefile	/^test_rs_OBJECTS = $(am_test_rs_OBJECTS)$/;"	m
+test_rs_SOURCES	qrencode/tests/Makefile	/^test_rs_SOURCES = test_rs.c$/;"	m
+test_rscode1	qrencode/tests/test_rs.c	/^void test_rscode1(void)$/;"	f
+test_size	qrencode/tests/test_bitstream.c	/^void test_size(void)$/;"	f
+test_skipif	run-tests.php	/^	$test_skipif       = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+test_sort	run-tests.php	/^function test_sort($a, $b)$/;"	f
+test_split1	qrencode/tests/test_split.c	/^void test_split1(void)$/;"	f
+test_split2	qrencode/tests/test_split.c	/^void test_split2(void)$/;"	f
+test_split3	qrencode/tests/test_split.c	/^void test_split3(void)$/;"	f
+test_split3c	qrencode/tests/test_split.c	/^void test_split3c(void)$/;"	f
+test_split4	qrencode/tests/test_split.c	/^void test_split4(void)$/;"	f
+test_split5	qrencode/tests/test_split.c	/^void test_split5(void)$/;"	f
+test_split6	qrencode/tests/test_split.c	/^void test_split6(void)$/;"	f
+test_split7	qrencode/tests/test_split.c	/^void test_split7(void)$/;"	f
+test_split8	qrencode/tests/test_split.c	/^void test_split8(void)$/;"	f
+test_splitNum8	qrencode/tests/test_split.c	/^void test_splitNum8(void)$/;"	f
+test_split_8	qrencode/tests/test_monkey.c	/^void test_split_8(int num)$/;"	f
+test_split_DEPENDENCIES	qrencode/tests/Makefile	/^test_split_DEPENDENCIES = ..\/libqrencode.la$/;"	m
+test_split_LDADD	qrencode/tests/Makefile	/^test_split_LDADD = ..\/libqrencode.la$/;"	m
+test_split_OBJECTS	qrencode/tests/Makefile	/^test_split_OBJECTS = $(am_test_split_OBJECTS)$/;"	m
+test_split_SOURCES	qrencode/tests/Makefile	/^test_split_SOURCES = test_split.c$/;"	m
+test_split_an	qrencode/tests/test_monkey.c	/^void test_split_an(int num)$/;"	f
+test_split_kanji	qrencode/tests/test_monkey.c	/^void test_split_kanji(int num)$/;"	f
+test_split_structure	qrencode/tests/test_monkey.c	/^void test_split_structure(int num)$/;"	f
+test_splitentry	qrencode/tests/test_qrinput.c	/^void test_splitentry(void)$/;"	f
+test_splitentry2	qrencode/tests/test_qrinput.c	/^void test_splitentry2(void)$/;"	f
+test_splitentry3	qrencode/tests/test_qrinput.c	/^void test_splitentry3(void)$/;"	f
+test_struct_example	qrencode/tests/test_qrencode.c	/^void test_struct_example(void)$/;"	f
+test_struct_insertStructuredAppendHeaders	qrencode/tests/test_qrinput.c	/^void test_struct_insertStructuredAppendHeaders(void)$/;"	f
+test_struct_listop	qrencode/tests/test_qrinput.c	/^void test_struct_listop(void)$/;"	f
+test_struct_semilong	qrencode/tests/test_qrencode.c	/^void test_struct_semilong(void)$/;"	f
+test_struct_split_example	qrencode/tests/test_qrinput.c	/^void test_struct_split_example(void)$/;"	f
+test_struct_split_invalidVersion	qrencode/tests/test_qrinput.c	/^void test_struct_split_invalidVersion(void)$/;"	f
+test_struct_split_tooLarge	qrencode/tests/test_qrinput.c	/^void test_struct_split_tooLarge(void)$/;"	f
+test_structure	qrencode/tests/test_estimatebit.c	/^void test_structure(void)$/;"	f
+test_textMQR	qrencode/tests/test_qrinput.c	/^void test_textMQR(void)$/;"	f
+test_toByte	qrencode/tests/test_bitstream.c	/^void test_toByte(void)$/;"	f
+test_toByte_4bitpadding	qrencode/tests/test_bitstream.c	/^void test_toByte_4bitpadding(void)$/;"	f
+test_toupper	qrencode/tests/test_split.c	/^void test_toupper(void)$/;"	f
+test_verpat	qrencode/tests/test_qrspec.c	/^void test_verpat(void)$/;"	f
+tested	run-tests.php	/^			$tested = "<a href='$url'>$tested<\/a>";$/;"	v
+tested	run-tests.php	/^		$tested = $IN_REDIRECT['prefix'] . ' ' . trim($section_text['TEST']);$/;"	v
+tested	run-tests.php	/^	$tested = trim($section_text['TEST']);$/;"	v
+tested_file	run-tests.php	/^		$tested_file = $tmp_relative_file;$/;"	v
+tested_file	run-tests.php	/^	$tested_file = $shortname;$/;"	v
+testfile	run-tests.php	/^				$testfile = realpath("{$dir}\/{$name}");$/;"	v
+testfile	run-tests.php	/^			$testfile = realpath($argv[$i]);$/;"	v
+testname	run-tests.php	/^	$testname = realpath($testname);$/;"	v
+tests	qrencode/tests/common.h	/^static int tests = 0;$/;"	v
+textc	qrencode/tests/view_qrcode.c	/^static int textc;$/;"	v	file:
+textv	qrencode/tests/view_qrcode.c	/^static char **textv;$/;"	v	file:
+threads	qrencode/tests/pthread_qrencode.c	/^static pthread_t threads[THREADS];$/;"	v	file:
+time	run-tests.php	/^	$time = null !== $time ? $time : junit_get_timer($file_name);$/;"	v
+time	run-tests.php	/^function junit_mark_test_as($type, $file_name, $test_name, $time = null, $message = '', $details = '') {$/;"	v
+timeout	run-tests.php	/^	$timeout = $leak_check ? 300 : (isset($env['TEST_TIMEOUT']) ? $env['TEST_TIMEOUT'] : 60);$/;"	v
+timerStart	qrencode/tests/prof_qrencode.c	/^void timerStart(const char *str)$/;"	f
+timerStart	qrencode/tests/pthread_qrencode.c	/^void timerStart(const char *str)$/;"	f
+timerStop	qrencode/tests/prof_qrencode.c	/^void timerStop(void)$/;"	f
+timerStop	qrencode/tests/pthread_qrencode.c	/^void timerStop(void)$/;"	f
+tmp_post	run-tests.php	/^	$tmp_post          = $temp_dir . DIRECTORY_SEPARATOR . uniqid('\/phpt.');$/;"	v
+tmp_relative_file	run-tests.php	/^	$tmp_relative_file = str_replace(__DIR__ . DIRECTORY_SEPARATOR, '', $test_file) . 't';$/;"	v
+top_build_prefix	qrencode/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	qrencode/tests/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = \/root\/mosaic$/;"	m
+top_builddir	qrencode/Makefile	/^top_builddir = .$/;"	m
+top_builddir	qrencode/tests/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	qrencode/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = \/root\/mosaic$/;"	m
+top_srcdir	qrencode/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	qrencode/tests/Makefile	/^top_srcdir = ..$/;"	m
+transform	qrencode/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	qrencode/tests/Makefile	/^transform = $(program_transform_name)$/;"	m
+tv	qrencode/tests/prof_qrencode.c	/^struct timeval tv;$/;"	v	typeref:struct:timeval
+tv	qrencode/tests/pthread_qrencode.c	/^struct timeval tv;$/;"	v	typeref:struct:timeval
+type	run-tests.php	/^		$type = reset($temp);$/;"	v
+typeTable	qrencode/mqrspec.c	/^static const int typeTable[MQRSPEC_VERSION_MAX + 1][3] = {$/;"	v	file:
+typeTable	qrencode/tests/test_mqrspec.c	/^static const int typeTable[4][3] = {$/;"	v	file:
+unmask	qrencode/tests/decoder.c	/^static unsigned char *unmask(QRcode *code, QRecLevel level, int mask)$/;"	f	file:
+unmaskMQR	qrencode/tests/decoder.c	/^static unsigned char *unmaskMQR(QRcode *code, QRecLevel level, int mask)$/;"	f	file:
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['diff']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['file']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['mem']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['skip']);$/;"	v
+url_bits	run-tests.php	/^	$url_bits = parse_url(QA_SUBMISSION_PAGE);$/;"	v
+usage	qrencode/qrenc.c	/^static void usage(int help, int longopt)$/;"	f	file:
+usage	qrencode/tests/view_qrcode.c	/^static void usage(int help, int longopt)$/;"	f	file:
+user_email	run-tests.php	/^				$user_email = str_replace("@", " at ", str_replace(".", " dot ", $user_email));$/;"	v
+user_email	run-tests.php	/^				$user_email = trim(fgets($fp, 1024));$/;"	v
+user_input	run-tests.php	/^				$user_input = 's';$/;"	v
+user_input	run-tests.php	/^		$user_input = fgets($fp, 10);$/;"	v
+user_tests	run-tests.php	/^	$user_tests = array();$/;"	v
+user_tests	run-tests.php	/^	$user_tests = explode (',', getenv('TEST_PHP_USER'));$/;"	v
+util_lower	build/shtool	/^util_lower () {$/;"	f
+util_upper	build/shtool	/^util_upper () {$/;"	f
+v4frame	qrencode/tests/test_mqrspec.c	/^unsigned char v4frame[] = {$/;"	v
+val	run-tests.php	/^				$val = addslashes($val);$/;"	v
+valgrind_cmd	run-tests.php	/^					$valgrind_cmd = "valgrind --version";$/;"	v
+valgrind_header	run-tests.php	/^						$valgrind_header = trim($valgrind_header);$/;"	v
+valgrind_header	run-tests.php	/^					$valgrind_header = system_with_timeout($valgrind_cmd, $environment);$/;"	v
+valgrind_header	run-tests.php	/^$valgrind_header = '';$/;"	v
+valgrind_version	run-tests.php	/^						$valgrind_version = preg_replace("\/valgrind-([0-9])\\.([0-9])\\.([0-9]+)([.-\\w]+)?(\\s+)\/", '$1$2$3', $valgrind_header, 1, $replace_count);$/;"	v
+valgrind_version	run-tests.php	/^$valgrind_version = 0;$/;"	v
+value	run-tests.php	/^				$value = addslashes($value);$/;"	v
+value	run-tests.php	/^			$value = trim($setting[1]);$/;"	v
+value	run-tests.php	/^function junit_suite_record($suite, $param, $value = 1) {$/;"	v
+verify_config	run-tests.php	/^function verify_config()$/;"	f
+version	qrencode/qrenc.c	/^static int version = 0;$/;"	v	file:
+version	qrencode/qrencode.c	/^	int version;$/;"	m	struct:__anon6	file:
+version	qrencode/qrencode.c	/^	int version;$/;"	m	struct:__anon7	file:
+version	qrencode/qrencode.h	/^	int version;         \/\/\/< version of the symbol$/;"	m	struct:__anon15
+version	qrencode/qrencode_inner.h	/^	int version;$/;"	m	struct:__anon2
+version	qrencode/qrencode_inner.h	/^	int version;$/;"	m	struct:__anon3
+version	qrencode/qrinput.h	/^	int version;$/;"	m	struct:_QRinput
+version	qrencode/tests/decoder.h	/^	int version;$/;"	m	struct:FormatInfo
+version	qrencode/tests/decoder.h	/^	int version;$/;"	m	struct:__anon10
+version	qrencode/tests/view_qrcode.c	/^static int version = 1;$/;"	v	file:
+versionPattern	qrencode/qrspec.c	/^static const unsigned int versionPattern[QRSPEC_VERSION_MAX - 6] = {$/;"	v	file:
+view	qrencode/tests/view_qrcode.c	/^void view(int mode, QRinput *input)$/;"	f
+view_multiText	qrencode/tests/view_qrcode.c	/^void view_multiText(char **argv, int argc)$/;"	f
+view_qrcode_LINK	qrencode/tests/Makefile	/^view_qrcode_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+view_qrcode_OBJECTS	qrencode/tests/Makefile	/^view_qrcode_OBJECTS = $(am_view_qrcode_OBJECTS)$/;"	m
+view_simple	qrencode/tests/view_qrcode.c	/^void view_simple(const unsigned char *str, int length)$/;"	f
+w	run-tests.php	/^		$w = null;$/;"	v
+w	run-tests.php	/^	$w = explode("\\n", $wanted);$/;"	v
+want	run-tests.php	/^		$want = array();$/;"	v
+wanted	run-tests.php	/^			$wanted = trim($section_text['EXPECTF']);$/;"	v
+wanted	run-tests.php	/^			$wanted = trim($section_text['EXPECTREGEX']);$/;"	v
+wanted	run-tests.php	/^		$wanted = $wanted_headers . "\\n--HEADERS--\\n" . $wanted;$/;"	v
+wanted	run-tests.php	/^		$wanted = preg_replace('\/\\r\\n\/',"\\n", $wanted);$/;"	v
+wanted	run-tests.php	/^		$wanted = trim($section_text['EXPECT']);$/;"	v
+wanted_headers	run-tests.php	/^		$wanted_headers = array();$/;"	v
+wanted_headers	run-tests.php	/^		$wanted_headers = join("\\n", $wanted_headers);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = $temp;$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = preg_quote($wanted_headers . "\\n--HEADERS--\\n", '\/') . $wanted_re;$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace($/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%A', '.*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%S', '[^\\r\\n]*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%a', '.+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%c', '.', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%d', '\\d+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%e', '\\\\' . DIRECTORY_SEPARATOR, $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%f', '[+-]?\\.?\\d+\\.?\\d*(?:[Ee][+-]?\\d+)?', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%i', '[+-]?\\d+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%s', '[^\\r\\n]+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%w', '\\s*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%x', '[0-9a-fA-F]+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^		$wanted_re = null;$/;"	v
+wanted_re	run-tests.php	/^		$wanted_re = preg_replace('\/\\r\\n\/', "\\n", $wanted);$/;"	v
+warn	run-tests.php	/^					$warn = true; \/* only if there is a reason *\/$/;"	v
+warn	run-tests.php	/^					$warn = true;$/;"	v
+warn	run-tests.php	/^	$warn = false;$/;"	v
+width	qrencode/mqrspec.c	/^	int width; \/\/< Edge length of the symbol$/;"	m	struct:__anon12	file:
+width	qrencode/qrencode.c	/^	int width;$/;"	m	struct:__anon8	file:
+width	qrencode/qrencode.h	/^	int width;           \/\/\/< width of the symbol$/;"	m	struct:__anon15
+width	qrencode/qrspec.c	/^	int width; \/\/< Edge length of the symbol$/;"	m	struct:__anon9	file:
+width	qrencode/tests/decoder.c	/^	int width;$/;"	m	struct:__anon11	file:
+words	qrencode/qrspec.c	/^	int words;  \/\/< Data capacity (bytes)$/;"	m	struct:__anon9	file:
+writeANSI	qrencode/qrenc.c	/^static int writeANSI(QRcode *qrcode, const char *outfile)$/;"	f	file:
+writeANSI_margin	qrencode/qrenc.c	/^static void writeANSI_margin(FILE* fp, int realwidth,$/;"	f	file:
+writeASCII	qrencode/qrenc.c	/^static int writeASCII(QRcode *qrcode, const char *outfile, int invert)$/;"	f	file:
+writeASCII_margin	qrencode/qrenc.c	/^static void writeASCII_margin(FILE* fp, int realwidth, char* buffer, int buffer_s, int invert)$/;"	f	file:
+writeEPS	qrencode/qrenc.c	/^static int writeEPS(QRcode *qrcode, const char *outfile)$/;"	f	file:
+writePNG	qrencode/qrenc.c	/^static int writePNG(QRcode *qrcode, const char *outfile)$/;"	f	file:
+writePNG	qrencode/tests/create_frame_pattern.c	/^static int writePNG(unsigned char *frame, int width, const char *outfile)$/;"	f	file:
+writePNG	qrencode/tests/create_mqr_frame_pattern.c	/^static int writePNG(unsigned char *frame, int width, const char *outfile)$/;"	f	file:
+write_information	run-tests.php	/^function write_information($show_html)$/;"	f
+write_pattern	qrencode/tests/create_frame_pattern.c	/^void write_pattern(const char *filename)$/;"	f
+write_pattern	qrencode/tests/create_mqr_frame_pattern.c	/^void write_pattern(const char *filename)$/;"	f
+write_pattern_image	qrencode/tests/create_frame_pattern.c	/^void write_pattern_image(int version, const char *filename)$/;"	f
+write_pattern_image	qrencode/tests/create_mqr_frame_pattern.c	/^void write_pattern_image(int version, const char *filename)$/;"	f
+x	qrencode/qrencode.c	/^	int x, y;$/;"	m	struct:__anon8	file:
+x	qrencode/tests/decoder.c	/^	int x, y;$/;"	m	struct:__anon11	file:
+x_failed	run-tests.php	/^		$x_failed = (100.0 * $sum_results['FAILED']) \/ $x_total;$/;"	v
+x_leaked	run-tests.php	/^		$x_leaked = (100.0 * $sum_results['LEAKED']) \/ $x_total;$/;"	v
+x_passed	run-tests.php	/^		$x_passed = (100.0 * $sum_results['PASSED']) \/ $x_total;$/;"	v
+x_total	run-tests.php	/^	$x_total = $n_total - $sum_results['SKIPPED'] - $sum_results['BORKED'];$/;"	v
+x_warned	run-tests.php	/^		$x_warned = $x_failed = $x_passed = $x_leaked = $x_xfailed = 0;$/;"	v
+x_warned	run-tests.php	/^		$x_warned = (100.0 * $sum_results['WARNED']) \/ $x_total;$/;"	v
+x_xfailed	run-tests.php	/^		$x_xfailed = (100.0 * $sum_results['XFAILED']) \/ $x_total;$/;"	v
+xml	run-tests.php	/^	$xml = '<?xml version="1.0" encoding="UTF-8"?>'. PHP_EOL .$/;"	v
+y	qrencode/qrencode.c	/^	int x, y;$/;"	m	struct:__anon8	file:
+y	qrencode/tests/decoder.c	/^	int x, y;$/;"	m	struct:__anon11	file:
