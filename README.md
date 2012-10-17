@@ -17,7 +17,7 @@ USAGE
 Description
 ----------- 
 
-    bool qr_encode(string $text[, int $msize = 5[, int $margin = 10[, int $version = 3[, $int $eclevel = QR_ECLEVEL_Q]]]])
+    resource qr_encode(string $text[, int $msize = 5[, int $margin = 10[, int $version = 3[, $int $eclevel = QR_ECLEVEL_Q]]]])
 
 Parameters
 ----------
@@ -39,6 +39,26 @@ it can still be recognized and all the data in this qr can be restored
 
 For more information about version and error correction level, please visit the
 [wikipedia page](http://en.wikipedia.org/wiki/QR_code#Error_correction#Storage)
+
+Return Values
+-------------
+
+return image resource
+
+Examples
+--------
+
+    <?php
+
+    header('Content-type: image/png');
+
+    $im = qr_encode('https://github.com/chrisyue/mosaic');
+
+    imagestring($im, 5, 65, 80, 'Mosaic', imagecolorallocate($im, 128, 128, 128));
+
+    imagepng($im);
+
+    imagedestroy($im);
 
 LICENSING INFORMATION
 =====================
