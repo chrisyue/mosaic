@@ -7,6 +7,9 @@ INSTALL
 =======
 
     cd /path/to/mosaic
+    cd libqrencode
+    ./autogen.sh && make
+    cd ..
     phpize
     ./configure
     make && make install
@@ -69,4 +72,4 @@ CONTACT
 
 Follow me or fork this repo at https://github.com/chrisyue/mosaic
 
-or send me mails to blizzchris (gmail.com)
+or send mails to blizzchris (gmail.com)
