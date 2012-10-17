@@ -25,7 +25,9 @@ Parameters
 `$text` Text to be encoded
 
 `$msize` Module size in pixel. Module means the smallest square which the qr code is composed of. 
-If the module size is 1, the module is a pixel
+If the module size is 1, the module is a pixel.
+
+![what is a module in qr](http://www.qrcode.com/en/images-e/prtdot4.gif)
 
 `$margin`
 
