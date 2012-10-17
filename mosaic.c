@@ -154,12 +154,12 @@ PHP_MINFO_FUNCTION(mosaic)
 PHP_FUNCTION(qr_encode)
 {
     zval* z_raw_p;
-    int v = 1; /* version */
-    int l = 0; /* error correction level */
-    int margin = 5; /* width (pixel) */
-    int s = 4; /* module size in pixel */
+    int s = 5; /* module size in pixel */
+    int margin = 10; /* width (pixel) */
+    int v = 3; /* version */
+    int l = 2; /* error correction level */
 
-    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "z|llll", &z_raw_p, &v, &l, &margin, &s) == FAILURE) {
+    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "z|llll", &z_raw_p, &s, &margin, &v, &l) == FAILURE) {
         return ;
     }
 
