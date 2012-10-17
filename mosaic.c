@@ -188,17 +188,13 @@ PHP_FUNCTION(qr_encode)
         int white = gdImageColorAllocate(im, 255, 255, 255);
         gdImageFill(im, 0, 0, white);
 
-        int x, y, m, n, posx, posy;
+        int x, y, posx, posy;
         for (y = 0; y < qrcode->width; y++) {
             for (x = 0; x < qrcode->width; x++) {
                 if (*(qrcode->data + y * qrcode->width + x) & 1) {
                     posx = x * s + margin;
                     posy = y * s + margin;
-                    for (n = 0; n < s; n++) {
-                        for (m = 0; m < s; m++) {
-                            gdImageSetPixel(im, posx + m, posy + n, black);
-                        }
-                    }
+                    gdImageFilledRectangle(im, posx, posy, posx + s, posy + s, black);
                 } 
             }
         }
