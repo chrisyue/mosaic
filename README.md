@@ -6,13 +6,23 @@ a php extension which generates qr code
 INSTALL
 =======
 
-    cd /path/to/mosaic
-    cd libqrencode
-    ./autogen.sh && make
+Clone the repo with submodule
+
+    git clone --recursive https://github.com/chrisyue/mosaic.git
+
+Compile libqrencode
+
+    cd mosaic/libqrencode
+    ./autogen.sh && ./configure && make
+
+Compile and install mosaic
+
     cd ..
-    phpize
-    ./configure
-    make && make install
+    phpize && ./configure && make && make install
+
+enable mosaic in php.ini
+
+    extension=mosaic.so
 
 USAGE
 =====
