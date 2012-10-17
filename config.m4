@@ -60,14 +60,14 @@ if test "$PHP_MOSAIC" != "no"; then
   dnl PHP_SUBST(MOSAIC_SHARED_LIBADD)
 
     PHP_NEW_EXTENSION(mosaic, mosaic.c\
-            qrencode/qrencode.c\
-            qrencode/qrinput.c\
-            qrencode/bitstream.c\
-            qrencode/mask.c\
-            qrencode/mmask.c\
-            qrencode/mqrspec.c\
-            qrencode/qrspec.c\
-            qrencode/rscode.c\
-            qrencode/split.c\
+            libqrencode/qrencode.c\
+            libqrencode/qrinput.c\
+            libqrencode/bitstream.c\
+            libqrencode/mask.c\
+            libqrencode/mmask.c\
+            libqrencode/mqrspec.c\
+            libqrencode/qrspec.c\
+            libqrencode/rscode.c\
+            libqrencode/split.c\
     , $ext_shared)
 fi

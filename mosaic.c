@@ -27,7 +27,7 @@
 #include "ext/standard/info.h"
 #include "php_mosaic.h"
 
-#include "qrencode/qrencode.h"
+#include "libqrencode/qrencode.h"
 #include "gd/php_gd.h"
 #include "gd/libgd/gd.h"
 
