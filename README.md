@@ -3,8 +3,13 @@ mosaic
 
 a php extension which generates qr code
 
-INSTALL
-=======
+REQUIREMENTS
+============
+
+Just make sure you've already had php and gd extension installed
+
+INSTALLATION
+============
 
 Clone the repo with submodule
 
