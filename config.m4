@@ -13,9 +13,9 @@ dnl [  --with-mosaic             Include mosaic support])
 
 dnl Otherwise use enable:
 
- PHP_ARG_ENABLE(mosaic, whether to enable mosaic support,
+PHP_ARG_ENABLE(mosaic, whether to enable mosaic support,
 dnl Make sure that the comment is aligned:
- [  --enable-mosaic           Enable mosaic support])
+[  --enable-mosaic           Enable mosaic support])
 
 if test "$PHP_MOSAIC" != "no"; then
   dnl Write more examples of tests here...
@@ -59,5 +59,7 @@ if test "$PHP_MOSAIC" != "no"; then
   dnl
   dnl PHP_SUBST(MOSAIC_SHARED_LIBADD)
 
-    PHP_NEW_EXTENSION(mosaic, mosaic.c, $ext_shared)
+  ifdef([PHP_ADD_EXTENSION_DEP], [PHP_ADD_EXTENSION_DEP(gd)])
+
+  PHP_NEW_EXTENSION(mosaic, mosaic.c, $ext_shared)
 fi

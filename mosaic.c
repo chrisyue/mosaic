@@ -12,7 +12,7 @@
   | obtain it through the world-wide-web, please send a note to          |
   | license@php.net so we can mail you a copy immediately.               |
   +----------------------------------------------------------------------+
-  | Author:                                                              |
+  | Author: Chris Yue                                                    |
   +----------------------------------------------------------------------+
 */
 
@@ -43,15 +43,26 @@ static int le_mosaic;
  * Every user visible function must have an entry in mosaic_functions[].
  */
 const zend_function_entry mosaic_functions[] = {
-	PHP_FE(qr_encode, NULL)		/* For testing, remove later. */
+	PHP_FE(qr_encode, NULL)
 	PHP_FE_END	/* Must be the last line in mosaic_functions[] */
 };
 /* }}} */
 
+#if ZEND_MODULE_API_NO >= 220050617
+const zend_module_dep mosaic_deps[] = { /* {{{ */
+    zend_module_required("gd")
+    { NULL, NULL, NULL }
+};
+/* }}} */
+#endif
+
 /* {{{ mosaic_module_entry
  */
 zend_module_entry mosaic_module_entry = {
-#if ZEND_MODULE_API_NO >= 20010901
+#if ZEND_MODULE_API_NO >= 220050617
+	STANDARD_MODULE_HEADER_EX, NULL,
+    mosaic_deps,
+#elif ZEND_MODULE_API_NO >= 20010901
 	STANDARD_MODULE_HEADER,
 #endif
 	"mosaic",
