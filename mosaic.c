@@ -164,13 +164,14 @@ PHP_MINFO_FUNCTION(mosaic)
 
 PHP_FUNCTION(qr_encode)
 {
-    zval* z_raw_p;
+    char* text;
+    int text_len;
     int s = 5; /* module size in pixel */
     int margin = 10; /* width (pixel) */
     int v = 3; /* version */
     int l = 2; /* error correction level */
 
-    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "z|llll", &z_raw_p, &s, &margin, &v, &l) == FAILURE) {
+    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "s|llll", &text, &text_len, &s, &margin, &v, &l) == FAILURE) {
         return ;
     }
 
@@ -190,27 +191,25 @@ PHP_FUNCTION(qr_encode)
             level = QR_ECLEVEL_L;
     }
 
-    if (Z_TYPE_P(z_raw_p) == IS_STRING) {
-        QRcode* qrcode = QRcode_encodeString8bit(Z_STRVAL_P(z_raw_p), v, level);
+    QRcode* qrcode = QRcode_encodeString8bit(text, v, level);
 
-        int size = qrcode->width * s + 2 * margin;
-        gdImagePtr im = gdImageCreate(size, size);
-        int black = gdImageColorAllocate(im, 0, 0, 0);
-        int white = gdImageColorAllocate(im, 255, 255, 255);
-        gdImageFill(im, 0, 0, white);
+    int size = qrcode->width * s + 2 * margin;
+    gdImagePtr im = gdImageCreate(size, size);
+    int black = gdImageColorAllocate(im, 0, 0, 0);
+    int white = gdImageColorAllocate(im, 255, 255, 255);
+    gdImageFill(im, 0, 0, white);
 
-        int x, y, posx, posy;
-        for (y = 0; y < qrcode->width; y++) {
-            for (x = 0; x < qrcode->width; x++) {
-                if (*(qrcode->data + y * qrcode->width + x) & 1) {
-                    posx = x * s + margin;
-                    posy = y * s + margin;
-                    gdImageFilledRectangle(im, posx, posy, posx + s, posy + s, black);
-                } 
-            }
+    int x, y, posx, posy;
+    for (y = 0; y < qrcode->width; y++) {
+        for (x = 0; x < qrcode->width; x++) {
+            if (*(qrcode->data + y * qrcode->width + x) & 1) {
+                posx = x * s + margin;
+                posy = y * s + margin;
+                gdImageFilledRectangle(im, posx, posy, posx + s, posy + s, black);
+            } 
         }
-        ZEND_REGISTER_RESOURCE(return_value, im, zend_fetch_list_dtor_id("gd"));
     }
+    ZEND_REGISTER_RESOURCE(return_value, im, zend_fetch_list_dtor_id("gd"));
 }
 
 /*

@@ -61,5 +61,11 @@ if test "$PHP_MOSAIC" != "no"; then
 
   ifdef([PHP_ADD_EXTENSION_DEP], [PHP_ADD_EXTENSION_DEP(gd)])
 
-  PHP_NEW_EXTENSION(mosaic, mosaic.c, $ext_shared)
+  PHP_NEW_EXTENSION(mosaic, mosaic.c\
+          libqrencode/qrencode.c\
+          libqrencode/qrinput.c\
+          libqrencode/qrspec.c\
+          libqrencode/bitstream.c\
+          libqrencode/rscode.c\
+          libqrencode/mask.c, $ext_shared)
 fi
