@@ -15,11 +15,6 @@ Clone the repo with submodule
 
     git clone --recursive https://github.com/chrisyue/mosaic.git
 
-Compile libqrencode
-
-    cd mosaic/libqrencode
-    ./autogen.sh && ./configure && make
-
 Compile and install mosaic
 
     cd ..
