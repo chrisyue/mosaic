@@ -17,7 +17,7 @@ Clone the repo with submodule
 
 Compile and install mosaic
 
-    cd ..
+    cd mosaic
     phpize && ./configure && make && make install
 
 enable mosaic in php.ini
