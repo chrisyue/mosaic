@@ -44,6 +44,21 @@ PHP_MINFO_FUNCTION(mosaic);
 
 PHP_FUNCTION(qr_encode);
 
+/** {{{ PHP_METHODS */
+PHP_METHOD(qr, __construct);
+PHP_METHOD(qr, encode);
+PHP_METHOD(qr, setText);
+PHP_METHOD(qr, getText);
+PHP_METHOD(qr, setModuleSize);
+PHP_METHOD(qr, getModuleSize);
+PHP_METHOD(qr, setMargin);
+PHP_METHOD(qr, getMargin);
+PHP_METHOD(qr, setVersion);
+PHP_METHOD(qr, getVersion);
+PHP_METHOD(qr, setErrorCorrectionLevel);
+PHP_METHOD(qr, getErrorCorrectionLevel);
+/* }}} */
+
 /* 
   	Declare any global variables you may need between the BEGIN
 	and END macros here:     
