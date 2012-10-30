@@ -30,7 +30,17 @@ USAGE
 Description
 ----------- 
 
-    resource qr_encode(string $text[, int $msize = 5[, int $margin = 10[, int $version = 3[, $int $eclevel = QR_ECLEVEL_Q]]]])
+    gdimage resource qr_encode(string $text[, int $msize = 5[, int $margin = 10[, int $version = 3[, $int $eclevel = QR_ECLEVEL_Q]]]])
+
+or object-oriented style
+
+    Qr Qr::__construct(string $text[, int $msize = 5[, int $margin = 10[, int $version = 3[, $int $eclevel = QR_ECLEVEL_Q]]]])
+    Qr Qr::setText(string $text);
+    Qr Qr::setModuleSize(int $msize);
+    Qr Qr::setMargin(int $margin);
+    Qr Qr::setVersion(int $version);
+    Qr Qr::setErrorCorrectionLevel(int $eclevel);
+    gdimage resource QR::encode();
 
 Parameters
 ----------
@@ -69,6 +79,20 @@ Examples
     $im = qr_encode('https://github.com/chrisyue/mosaic');
 
     imagestring($im, 5, 65, 80, 'Mosaic', imagecolorallocate($im, 128, 128, 128));
+
+    imagepng($im);
+
+    imagedestroy($im);
+
+or object-oriented style:
+
+    <?php
+
+    header('Content-type: image/png');
+
+    $qr = new Qr('https://github.com/chrisyue/mosaic');
+
+    $im = $qr->setMargin(20)->setErrorCorrectionLevel(QR_ECLEVEL_H)->encode();
 
     imagepng($im);
 
